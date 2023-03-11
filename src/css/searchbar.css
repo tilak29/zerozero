@@ -1,0 +1,13 @@
+.bar{
+    display: flex;
+    justify-content: center;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+input{
+    position: relative;
+    right: 7px;
+}

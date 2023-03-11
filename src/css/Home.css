@@ -1,0 +1,1491 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+/*@font-face {
+  font-family: Gill Sans;
+  src: url(assets/fonts/Gill\ Sans.otf);
+}
+@font-face {
+  font-family: Gill Sans;
+  src: url(assets/fonts/Gill\ Sans\ Medium.otf);
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+
+
+.top-offer {
+  max-width: 100%;
+  text-align: center;
+  padding: 7px 10px;
+  font-size: 0.813rem;
+  color: #fcb330;
+  background: #0c0c0c;
+  
+}
+
+.Container{
+  /* position: relative;  */
+  display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.Container1{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.icon{
+    opacity: 10;
+    color: white;
+    color: black;
+}
+
+.nav{
+    background-color: white;
+    color: rgb(1, 9, 15);
+}
+
+/* ----------------------------------First--------------------------------*/
+
+.fir-sect{
+  margin-top: 7.7%;
+  /* height: 100%;
+  max-width: 100%; */
+  /* background-color: #ffdcc8; */
+}
+
+
+/* .fir-text{
+  position: absolute;
+  font-size: 44px;
+  margin-left: 170px;
+  margin-top: 250px;
+  word-spacing: 5px;
+  font-weight: thin;
+  color: #8a5c45;
+} */
+
+.fir-img{
+  /* float: right; */
+  height: 100vh;
+  width:100%;
+  
+}
+.waveimg{
+  margin-top: -0.4%;
+  /* min-width: 100%; */
+  /* height: 100vh; */
+  width:100%;
+}
+
+
+@media screen and (min-width:420px) and (max-width:890px){
+  .fir-img{
+    /* float: right; */
+    height: auto;
+    max-width:100%;
+    
+  }
+
+  .waveimg{
+    margin-top: -0.8%;
+    /* min-width: 100%; */
+    height: auto;
+    max-width:100%;
+  }
+}
+
+/*--------------- Second ------------------------------------------------------*/
+
+.sec-sect{
+  margin-top: -1%;
+  position: relative;
+  height: 125vh;
+  width: 100%;
+  background-color: #e9c56d;
+}
+
+.sec-texts{
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 10%;
+}  
+
+.sec-1text{
+   /* position: absolute; / */
+  font-family: 'Prata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(1rem + 1vw);
+  line-height: 150%;
+  /* margin-top: 3.8vh;
+  margin-left: 12.44vw; */
+  /* margin-left: 170px;
+  margin-top: 205px; */
+  color: #262626;
+
+
+}
+
+.sec-2text{
+  /* / position: absolute; / */
+  font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: calc(0.55rem + 1vw);
+line-height: 150%;
+color: #262626;
+/* margin-top: 27.2vh;
+margin-left: 17.2vw; */
+
+  /* margin-left: 170px;
+  margin-top: 235px; */
+
+width: 36vw;
+overflow-wrap: break-word;
+word-wrap: break-word;
+word-break: break-word;
+
+}
+
+.sec-3text{
+  /* / position: absolute; / */
+  font-family: 'Gill Sans';
+font-style: medium;
+font-weight: 500;
+font-size: calc(0.22rem + 1vw);
+line-height: 130%;
+color: #262626;
+/* margin-top: 27.2vh;
+margin-left: 18.66vw; */
+
+  /* margin-left: 170px;
+  margin-top: 255px; */
+
+  width: 36vw;
+overflow-wrap: break-word;
+word-wrap: break-word;
+word-break: break-word;
+
+}
+
+
+.sec-img{
+  /* display: flex; */
+  position: absolute;
+  max-height: 80%;
+  max-width: 43%;
+  /* / float: right; / */
+  justify-content: center;
+  align-items: center;
+  top:6%;
+  right: 4%;
+  /* margin-top: 10.5vh;
+  margin-right: 5.4vw; */
+}
+
+.sec-icons-div{
+  display: flex;
+  position: absolute;
+  /* top: 48%;
+  left: 10%; */
+  margin-top: 6%;
+  /* margin-top: 68vh;
+  margin-left: 12.4VW; */
+}
+
+.sec-icon{
+  /* display: flex;  */
+   /* position: absolute;  */
+  max-height: 5%;
+  max-width: 18%;
+  margin-right: 12%;
+}
+
+.get-to-know{
+  position: absolute;
+  margin-top: 28%;
+  /* margin-left:"12.44vw";
+  margin-top:"70.2vh"; */
+}
+
+.get-to-know-text{
+  font-family: 'Gill Sans';
+font-style: normal;
+font-weight: 400;
+font-size: calc(0.22rem + 1vw);
+line-height: 130%;
+color: #0c0c0c;
+}
+
+.arrow-know{
+  /* / position: absolute; / */
+  display: flex;
+}
+
+/* .sec-last-img-div{
+  position:"absolute";
+   top:77%;
+   left:8%;
+    margin-top:1%;
+} */
+
+.sec-last-img{
+  max-height: 85%;
+  max-width: 19.5%;
+  
+  margin-right: 4%;
+}
+
+@media screen and (min-width:420px) and (max-width:890px){
+  .sec-sect{
+    margin-top: -1%;
+    /* position: relative; */
+    max-height: 75vh;
+    max-width: 100%;
+    margin-bottom: 20%;
+    background-color: #e9c56d;
+  }
+  .sec-last-img{
+    max-height: 85%;
+    max-width: 19.5%;
+    margin-top: 5%;
+    margin-right: 4%;
+  }
+}
+
+@media screen and (max-width:420px){
+  .sec-sect{
+    margin-top: -1%;
+    /* position: relative; */
+    max-height: 70vh;
+    max-width: 100%;
+    background-color: #e9c56d;
+    margin-bottom: 15%;
+  }
+  .sec-last-img{
+    max-height: 85%;
+    max-width: 19.5%;
+    margin-top: 6%;
+    margin-right: 4%;
+  }
+  .sec-last-img-div{
+    margin-top: 10%;
+  }
+}
+
+/*--------------- Third ------------------------------------------------------*/
+
+.third-sect{
+  position: relative;
+  top: 25vh;
+  left: 18%;
+}
+
+.third-text1{
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: calc(0.85rem + 1vw);
+line-height: 150%;
+}
+
+.third-text2{
+  font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: calc(0.22rem + 1vw);
+line-height: 150%;
+margin-top: 8px;
+}
+
+.third-text3{
+  font-family: 'Gill Sans';
+font-style: normal;
+font-weight: 400;
+font-size: calc(0.1rem + 1vw);
+line-height: 150%;
+
+
+width: 250px;
+overflow-wrap: break-word;
+word-wrap: break-word;
+word-break: break-word;
+}
+
+.third-img{
+  height: 10%;
+  z-index: 3;
+  margin-right: 7px;
+}
+.third-image{
+  height: 70px;
+  z-index: 3;
+  margin-right: 2%;
+}
+
+.third-text4{
+  margin-top: 1%;
+  font-size: calc(0.1rem + 1vw);
+  z-index: 3;
+  width: 250px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.third-border{
+  display: flex;
+  z-index: 2;
+  border: 1px solid #D1D1D1;
+  background-color: #FFFFFF;
+  border-width:"thin";
+  margin-right: 4%;
+  padding: 12px 0 10px 10px;
+}
+.third-border:hover{
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
+}
+
+.third-border3{
+  display: flex;
+  z-index: 2;
+  border: 1px solid #D1D1D1;
+  background-color: #FFFFFF;
+  border-width:"thin";
+  margin-right: 4%;
+  padding: 12px 0 10px 6px;
+}
+.third-border3:hover{
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/*--------------- Fourth ------------------------------------------------------*/
+
+.fourth-sec{
+  position: relative;
+  left: 44%;
+  top: 40vh;
+  /* margin-top: 20%; */
+  /* margin-left: 42%; */
+}
+.link{
+  text-decoration: none ;
+}
+
+.fourth-text{
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+z-index: 1;
+}
+
+.player-wrapper {
+  position: relative;
+   padding-top: 56.25%; /*/ 720 / 1280 = 0.5625 / */
+}
+
+.fourth-rect{
+  /* z-index: 0; */
+  height: 68vh;
+  width: 36%;
+  margin-right: 7.5%;
+}
+
+.fourth-lasttext{
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Prata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+}
+
+
+/* ------fifth sec ---------*/
+
+.fifth-sec{
+  position: relative;
+  top: 60vh;
+  left: 40%;
+   /* margin-left: 40%;
+   margin-top: 8%; */
+}
+
+.fifth-text1{
+  position: absolute;
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 33px;
+line-height: 150%;
+}
+
+.fifth-img{
+  height: 60vh;
+  width: 20%;
+  padding-right: 25px;
+}
+
+.fifth-play1{
+  height: 7vh;
+  width: 3%;
+  margin-top: -1.5%;
+  margin-left: 13%;
+  margin-right: 4%;
+}
+
+.fifth-play2{
+  height: 3vh;
+  width: 1.5%;
+  margin-top: -2.2%;
+  margin-left: 14%;
+  margin-right: 4.5%;
+}
+
+/*-------------- sixth -------------*/
+.sixth-sec{
+  position: relative;
+  top: 68vh;
+  left: 11%;
+  /* margin-top: 7%;
+  margin-left: 11% */
+}
+
+.sixth-card-bdr{
+  border: 1px solid #D1D1D1;
+  height: 50%;
+  width: 28%;
+  display: flex;
+  margin: 1% 1.5% 0 0.5%;
+}
+
+.sixth-card-all{
+  margin-bottom: 1px;
+  margin-left: 5%;
+}
+
+.sixth-card-img{
+  height: 10vh;
+  width: 20%;
+  margin-top: -25px;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+
+.sixth-card-name{
+  font-family: 'Prata';
+  font-style: normal;
+  margin-bottom: 7px;
+  font-weight: 400;
+  font-size: calc(0.55rem + 1vw);
+  line-height: 150%;
+}
+
+.sixth-card-text{
+  font-family: 'Gill Sans';
+font-style: normal;
+font-weight: 400;
+font-size: calc(0rem + 1vw);
+line-height: 150%;
+
+  max-width: 300px;
+overflow-wrap: break-word;
+word-wrap: break-word;
+word-break: break-word;
+}
+
+
+/* ------- seventh ------*/
+.seventh-sec{
+  position: relative;
+  top: 82vh;
+  left: 11%;
+  /* margin-left: 12%;
+  margin-top: 5%; */
+}
+
+.seventh-text1{
+  font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 150%;
+}
+
+
+
+.seventh-card-all{
+  margin-right: -20%;
+}
+
+.seventh-card-img1{
+  /* position: relative; */
+  height: 60vh;
+  width: 70%;
+ 
+}
+
+.seventh-card-img2{
+  position: relative;
+  z-index: 1;
+  height: 10vh;
+  width: 14%;
+  margin-top: -7%;
+  margin-left: 50%;
+  
+}
+
+.seventh-card-img3{
+  position: relative;
+  z-index: 2;
+  margin-bottom: 2%;
+  margin-left: -9%;
+}
+
+
+.seventh-card-text1{
+
+  font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: calc(0.3rem + 1vw);
+line-height: 150%;
+
+ margin-top: -5%;
+}
+
+.seventh-card-text2{
+
+  font-family: 'Gill Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(0.1rem + 0.8vw);
+  line-height: 150%;
+  margin-top: 1%;
+  width: 330px;
+overflow-wrap: break-word;
+word-wrap: break-word;
+word-break: break-word;
+}
+
+/********************************instagram ****************/
+
+.instagram {
+  position: relative;
+  top:77vh;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  
+  transition: filter 300ms linear;
+}
+
+.instagram:hover {
+  filter: brightness(0.8);
+}
+
+.instagram section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram a .react-multi-carousel-list ul li {
+  height: 200px !important;
+  width: 200px !important;
+}
+
+.instagram a .react-multi-carousel-list ul li img {
+  height: 200px !important;
+  width: 200px !important;
+}
+
+#instagram-id {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  z-index: 66;
+}
+
+/********************************available *********************************/
+.avaible {
+  position: relative;
+  top:74vh;
+  margin-bottom: 45%;
+  display: flex;
+  padding-top: 35px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(/src/assets/images/available.png);
+  
+}
+
+.avaible h2 {
+  /* / margin-bottom: 5px; / */
+  
+  font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 150%;
+padding-bottom: 15px;
+}
+
+.avaible section {
+  white-space: nowrap;
+  overflow-x: auto;
+  text-align: center;
+  /* / padding: 0 5px; / */
+  width: 100%;
+}
+
+.avaible section::-webkit-scrollbar {
+  display: none;
+}
+
+.avaible section a {
+  margin: 0 15px;
+}
+
+.avaible section a img {
+  width: 100px;
+  display: inline;
+}
+
+/* ---------------------------------------------------------------------footer ------------------------------------------------------------------------------------*/
+
+
+/* ======================================footer =====================================*/
+.footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 99.9%;
+  height: 350px;
+  margin-top: 10%;
+  background: #2B230A;
+  font-family: 'Gill Sans';
+  font-weight: 300;
+
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+  
+  .section1{
+      position: absolute;
+      left: 9.45%;
+      right: 74.06%;
+      top: 13.00%;
+      bottom: 11.43%;
+  }
+  .piczero{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 10%;
+  
+  }
+  .mobilelogo{
+  position: absolute;
+  height: 15px;
+  width: 10px;
+  left: 12.0%;
+  right: 20.83%;
+  top: 28.33%;
+  bottom: 8.33%;
+  }
+  .mobnum{
+      position: absolute;
+      width: 100px;
+      height: 24px;
+      left: 50px;
+      right: 1000px;
+      top: 25.50%;
+      bottom: 8.33%;
+      margin-top: 10px;
+      font-family: 'Gill Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      color: #FFFFFF;   
+  }
+  .maillogo{
+      height: 13px;
+      width: 15px;
+      position: absolute;
+      left: 11.0%;
+      right: 20.83%;
+      top: 41.33%;
+      bottom: 8.33%
+  }
+  .mailid{
+      margin-left: 23px;
+      color: white;
+      font-size: 12px;
+      position: absolute;
+      margin-top: 12px;      
+      left: 12.0%;
+      right: 19.83%;
+      top: 37.33%;
+      bottom: 8.33%;  
+  }
+  .sociallogo{
+      position: absolute;
+  
+      left: 12.0%;
+      right: 20.83%;
+      top: 55.33%;
+      bottom: 8.33%;  
+  }
+  .fblogo{
+      position: absolute;
+      height: 15px;
+      width: 11px;
+      left: 1.0%;
+  }
+  .tweeterlogo{
+      position: absolute;
+      height: 15px;
+      width: 15px;
+      left: 29.0%;
+  }
+  .pinlogo{
+      position: absolute;
+      height: 15px;
+      width: 15px;
+      left: 60.0%;
+  }
+  .instalogo{
+      position: absolute;
+      height: 15px;
+      width: 15px;
+      left: 90.0%;
+  }
+  
+  
+  .section2{
+      position: absolute;
+      
+      left: 32.45%;
+      right: 74.06%;
+      top: 13.00%;
+      bottom: 11.43%;
+  
+      color: white;
+  }
+  .sec2head{
+      font-size: 18px;
+      width: 120px;
+  }
+  .sec2compo{
+      width: 100px;
+      font-size: 12px;
+  }
+  .section3{
+      position: absolute;
+      
+      left: 50.45%;
+      right: 74.06%;
+      top: 13.00%;
+      bottom: 11.43%;
+  
+      color: white;
+  }
+  .sec3head{
+      font-size: 18px;
+      width: 150px;
+  }
+  .sec3compo{
+      width: 120px;
+      font-size: 12px;
+  }
+  .section4{
+      position: absolute;
+      
+      left: 70.45%;
+      right: 74.06%;
+      top: 13.00%;
+      bottom: 11.43%;
+  
+      color: white;
+  }
+  .sec4head{
+      font-size: 18px;
+      width: 150px;
+  }
+  .sec4form{
+      height: 44px;
+      width: 252px;
+  }
+  .sec4inputtext{
+      height: 28px;
+      width: 200px;
+      background-color: #2B230A;
+      border-color: #FFFFFF;
+      border-width:0.1px ;
+     
+  }
+  .formbutton{
+      height: 28px;
+      width: 200px;
+      background-color: rgba(252, 179, 48, 1);
+      border-style: none;
+  
+      color: #FFFFFF;
+      right: 6px;
+      position: relative;
+  }
+  .divider{
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 1px;
+  top: 320px;
+  z-index: 99;
+  background-color: #2B230A;
+  
+  border: 0.0001px solid ;
+  border-style: none;
+  }
+  .footertext{
+      position: absolute;
+      width: 100%;
+      top: 330px;
+  
+      color: white;
+      font-size: 12px;
+  }
+  input[type="Email"]::placeholder{
+    text-align: center;
+  }
+
+    /* -------------------------------------------------------------For Mobile----------------------------------------------------------------*/
+    @media(max-width:425px){
+      .footer{
+          position: relative;
+          left: 0;
+          bottom: 0;
+          width: 99.9%;
+          height: 830px;
+          margin-top: 10%;
+          background: #2B230A;
+  
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+          
+          
+          .section1{
+              position: absolute;
+              left: 9.45%;
+              right: 74.06%;
+              top: 4.00%;
+              bottom: 11.43%;
+          }
+          .piczero{
+          position: absolute;
+          height: 50px;
+          width: 50px;
+          left: 10%;
+          
+          }
+          .mobilelogo{
+          position: absolute;
+          height: 15px;
+          width: 10px;
+          left: 20.0%;
+          right: 20.83%;
+          top: 10.33%;
+          bottom: 8.33%;
+          }
+          .mobnum{
+              position: absolute;
+              width: 100px;
+              height: 24px;
+              left: 45px;
+              right: 1000px;
+              top: 9.33%;
+              bottom: 8.33%;
+              margin-top: 10px;
+              font-family: 'Gill Sans';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              color: #FFFFFF;   
+          }
+          .maillogo{
+              height: 13px;
+              width: 15px;
+              position: absolute;
+              left: 14.5%;
+              right: 20.83%;
+              top: 15.33%;
+              bottom: 8.33%
+          }
+          .mailid{
+              margin-left: 23px;
+              color: white;
+              font-size: 12px;
+              position: absolute;
+              margin-top: 12px;      
+              left: 40.0%;
+              right: 19.83%;
+              top: 13.33%;
+              bottom: 8.33%;  
+          }
+          .sociallogo{
+              position: absolute;
+          
+              left: 12.0%;
+              right: 20.83%;
+              top: 20.33%;
+              bottom: 8.33%;  
+          }
+          .fblogo{
+              position: absolute;
+              height: 15px;
+              width: 11px;
+              left: 1.0%;
+          }
+          .tweeterlogo{
+              position: absolute;
+              height: 15px;
+              width: 15px;
+              left: 50.0%;
+          }
+          .pinlogo{
+              position: absolute;
+              height: 15px;
+              width: 15px;
+              left: 100.0%;
+          }
+          .instalogo{
+              position: absolute;
+              height: 15px;
+              width: 15px;
+              left: 150.0%;
+          }
+          
+          
+          .section2{
+              position: absolute;
+              
+              left: 12.45%;
+              right: 74.06%;
+              top: 28.00%;
+              bottom: 11.43%;
+          
+              color: white;
+          }
+          .sec2head{
+              font-size: 18px;
+              width: 120px;
+          }
+          .sec2compo{
+              width: 100px;
+              font-size: 12px;
+          }
+          .section3{
+              position: absolute;
+              
+              left: 12.45%;
+              right: 74.06%;
+              top: 53.00%;
+              bottom: 11.43%;
+          
+              color: white;
+          }
+          .sec3head{
+              font-size: 18px;
+              width: 150px;
+          }
+          .sec3compo{
+              width: 120px;
+              font-size: 12px;
+          }
+          .section4{
+              position: absolute;
+              
+              left: 12.45%;
+              right: 74.06%;
+              top: 78.00%;
+              bottom: 11.43%;
+          
+              color: white;
+          }
+          .sec4head{
+              font-size: 18px;
+              width: 150px;
+          }
+          .sec4form{
+              height: 44px;
+              width: 252px;
+          }
+          .sec4inputtext{
+              height: 28px;
+              width: 200px;
+              background-color: #2B230A;
+              border-color: #FFFFFF;
+             
+          }
+          .formbutton{
+              height: 28px;
+              width: 200px;
+              background-color: rgba(252, 179, 48, 1);
+              border-style: none;
+          
+              color: #FFFFFF;
+          }
+          .divider{
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          left: 1px;
+          top: 800px;
+          z-index: 99;
+          background-color: #2B230A;
+          
+          border: 0.0001px solid ;
+          border-style: none;
+          }
+          .footertext{
+              position: absolute;
+              width: 100%;
+              top: 810px;
+          
+              color: white;
+              font-size: 12px;
+          }
+          input[type="Email"]::placeholder{
+            text-align: center;
+          }
+    }
+  
+      /* -------------------------------------------------------------For Tab----------------------------------------------------------------*/
+      @media(min-width: 760px ) and (max-width: 770px ){
+          .footer{
+              position: relative;
+              left: 0;
+              bottom: 0;
+              width: 99.9%;
+              height: 530px;
+              margin-top: 10%;
+              background: #2B230A;
+      
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+              
+              
+              .section1{
+                  position: absolute;
+                  left: 20.45%;
+                  right: 74.06%;
+                  top: 4.00%;
+                  bottom: 11.43%;
+              }
+              .piczero{
+              position: absolute;
+              height: 50px;
+              width: 50px;
+              left: 10%;
+              
+              }
+              .mobilelogo{
+              position: absolute;
+              height: 15px;
+              width: 10px;
+              left: 20.0%;
+              right: 20.83%;
+              top: 13.33%;
+              bottom: 8.33%;
+              }
+              .mobnum{
+                  position: absolute;
+                  width: 100px;
+                  height: 24px;
+                  left: 45px;
+                  right: 1000px;
+                  top: 11.33%;
+                  bottom: 8.33%;
+                  margin-top: 10px;
+                  font-family: 'Gill Sans';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 12px;
+                  color: #FFFFFF;   
+              }
+              .maillogo{
+                  height: 13px;
+                  width: 15px;
+                  position: absolute;
+                  left: 14.5%;
+                  right: 20.83%;
+                  top: 20.33%;
+                  bottom: 8.33%
+              }
+              .mailid{
+                  margin-left: 23px;
+                  color: white;
+                  font-size: 12px;
+                  position: absolute;
+                  margin-top: 12px;      
+                  left: 40.0%;
+                  right: 19.83%;
+                  top: 17.33%;
+                  bottom: 8.33%;  
+              }
+              .sociallogo{
+                  position: absolute;
+              
+                  left: 12.0%;
+                  right: 20.83%;
+                  top: 28.33%;
+                  bottom: 8.33%;  
+              }
+              .fblogo{
+                  position: absolute;
+                  height: 15px;
+                  width: 11px;
+                  left: 1.0%;
+              }
+              .tweeterlogo{
+                  position: absolute;
+                  height: 15px;
+                  width: 15px;
+                  left: 5vh;
+              }
+              .pinlogo{
+                  position: absolute;
+                  height: 15px;
+                  width: 15px;
+                  left: 10vh;
+              }
+              .instalogo{
+                  position: absolute;
+                  height: 15px;
+                  width: 15px;
+                  left: 15vh;
+              }
+              
+              
+              .section2{
+                  position: absolute;
+                  
+                  left: 62.45%;
+                  right: 74.06%;
+                  top: 4.00%;
+                  bottom: 11.43%;
+              
+                  color: white;
+              }
+              .sec2head{
+                  font-size: 18px;
+                  width: 120px;
+              }
+              .sec2compo{
+                  width: 100px;
+                  font-size: 12px;
+              }
+              .section3{
+                  position: absolute;
+                  
+                  left: 20.45%;
+                  right: 74.06%;
+                  top: 43.00%;
+                  bottom: 11.43%;
+              
+                  color: white;
+              }
+              .sec3head{
+                  font-size: 18px;
+                  width: 150px;
+              }
+              .sec3compo{
+                  width: 120px;
+                  font-size: 12px;
+              }
+              .section4{
+                  position: absolute;
+                  
+                  left: 62.45%;
+                  right: 74.06%;
+                  top: 43.00%;
+                  bottom: 11.43%;
+              
+                  color: white;
+              }
+              .sec4head{
+                  font-size: 18px;
+                  width: 150px;
+              }
+              .sec4form{
+                  height: 44px;
+                  width: 252px;
+              }
+              .sec4inputtext{
+                  height: 28px;
+                  width: 200px;
+                  background-color: #2B230A;
+                  border-color: #FFFFFF;
+                  border-width: 0.1px;
+                 
+              }
+              .formbutton{
+                  height: 28px;
+                  width: 200px;
+                  background-color: rgba(252, 179, 48, 1);
+                  border-style: none;
+              
+                  color: #FFFFFF;
+              }
+              .divider{
+              position: absolute;
+              width: 100%;
+              height: 1px;
+              left: 1px;
+              top: 500px;
+              z-index: 99;
+              background-color: #2B230A;
+              
+              border: 0.0001px solid ;
+              border-style: none;
+              }
+              .footertext{
+                  position: absolute;
+                  width: 100%;
+                  top: 510px;
+              
+                  color: white;
+                  font-size: 12px;
+              }
+              input[type="Email"]::placeholder{
+                text-align: center;
+              }
+              
+      }
+  
+        /* -------------------------------------------------------------For 4K Display 2560px----------------------------------------------------------------*/
+    @media(min-width: 2550px ) and (max-width: 2590px ){
+      .footer{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 99.9%;
+        height: 500px;
+        margin-top: 10%;
+        background: #2B230A;
+        font-family: 'Gill Sans';
+        font-weight: 300;
+      
+      
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+        
+        
+        .section1{
+            position: absolute;
+            left: 9.45%;
+            right: 74.06%;
+            top: 13.00%;
+            bottom: 11.43%;
+        }
+        .piczero{
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        left: 10%;
+        
+        }
+        .mobilelogo{
+        position: absolute;
+        height: 25px;
+        width: 20px;
+        left: 12.0%;
+        right: 20.83%;
+        top: 35.33%;
+        bottom: 8.33%;
+        }
+        .mobnum{
+            position: absolute;
+            width: 150px;
+            height: 24px;
+            left: 100px;
+            right: 1000px;
+            top: 31.50%;
+            bottom: 8.33%;
+            margin-top: 10px;
+            font-family: 'Gill Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            color: #FFFFFF;   
+        }
+        .maillogo{
+            height: 23px;
+            width: 28px;
+            position: absolute;
+            left: 11.5%;
+            right: 20.83%;
+            top: 50.33%;
+            bottom: 8.33%
+        }
+        .mailid{
+            margin-left: 23px;
+            color: white;
+            font-size: 24px;
+            position: absolute;
+            margin-top: 12px;      
+            left: 18.0%;
+            right: 19.83%;
+            top: 45.33%;
+            bottom: 8.33%;  
+        }
+        .sociallogo{
+            position: absolute;
+        
+            left: 12.0%;
+            right: 20.83%;
+            top: 70.33%;
+            bottom: 8.33%;  
+        }
+        .fblogo{
+            position: absolute;
+            height: 22px;
+            width: 21px;
+            left: 1.0%;
+        }
+        .tweeterlogo{
+            position: absolute;
+            height: 25px;
+            width: 25px;
+            left: 29.0%;
+        }
+        .pinlogo{
+            position: absolute;
+            height: 25px;
+            width: 25px;
+            left: 60.0%;
+        }
+        .instalogo{
+            position: absolute;
+            height: 25px;
+            width: 25px;
+            left: 90.0%;
+        }
+        
+        
+        .section2{
+            position: absolute;
+            
+            left: 32.45%;
+            right: 74.06%;
+            top: 13.00%;
+            bottom: 11.43%;
+        
+            color: white;
+        }
+        .sec2head{
+            font-size: 30px;
+            width: 180px;
+        }
+        .sec2compo{
+            width: 110px;
+            font-size: 24px;
+        }
+        .section3{
+            position: absolute;
+            
+            left: 50.45%;
+            right: 74.06%;
+            top: 13.00%;
+            bottom: 11.43%;
+        
+            color: white;
+        }
+        .sec3head{
+            font-size: 30px;
+            width: 220px;
+        }
+        .sec3compo{
+            width: 200px;
+            font-size: 24px;
+        }
+        .section4{
+            position: absolute;
+            
+            left: 70.45%;
+            right: 74.06%;
+            top: 13.00%;
+            bottom: 11.43%;
+        
+            color: white;
+        }
+        .sec4head{
+            font-size: 30px;
+            width: 200px;
+        }
+        .sec4form{
+            height: 44px;
+            width: 252px;
+        }
+        .sec4inputtext{
+            height: 40px;
+            width: 300px;
+            background-color: #2B230A;
+            border-color: #FFFFFF;
+            font-size: 20px;
+        }
+     
+        .formbutton{
+            height: 40px;
+            width: 300px;
+            background-color: rgba(252, 179, 48, 1);
+            border-style: none;
+           font-size: 20px;
+            color: #FFFFFF;
+        }
+        .divider{
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        left: 1px;
+        top: 440px;
+        z-index: 99;
+        background-color: #2B230A;
+        
+        border: 0.0001px solid ;
+        border-style: none;
+        }
+        .footertext{
+            position: absolute;
+            width: 100%;
+            top: 460px;
+        
+            color: white;
+            font-size: 24px;
+        }
+    }
+  

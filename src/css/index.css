@@ -1,0 +1,54 @@
+.maincontainer {
+  display: table;
+  width: 100%;
+  margin: auto;
+}
+
+.diggu {
+  display: table;
+  margin-left: 70px;
+}
+.keshroot{
+  margin-left: 70px;
+  width: 80%;
+  height: 550px;
+}
+.keshroot2{
+  margin-left: 70px;
+  width: 80%;
+  height: 300px;
+}
+
+@media (width<=1064px) {
+  .maincontainer {
+    display: table;
+    width: auto;
+  }
+
+  .diggu {
+    display: table;
+    width: auto;
+  }
+}
+
+@media (width<=400px) {
+  .maincontainer {
+    display: table;
+    width: auto;
+  }
+
+  .diggu {
+    display: table;
+    display: flex;
+   padding-top: 508px;
+ margin-left: 20px;
+    flex-direction: column;
+    width: 600px;
+
+  }
+  .keshroot{
+    margin-left: 70px;
+    width: 600px;
+    height: 400px;
+  }
+}

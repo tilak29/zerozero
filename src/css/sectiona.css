@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "Gill Sans";
+  src: url(/src/assets/fonts/GillSans.otf);
+}
+.box2{
+  width: 50vw;
+position: relative;
+left: 10vw;
+bottom: 10vh;
+}
+.button {
+  margin-top: 28px;
+  background-color: white;
+  color: #363636;
+}
+.addtowishlist{
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  top: 3px;
+}
+.addtowishlist1{
+  cursor: pointer;
+}
+
+.return {
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+}
+.mail {
+  display: inline;
+  font-size: 16px;
+  padding-right: 15px;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+
+}
+.desc {
+  padding-left: 8px;
+  position: relative;
+  right: 1px;
+}
+.enc {
+  padding-left: 28px;
+  position: relative;
+  right: 5px;
+}
+.arr {
+  display: flex;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.quantity {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0);
+  height: 40px;
+  width: 122px;
+  font-size: 40px;
+  color: #000;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  font-display: 20px;
+}
+.amount {
+  padding-left: 28px;
+}
+.buttone {
+  padding: 0px;
+  margin-left: 35px;
+
+  width: 642px;
+  height: 40px;
+  background-color:#C12222;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.buttone:hover{
+  font-size: 18px ;
+  }
+.rating {
+  margin-top: 08px;
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #262626;
+  display: flex;
+  position: relative;
+  bottom: 20px;
+}
+.line2 {
+  font-family: "Gill Sans";
+  font-style: normal;
+  color: #262626;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  position: relative;
+  bottom: 45px;
+}
+.highlight {
+  font-family: "Prata";
+  font-size: 18px;
+  color: #262626;
+}
+.lorem4line {
+  padding-left: 20px;
+  font-family: "Gill Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #262626;
+  position: relative;
+  bottom: 2vh;
+}
+.aboutparagraph {
+  margin-left: 30px;
+  margin-top: 10px;
+  color: #262626;
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+}
+.AboutF {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 2px;
+  position: relative;
+  bottom: 28vh;
+  width: 90%;
+}
+.taxeline {
+  font-family: "Prata";
+}
+.mrp {
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  bottom: 3vh;
+}
+.zero {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+  color: #262626;
+}
+.about {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;}
+
+
+  /* -------------------------------------------------------------For Mobile----------------------------------------------------------------*/
+  @media(max-width:500px){
+   
+    .buttone {
+      padding: 0px;
+      margin-left: 20px;
+      width: 500px;
+      height: 48px;
+      background-color: #c12222;
+      color: #ffffff;
+      font-family: "Poppins";
+      font-style: normal;
+      font-size: 15px;
+      border: none;
+    }
+    
+  }
