@@ -18,7 +18,7 @@ export default function ActionAreaCard() {
   return (
 
     <div className="cards">
-<Card sx={{ maxWidth: 350, height:350 ,boxShadow:'none' }}>      <CardActionArea>
+<Card sx={{ Width: 350, height:350 ,boxShadow:'none' }}>      <CardActionArea>
         <CardMedia
           component="img"
           height="160"
@@ -37,7 +37,7 @@ export default function ActionAreaCard() {
     </Card>
 
 
-    <Card sx={{ maxWidth: 350, height:350 ,boxShadow:'none'}}>      <CardActionArea>
+    <Card sx={{ Width: 350, height:350 ,boxShadow:'none'}}>      <CardActionArea>
         <CardMedia
           component="img"
           height="160"
@@ -55,7 +55,7 @@ export default function ActionAreaCard() {
       </CardActionArea>
     </Card>
 
-    <Card sx={{ maxWidth: 350, height:350,boxShadow:'none' }}>      <CardActionArea>
+    <Card sx={{ Width: 350, height:350,boxShadow:'none' }}>      <CardActionArea>
         <CardMedia
           component="img"
           height="160"
@@ -73,7 +73,7 @@ export default function ActionAreaCard() {
       </CardActionArea>
     </Card>
 
-    <Card sx={{ maxWidth: 350, height:350 ,boxShadow:'none'}}>      <CardActionArea>
+    <Card sx={{ Width: 350, height:350 ,boxShadow:'none'}}>      <CardActionArea>
         <CardMedia
           component="img"
           height="160"
@@ -91,7 +91,7 @@ export default function ActionAreaCard() {
       </CardActionArea>
     </Card>
 
-    <Card sx={{ maxWidth: 350, height:350 ,boxShadow:'none'}}>      <CardActionArea>
+    <Card sx={{ Width: 350, height:350 ,boxShadow:'none'}}>      <CardActionArea>
         <CardMedia
           component="img"
           height="160"
@@ -109,7 +109,7 @@ export default function ActionAreaCard() {
       </CardActionArea>
     </Card>
 
-    <Card sx={{ maxWidth: 350, height:350 ,boxShadow:'none'}}>      <CardActionArea>
+    <Card sx={{ Width: 350, height:350 ,boxShadow:'none'}}>      <CardActionArea>
         <CardMedia
           component="img"
           height="160"
@@ -127,7 +127,7 @@ export default function ActionAreaCard() {
       </CardActionArea>
     </Card>
 
-    <Card sx={{ maxWidth: 350, height:350,boxShadow:'none' }}>      <CardActionArea>
+    <Card sx={{ Width: 350, height:350,boxShadow:'none' }}>      <CardActionArea>
         <CardMedia
           component="img"
           height="160"
@@ -145,7 +145,7 @@ export default function ActionAreaCard() {
       </CardActionArea>
     </Card>
 
-    <Card sx={{ maxWidth: 350, height:350 ,boxShadow:'none'}}>      
+    <Card sx={{ Width: 350, height:350 ,boxShadow:'none'}}>      
     <CardActionArea>
         <CardMedia
           component="img"
@@ -164,7 +164,7 @@ export default function ActionAreaCard() {
       </CardActionArea>
     </Card>
 
-    <Card sx={{ maxWidth: 350, height:350,boxShadow:'none' }}>
+    <Card sx={{ Width: 350, height:350,boxShadow:'none' }}>
       <CardActionArea>
         <CardMedia
           component="img"

@@ -41,7 +41,7 @@ const Instagram = () => {
                 arrows={false}
                 autoPlay={false}
                 infinite
-                autoPlaySpeed={600}
+                autoPlaySpeed={900}
             >
                 {
                     imgs.map(item => (

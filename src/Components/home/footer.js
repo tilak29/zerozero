@@ -1,6 +1,5 @@
 import React from "react";
 import '../../css/link.css';
-import '../../css/footerresp.css';
 import zero from "../../assets/images/zero.png";
 import mobilelogo from "../../assets/images/mobilelogo.png";
 import maillogo from "../../assets/images/mail-logo.png";
@@ -10,6 +9,7 @@ import pinlogo from "../../assets/images/pinlogo.png";
 import instalogo from "../../assets/images/instalogo.png";
 import divider from "../../assets/images/divider.png";
 import { Email } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 function Footer1(){
     return( 
@@ -17,7 +17,7 @@ function Footer1(){
         
 <div className="footer">
      <section className="section1">
-     <img className="piczero" src={zero} alt="abc"/>
+     <Link to='/'><img className="piczero" src={zero} alt="abc"/></Link>
      <img className="mobilelogo" src={mobilelogo} alt="abc"/>
      <p className="mobnum">(208) 555-0112</p>
         <div >

@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useFormik } from 'formik';
 import * as yup from 'yup';
 import '../../css/Cart.css';
-import images from '../../assets/images/pic.png'
+import images from "../../assets/images/productimg2.png";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import UpdateIcon from '@mui/icons-material/Update';
 import { useNavigate } from 'react-router-dom';
@@ -123,7 +123,7 @@ const Cart = () => {
                                     <section className='third'>
                                         <div className='quantity'>
                                             <div className='desc' onClick={() => { if (quantity > 1) setQuantity(quantity - 1) }}><span></span></div>
-                                            <div className='amount'>{quantity}</div>
+                                            <div className='amount1'>{quantity}</div>
                                             <div className='enc' onClick={() => setQuantity(quantity + 1)}><b>+</b></div>
                                         </div>
                                     </section>
@@ -145,7 +145,7 @@ const Cart = () => {
                                         <span>Rs. 170.00</span>
                                         <div className='quantity'>
                                             <div className='desc' onClick={() => { if (quantity > 1) setQuantity(quantity - 1) }}><span></span></div>
-                                            <div className='amount'>{quantity}</div>
+                                            <div className='amount1'>{quantity}</div>
                                             <div className='enc' onClick={() => setQuantity(quantity + 1)}><b>+</b></div>
                                         </div>
                                     </section>
@@ -198,7 +198,7 @@ const Cart = () => {
                         </section>
                         <section className='third'>
                             <div className='row'>
-                                <span>Subtotal</span> <span>RS. {170 * quantity}.00</span>
+                                <span>Subtotal</span> <span>Rs. {170 * quantity}.00</span>
                             </div>
                             <div className='row'>
                                 <span>You’re saving :</span> <span>Rs.{18 * quantity}.00</span>

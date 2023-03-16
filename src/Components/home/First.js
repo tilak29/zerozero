@@ -1,7 +1,7 @@
 import React from "react";
 import first from '../../assets/images/first.png';
 import second from '../../assets/images/second.png';
-import wave from '../../assets/images/wavy.png';
+import ww2 from '../../assets/images/ww2.png';
 
 
 function First(){
@@ -18,7 +18,7 @@ function First(){
 
 </div>
 <div>
-<img className="waveimg" src={wave}/>
+<img className="waveimg" src={ww2}/>
 
 </div>
     </>

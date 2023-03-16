@@ -14,16 +14,16 @@ import Second from "../../Components/home/Second";
 class Home extends Component {
     render() {
       return (
-    <div style={{}} >
+    <div >
      <First/>
      <Second/>
      <Third/>
-     {/* <Fourth/>
+     <Fourth/>
      <Fifth/>
      <Sixth/>
      <Seventh/>
      <Instagram/>
-     <Avaible/> */}
+     <Avaible/>
      
    
     </div>

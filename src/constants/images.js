@@ -44,6 +44,27 @@ const images = {
     thirdrect: require('../assets/images/thirdrect.png'),
     wavy: require('../assets/images/wavy.png'),
     // instagramId: require('../assets/images/instagram_id.png'),
+    pic1: require('../assets/images/pic1.png'),
+    pic2: require('../assets/images/pic2.png'),
+    pic3: require('../assets/images/pic3.png'),
+    pic4: require('../assets/images/pic4.jpeg'),
+    rect: require('../assets/images/rect.png'),
+    rect2: require('../assets/images/rect2.png'),
+    ellipse: require('../assets/images/Ellipse.jpg'),
+    main: require('../assets/images/blogmain.jpg'),
+    b1: require('../assets/images/1.jpg'),
+    b2: require('../assets/images/2.jpg'),
+    b3: require('../assets/images/3.jpg'),
+    b4: require('../assets/images/4.jpg'),
+    b5: require('../assets/images/5.jpg'),
+    b6: require('../assets/images/6.jpg'),
+    b7: require('../assets/images/7.jpg'),
+    b8: require('../assets/images/8.jpg'),
+    b9: require('../assets/images/9.jpg'),
+    icon1: require('../assets/icons/sicon1.png'),
+    icon2: require('../assets/icons/sicon2.png')
+
+
 
 };
 

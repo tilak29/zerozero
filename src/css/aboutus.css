@@ -1,1008 +1,196 @@
 @font-face{
-    font-family: 'Gill Sans';
-    src: url(/src/assets/fonts/GillSans.otf);
-  }
-
-  .aboutus{
-    height: 1900px;
-  }
-  
-  .pic1{
-    width: 1350px;
-    object-fit: cover;
-    max-height: 878px;
-    top: 1124px;
-    padding-top: 4%;
-  }
-  .picture1{
-    width: 100%;
-    padding-top:7%
-  }
-  
-  .text0{
-    font-family: 'Gill Sans';
-    text-align-last: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 130%;
-  }
-  .text1{
-    text-align-last: center;
-    font-family: 'Gill Sans';
-    font-size: 15px;
-  }
- 
-.photo2{
-  max-height: 578px;
-  width: 100%;
-  position: relative;
-  top: 80px;
- 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+  font-family: 'Gill Sans';
+  src: url(/src/assets/fonts/GillSans.otf);
 }
-  .textpic2{
-  max-height: 578px;
-  width: 1340px;
+
+.aboutus{
+  height: auto;
+  padding-top: 6.6rem;
   position: relative;
-  bottom: 220px;
+}
+.picture1{
+  width: 100%;
+  height: 70%;
+  position: relative;
+}
+.text0{
+  width: 100%;
+  font-family: 'Gill Sans';
+  text-align-last: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 130%;
+  padding-top: 2rem;
+}
+.text1{
+  text-align-last: center;
+  font-family: 'Gill Sans';
+  font-size: 0.8rem;
   
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+}
+.text2{
+  text-align-last: center;
+  font-family: 'Gill Sans';
+  font-size: 0.8rem;
+  padding-bottom: 3rem;
+}
+
+/*************************** photo2 *****************************/
+.photo2div{
+  position: relative;
+  /* padding-top: 3rem; */
+}
+.photo2{
+ width: 100%; 
+ height: 19rem;
+ position: relative;
+}
+
+.textpic2{
+  width: 100%;
+  position: absolute;
+  bottom: 70%;
+  z-index: 5;
   text-align: center;
   
   font-family: 'Gill Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 0.8rem;
 
-  color: #ffffff;
+  color: white;
   }
-  .logodiv{
-    max-height: 578px;
-    width: 1340px;
-    position: relative;
-    bottom: 170px;
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+  .logodiv_aboutus{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
     text-align: center;
+    position: relative;
+    bottom: 10rem;
+    width: 100%;
   }
-  .logo1{
+
+  .logodiv_aboutus img{
+    height: 3rem;
+    width: 3rem;
     border-radius: 60%;
-    width: 89.62px;
-    height: 90.29;
-    position: absolute;
-    left: 21.89%;
-    right: 69.45%;
   }
-  .logo2{
-    border-radius: 60%;
-    width: 89.62px;
-    height: 90.29;
-    position: absolute;
-    left: 36.31%;
-    right: 55.02%;
-  }
-  .logo3{
-    border-radius: 60%;
-    width: 89.62px;
-    height: 90.29;
-    position: absolute;
-    left: 51.74%;
-    right: 40.59%;
-  }
-  .logo4{
-    border-radius: 60%;
-    width: 89.62px;
-    height: 90.29;
-    position: absolute;
-    left: 65.17%;
-    right: 26.17%;
-  }
+ 
   .logo1text{
-    position: absolute;
     width: 151px;
     height: 60px;
-  
-    left: -05px;
-    top: 90px;
   
     text-align: center;
     font-family: 'Gill Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    color: white;
+    font-size: 0.8rem;
+    color: white; 
   }
   .logo2text{
-    position: absolute;
     width: 151px;
     height: 60px;
-   
-    left: 5px;
-    top: 90px;
   
     text-align: center;
     font-family: 'Gill Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    color: white;
+    font-size: 0.8rem;
+    color: white; 
   }
   .logo3text{
-    position: absolute;
     width: 151px;
     height: 60px;
-  
-    left: 15px;
-    top: 90px;
   
     text-align: center;
     font-family: 'Gill Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    color: white;
+    font-size: 0.8rem;
+    color: white; 
   }
   .logo4text{
-    position: absolute;
     width: 151px;
     height: 60px;
   
-    left: 25px;
-    top: 90px;
-  
     text-align: center;
     font-family: 'Gill Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    color: white;
+    font-size: 0.8rem;
+    color: white; 
   }
 
   .photo3{
-    max-height: 578px;
-    width: 1050px;
     position: relative;
-    top: 260px;
-    right: 0;
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    bottom: 1rem;
+    margin: auto;
+    width: 85%;
   }
- /* .photo3{
-    max-height: 578px;
-    width: 140vh;
-    position: relative;
-    top: 40vh;
-    right: 100vh;
-   
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }*/
- 
-  /* -------------------------------------------------------------For Mobile----------------------------------------------------------------*/
-@media(max-width:425px){
-  .aboutus{
-    width: 100%;
-    height: 900px;
-  }
-  .picture1{
-    height: 40vh;
-    width: 100%;
-    padding-top: 25%;
-  }
-  .text0{
-    position: relative;
-    bottom: 10px;
-    font-family: 'Gill Sans';
-    text-align-last: center;
-    font-size: 15px;
-   height: 20px;
-   width: 100%;
-  }
-  .text1{
-    position: relative;
-    bottom: -20px;
-
-    text-align-last: center;
-    font-family: 'Gill Sans';
-    font-size: 12px;
-  }
-
-  .photo2{
-    width: 100%;
-    top: 40px;
-    height: 190px;
-  }
-  .textpic2{
-    max-height: 578px;
-    width: 100%;
-    position: relative;
-    bottom: 135px;
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    
-    font-family: 'Gill Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-  
-    color: #ffffff;
-    }
-    .logodiv{
-      max-height: 578px;
-      width: 100%;
-      position: relative;
-      bottom: 125px;
-      
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+/**********************For Mob*********************************/
+  @media (max-width:430px) {
+    .logodiv_aboutus{
+      display: flex; 
+      flex-wrap: nowrap;
+      justify-content: center;
       text-align: center;
+      position: relative;
+      bottom: 10rem;
+      width: 100%;
     }
-    .logo1{
+
+    .logodiv_aboutus img{
+      height: 2rem;
+      width: 2rem;
       border-radius: 60%;
-      width: 35px;
-      height: 35px;
-    
-    }
-    .logo2{
-      border-radius: 60%;
-      width: 35px;
-      height: 35px;
-  
-  
-    }
-    .logo3{
-      border-radius: 60%;
-      width: 35px;
-      height: 35px;
-    
-   
-    }
-    .logo4{
-      border-radius: 60%;
-      width: 35px;
-      height: 35px;
-     
-    
     }
     .logo1text{
-      position: relative;
-      width: 10vh;
-      height: 10%;
-      top:  07vh;
-      left: -1vh;
-      
-     
+      width: 80px;
+      height: 60px;
+    
       text-align: center;
       font-family: 'Gill Sans';
       font-style: normal;
-      font-size: 8px;
-      color: rgb(255, 255, 255);
+      font-weight: 400;
+      font-size: 0.8rem;
+      color: white; 
     }
     .logo2text{
-      position: relative;
-      width: 10vh;
-      height: 10%;
-      top:  7vh;
-      left: 0vh;
-     
-    
+      width: 80px;
+      height: 60px;
     
       text-align: center;
       font-family: 'Gill Sans';
       font-style: normal;
       font-weight: 400;
-      font-size: 8px;
-      color: rgb(255, 255, 255);
+      font-size: 0.8rem;
+      color: white; 
     }
     .logo3text{
-      position: relative;
-      width: 10vh;
-      height: 10%;
-      top:  7vh;
-      left: 1vh;
-    
-    
+      width: 80px;
+      height: 60px;
     
       text-align: center;
       font-family: 'Gill Sans';
       font-style: normal;
       font-weight: 400;
-      font-size: 8px;
-      color: rgb(255, 255, 255);
+      font-size: 0.8rem;
+      color: white; 
     }
     .logo4text{
-      position: relative;
-      width: 10vh;
-      height: 10%;
-      top:  7vh;
-      left: 2vh;
-    
-  
+      width: 80px;
+      height: 60px;
     
       text-align: center;
-      font-family: 'Gill Sans';
-      font-style: normal;
-     
-      font-size: 8px;
-      color: rgb(255, 255, 255);
-    }
-.photo3{
-  position: relative;
-  top: 20vh;
-  right: 0vh;
-  width: 80%;
-}
-
-
-}
-
-  /* -------------------------------------------------------------For Tab----------------------------------------------------------------*/
-  @media(min-width: 760px ) and (max-width: 770px ){
-    .aboutus{
-      width: 100%;
-      height: 1020px;
-    }
-    .picture1{
-      height: 60vh;
-      width: 100%;
-      padding-top: 13%;
-    }
-    .text0{
-      position: relative;
-      bottom: 10px;
-      font-family: 'Gill Sans';
-      text-align-last: center;
-      font-size: 15px;
-     height: 20px;
-     width: 100%;
-    }
-    .text1{
-      position: relative;
-      bottom: 00px;
-  
-      text-align-last: center;
-      font-family: 'Gill Sans';
-      font-size: 13px;
-    }
-  
-    .photo2{
-      width: 100%;
-      height: 200px;
-      top: 40px;
-    }
-    .textpic2{
-      max-height: 578px;
-      width: 100%;
-      position: relative;
-      bottom: 130px;
-      
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
-      
       font-family: 'Gill Sans';
       font-style: normal;
       font-weight: 400;
-      font-size: 12px;
-    
-      color: #ffffff;
-      }
-      .logodiv{
-        max-height: 578px;
-        width: 100%;
-        position: relative;
-        bottom: 11%;
-        
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-      }
-      .logo1{
-        border-radius: 60%;
-        width: 50px;
-        height: 50px;
-      
-      }
-      .logo2{
-        border-radius: 60%;
-        width: 50px;
-        height: 50px;
-    
-    
-      }
-      .logo3{
-        border-radius: 60%;
-        width: 50px;
-        height: 50px;
-      
-     
-      }
-      .logo4{
-        border-radius: 60%;
-        width: 50px;
-        height: 50px;
-       
-      
-      }
-      .logo1text{
-        position: relative;
-        width: 20vh;
-        height: 10%;
-        top:  10vh;
-        left: -2.5vh;
-        
-       
-        text-align: center;
-        font-family: 'Gill Sans';
-        font-style: normal;
-        font-size: 12px;
-        color: rgb(255, 255, 255);
-      }
-      .logo2text{
-        position: relative;
-        width: 20vh;
-        height: 10%;
-        top:  10vh;
-        left: -2vh;
-       
-      
-      
-        text-align: center;
-        font-family: 'Gill Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        color: rgb(255, 255, 255);
-      }
-      .logo3text{
-        position: relative;
-        width: 20vh;
-        height: 10%;
-        top:  10vh;
-        left: -1.5vh;
-      
-      
-      
-        text-align: center;
-        font-family: 'Gill Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        color: rgb(255, 255, 255);
-      }
-      .logo4text{
-        position: relative;
-        width: 20vh;
-        height: 10%;
-        top:  10vh;
-        left: -1vh;
-      
-    
-      
-        text-align: center;
-        font-family: 'Gill Sans';
-        font-style: normal;
-       
-        font-size: 12px;
-        color: rgb(255, 255, 255);
-      }
-  .photo3{
-    position: relative;
-    top: 23vh;
-    right: 0vh;
-    width: 80%;
-  }
- 
- 
-  
-  }
-
-  /* -------------------------------------------------------------For Laptop 1024----------------------------------------------------------------*/
-  @media(min-width: 1020px ) and (max-width: 1025px ){
-    .aboutus{
-      width: 100%;
-      height: 1270px;
+      font-size: 0.8rem;
+      color: white; 
     }
-    .picture1{
-      height: 80vh;
-      width: 100%;
-      padding-top: 10%;
-    }
-    .text0{
-      position: relative;
-      bottom: 10px;
-      font-family: 'Gill Sans';
-      text-align-last: center;
-      font-size: 14px;
-     height: 20px;
-     width: 100%;
-    }
-    .text1{
-      position: relative;
-      bottom: 0px;
-  
-      text-align-last: center;
-      font-family: 'Gill Sans';
-      font-size: 12px;
-    }
-  
-    .photo2{
-      position: relative;
-      width: 100%;
-      height: 250px;
-      top: 20px;
-    }
-    .textpic2{
-      max-height: 578px;
-      width: 100%;
-      position: relative;
-      bottom: 200px;
-      
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
-      
-      font-family: 'Gill Sans';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-    
-      color: #ffffff;
-      }
-      .logodiv{
-        max-height: 578px;
-        width: 100%;
-        position: relative;
-        bottom: 155px;
-        
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-      }
-      .logo1{
-        border-radius: 60%;
-        width: 50px;
-        height: 50px;
-      
-      }
-      .logo2{
-        border-radius: 60%;
-        width: 50px;
-        height: 50px;
-    
-    
-      }
-      .logo3{
-        border-radius: 60%;
-        width: 50px;
-        height: 50px;
-      
-     
-      }
-      .logo4{
-        border-radius: 60%;
-        width: 50px;
-        height: 50px;
-      
-      }
-      .logo1text{
-        position: relative;
-        width: 20vh;
-        height: 10%;
-        top:  12vh;
-        left: -2.5vh;
-        
-       
-        text-align: center;
-        font-family: 'Gill Sans';
-        font-style: normal;
-        font-size: 12px;
-        color: rgb(255, 255, 255);
-      }
-      .logo2text{
-        position: relative;
-        width: 20vh;
-        height: 10%;
-        top:  12vh;
-        left: -2vh;
-       
-      
-      
-        text-align: center;
-        font-family: 'Gill Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        color: rgb(255, 255, 255);
-      }
-      .logo3text{
-        position: relative;
-        width: 20vh;
-        height: 10%;
-        top:  12vh;
-        left: -1.5vh;
-      
-      
-      
-        text-align: center;
-        font-family: 'Gill Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        color: rgb(255, 255, 255);
-      }
-      .logo4text{
-        position: relative;
-        width: 20vh;
-        height: 10%;
-        top:  12vh;
-        left: -1vh;
-      
-    
-      
-        text-align: center;
-        font-family: 'Gill Sans';
-        font-style: normal;
-       
-        font-size: 12px;
-        color: rgb(255, 255, 255);
-      }
-  .photo3{
-    position: relative;
-    top: 30vh;
-    right: 0vh;
-    width: 80%;
-  }
-
- 
-  
-  }
-
-    /* -------------------------------------------------------------For Laptop 1440px----------------------------------------------------------------*/
-    @media(min-width: 1420px ) and (max-width: 1480px ){
-      .aboutus{
-        width: 99%;
-        height: 1470px;
-      }
-      .picture1{
-        height: 90vh;
-        width: 100%;
-        padding-top: 7%;
-      }
-      .text0{
-        position: relative;
-        bottom: 10px;
-        font-family: 'Gill Sans';
-        text-align-last: center;
-        font-size: 16px;
-       height: 20px;
-       width: 100%;
-      }
-      .text1{
-        position: relative;
-        bottom: 0px;
-    
-        text-align-last: center;
-        font-family: 'Gill Sans';
-        font-size: 14px;
-      }
-    
-      .photo2{
-        position: relative;
-        width: 100%;
-        height: 250px;
-        top: 20px;
-      }
-      .textpic2{
-        max-height: 578px;
-        width: 100%;
-        position: relative;
-        bottom: 200px;
-        
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        
-        font-family: 'Gill Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-      
-        color: rgba(255, 255, 255, 1);
-        }
-        .logodiv{
-          max-height: 578px;
-          width: 100%;
-          position: relative;
-          bottom: 155px;
-          left: 40px;
-          
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          text-align: center;
-        }
-        .logo1{
-          border-radius: 60%;
-          width: 60px;
-          height: 60px;
-        
-        }
-        .logo2{
-          border-radius: 60%;
-          width: 60px;
-          height: 60px;
-      
-      
-        }
-        .logo3{
-          border-radius: 60%;
-          width: 60px;
-          height: 60px;
-        
-       
-        }
-        .logo4{
-          border-radius: 60%;
-          width: 60px;
-          height: 60px;
-        
-        }
-        .logo1text{
-          position: relative;
-          width: 20vh;
-          height: 10%;
-          top:  12vh;
-          left: -2.5vh;
-          
-         
-          text-align: center;
-          font-family: 'Gill Sans';
-          font-style: normal;
-          font-size: 14px;
-          color: rgb(255, 255, 255);
-        }
-        .logo2text{
-          position: relative;
-          width: 20vh;
-          height: 10%;
-          top:  12vh;
-          left: -2vh;
-         
-        
-        
-          text-align: center;
-          font-family: 'Gill Sans';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 14px;
-          color: rgb(255, 255, 255);
-        }
-        .logo3text{
-          position: relative;
-          width: 20vh;
-          height: 10%;
-          top:  12vh;
-          left: -1.5vh;
-        
-        
-        
-          text-align: center;
-          font-family: 'Gill Sans';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 14px;
-          color: rgb(255, 255, 255);
-        }
-        .logo4text{
-          position: relative;
-          width: 20vh;
-          height: 10%;
-          top:  12vh;
-          left: -1vh;
-        
-      
-        
-          text-align: center;
-          font-family: 'Gill Sans';
-          font-style: normal;
-         
-          font-size: 14px;
-          color: rgb(255, 255, 255);
-        }
     .photo3{
       position: relative;
-      top: 30vh;
-      right: 4vw;
-      height: 60vh;
-      width: 80%;
+      width: 85%;
     }
-  
-   
-    
-    }
-
-    /* -------------------------------------------------------------For 4K Dispaly 1440px----------------------------------------------------------------*/
-    @media(min-width: 2550px ) and (max-width: 2580px ){
-      .aboutus{
-        width: 99%;
-        height: 100%;
-      }
-      .picture1{
-        height: 100vh;
-        width: 100%;
-        padding-top: 4%;
-      }
-      .text0{
-        position: relative;
-        bottom: -50px;
-        font-family: 'Gill Sans';
-        text-align-last: center;
-        font-size: 24px;
-        height: 20px;
-        width: 100%;
-      }
-      .text1{
-        position: relative;
-        top: 90px;
-    
-        text-align-last: center;
-        font-family: 'Gill Sans';
-        font-size: 24px;
-      }
-    
-      .photo2{
-        position: relative;
-        width: 100%;
-        height: 450px;
-        top: 150px;
-      }
-      .textpic2{
-        max-height: 578px;
-        width: 100%;
-        position: relative;
-        bottom: 230px;
-        
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        
-        font-family: 'Gill Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-      
-        color: rgba(255, 255, 255, 1);
-        }
-        .logodiv{
-          max-height: 578px;
-          width: 100%;
-          position: relative;
-          bottom: 155px;
-          left: 80px;
-          
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          text-align: center;
-        }
-        .logo1{
-          border-radius: 60%;
-          width: 100px;
-          height: 100px;
-        
-        }
-        .logo2{
-          border-radius: 60%;
-          width: 100px;
-          height: 100px;
-      
-      
-        }
-        .logo3{
-          border-radius: 60%;
-          width: 100px;
-          height: 100px;
-        
-       
-        }
-        .logo4{
-          border-radius: 60%;
-          width: 100px;
-          height: 100px;
-        
-        }
-        .logo1text{
-          position: relative;
-          width: 20vh;
-          height: 10%;
-          top:  12vh;
-          left: -2.5vh;
-          
-         
-          text-align: center;
-          font-family: 'Gill Sans';
-          font-style: normal;
-          font-size: 24px;
-          color: rgb(255, 255, 255);
-        }
-        .logo2text{
-          position: relative;
-          width: 20vh;
-          height: 10%;
-          top:  12vh;
-          left: -2vh;
-         
-        
-        
-          text-align: center;
-          font-family: 'Gill Sans';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 24px;
-          color: rgb(255, 255, 255);
-        }
-        .logo3text{
-          position: relative;
-          width: 20vh;
-          height: 10%;
-          top:  12vh;
-          left: -1.5vh;
-        
-        
-        
-          text-align: center;
-          font-family: 'Gill Sans';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 24px;
-          color: rgb(255, 255, 255);
-        }
-        .logo4text{
-          position: relative;
-          width: 20vh;
-          height: 10%;
-          top:  12vh;
-          left: -1vh;
-        
-      
-        
-          text-align: center;
-          font-family: 'Gill Sans';
-          font-style: normal;
-         
-          font-size: 24px;
-          color: rgb(255, 255, 255);
-        }
-    .photo3{
-      position: relative;
-      top: 30vh;
-      right: 4vw;
-      height: 60vh;
-      width: 60%;
-      padding-bottom: 4%;
-    }
-  
-   
-    
-    }
+  }

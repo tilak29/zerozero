@@ -1,676 +1,349 @@
-.blog{
-    position: relative;
-    top: 30vh;
-    width: 100%;
-    height: 350vh;
+.blogpage{
+   min-height: 100vh;
+}
+/*-----------------------------------------------------section-1------------------------------------------------------*/
+
+.sec1{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30vh;
 }
 .para1{
-    font-size: 35px;
-    max-width: 800px;
+    font-size: 2.5rem;
     color: #262626;
-    text-align-last: center;
-    
+    width: 75%;
 }
 
 .para2{
-    font-size: 17px;
+    margin-top: 2vh;
+    width: 40%;
+    font-size: 1.1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #262626;
 }
 
 .para3{
-    font-size: 13px;
+    margin-top: 2vh;
+    width: 80%;
+    font-size: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        max-width: 1050px;
-    margin-top: 25px;
     color: #262626;
 }
 
+
 .pic1{
-    margin-top: 50px;
-    max-width: 1024px;
-    max-height: auto;
+    margin-top: 8vh;
+    width: 100%;
 }
 
 .para4{
-    font-size: 13px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    max-width: 950px;
-    margin-top: 25px;
-    font-weight: lighter;
-    color: rgb(141, 133, 133);
+font-size: 1rem;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 1vh;
+font-weight: lighter;
+color: rgb(141, 133, 133);
+width: 90%;
 }
 
+/*-----------------------------------------------------section-2------------------------------------------------------*/
 .sec2{
-    width: 1024px;
-    margin-top: 50px;
-    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10vh;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
+
+.sec2left{
+    width: 35%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.rect {
+    width: 99%;
+    width: 96%;
+    height: 100%;
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+    z-index: 1;
+}
 
 .pic2{
-    height: 330px;
-    width: 330px;
-    float: left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 5;
+    
+}
+.sec2right{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
 }
 
 .para5{
-    position: relative;
-    font-size: 30px;
-    width: 90vh;
-    top: 5vh;
-    /*padding-top:20px;*/
+    font-size: 1.8rem;
+    width: 100%;
+    margin-left: 2vw;
+    width: 80%;
 }
 
 .para6{
-    position: relative;
-   right: 85vh;
-    top: 12vh;
-    width: 80vh;
-    text-align: left;
-    font-size: 13px;
+    font: size 1rem;;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(141, 133, 133);
+    margin-left: 2vw;
+    width: 80%;
+    margin-top: 4vh;
+}
+
+/*-----------------------------------------------------section-3------------------------------------------------------*/
+
+.sec3{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10vh;
+    height: 50vh;
 }
 
 .pic4{
-    height: 140px;
-    width: 140px;
     float: right;
-}
-
-.sec3{
-    width: 1024px;
-    margin-top: -20px;
-    height: 350px;
-}
-
-.para7{
-    font-size: 35px;
-    width: 900px;
-    margin-top: -10px;
-    text-align: left;
-    float: left;
-    top: -10vh;
+    height: 40%;
+    width: 15%;
     position: relative;
+    top: -10vh;
 }
+.para7{
+    font-size: 2rem;
+    width: 65%;
+    text-align: left;
 
+}
 .para8{
     text-align: left;
-    position: relative;
-    top: -6vh;
-    font-size: 13px;
+    font-size: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(141, 133, 133);
     float: left;
+    position: relative;
+    width: 90%;
 }
+
+/*-----------------------------------------------------section-4------------------------------------------------------*/
 
 .sec4{
-    width: 1024px;
-    height: 350px;
-    margin-top: 30PX;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10vh;
+    display: flex;
+    position: relative;
+    
 }
+.leftsec4{
+    width: 60%;
 
+}
+.rightsec4{
+    position: relative;
+    width: 40%;
+}
 .pic3{
-    float: right;
-    height: 320px;
-    width: 480px;
-    margin-right: -20px;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: relative;
 }
 
 .para9{
-    font-size: 13px;
-    margin-top: 60px;
+    width: 95%;
+    font-size: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(141, 133, 133);
-    float: left;
-    text-align: left;
-    width: 550px;
     
+}
+.rect2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    z-index: 0;
+}
+
+/*-----------------------------------------------------section-5------------------------------------------------------*/
+.sec5{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .para10{
-    font-size: 13px;
+    margin-top: 5vh;
+    font-size: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 950px;
+    width: 90%;
     font-weight: lighter;
     color: rgb(141, 133, 133);
 }
 
-.sec5{
-    width: 1024px;
-    height: 160px;
-}
 
-.fhead{
-    height: 50px;
-    background-color: rgb(0, 0, 0);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(255, 187, 0);
-    text-align: center;
-    padding-top: 0.1px;
-    width: 1288px;
-}
-/*------------------------------------For Mobile S view------------------------------------------*/
-
-
-@media screen and (max-width: 320px ){
-
-    .blog{
-        position: relative;
-        top: 30vh;
-        width: 100%;
-        height: auto;
-    }
-    .css-kadqdp {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-    }
-    
-    .pic1{
-    max-width: 80%;
-    height: 30%;}
-
-    .para1 ,.para2 ,.para3{ 
-        padding-left: 10px;
-        padding-right: 10px;
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .para1{
         width: 80%;
     }
+   .sec2{
+    display: flex;
+    flex-direction: column;
+   }
+   .pic4{
+    visibility: collapse;
+   }
+   .pic2{
+    width: 280%;
+   }
+   .rect{
+    width: 250%;
+    height: 95%;
+   }
+   .para5{
+    width: 120%;
+   }
+   .para6{
+    width: 120%;
+   }
+   .para7{
+    width: 100%;
+   }
+   .para8{
+    margin-top: 20%;
+   }
+   .sec4{
+    display: flex;
+    flex-direction: column;
+   }
+   .pic3{
+    margin-top: 10%;
+    width: 250%;
+   }
+   .rect2{
+    visibility: collapse;
+   }
+   .para9{
+    width: 150%;
+   }
+  }
 
-    .sec2{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .sec3{
-        width: 100%;
-    }
-    .sec4{
-        width: 100%;
-    }
-    .sec5{
-        width: 100%;
-    }
-
-    .pic2{
-       margin-left: 2%;
-       height: 300px;
-       width: 300px;
-       }
-
-    .para5 {
-        width: 89%;
-        text-align: center;
-        margin-left: 6%;
-        
-
-    } 
-
-    .para4{
-        max-width: 280px;
-
-    }
-    .para6{
-        width: 23%;
-        text-align: center;
-        margin-left: 2%;
-        margin-top: -15px;
-    }
-
-
-    .pic4{
-        display: none;
-    }
-    .para7{
-        font-size: 30px;
-        width: 85%;
-        margin-top: 561px;
-        text-align: center;
-        margin-right: 2%;
-        margin-left: 30px;
-    }
-    .para8{
-        margin-top: -87vh;
-        display: flex;
-        flex-direction: row;
-        width: 85%;
-        margin-left: 10%;
-        text-align: center;
-    }
-
-    .pic3{
-        margin-top: 105vh;
-        margin-left: -29%;
-        float: left;
-        height: 50%;
-        width: 28.5%;
-        
-    }
-
-    .para9{
-        text-align: center;
-        margin-top: 440px;
-        width: 25%;
-        margin-left: -27%;
-    }
-   
-    .para10{
-        margin-top: 88vh;
-        text-align: center;
-        width: 25%;
-        float: left;
-        margin-left: -87vw;
-    }
-    
-
-
-}
-
-/*------------------------------------For Mobile M view------------------------------------------*/
-
-
-@media (min-width:321px) and (max-width: 375px ){
-
-    .blog{
-        position: relative;
-        top: 30vh;
-        width: 100%;
-        height: auto;
-    }
-    .css-kadqdp {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-    }
-    
-    .pic1{
-    max-width: 80%;
-    height: 30%;}
-
-    .para1 ,.para2 ,.para3{ 
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 80%;
-    }
-
-    .sec2{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .pic2{
-       margin-left: 5%;
-       
-    }
-
-    .para5 {
-        width: 30%;
-        text-align: center;
-        margin-left: -65%;
-
-    } 
-
-    .para4{
-        max-width: 280px;
-
-    }
-    .para6{
-        width: 23%;
-        text-align: center;
-        margin-left: 7%;
-        margin-top: -15px;
-    }
-
-
-    .pic4{
-        display: none;
-    }
-    .para7{
-        font-size: 30px;
-        width: 25%;
-        margin-top: 390px;
-        text-align: center;
-        margin-right: 2%;
-        margin-left: 60px;
-    }
-    .para8{
-        margin-top: 670px;
-        display: flex;
-        flex-direction: row;
-        width: 25%;
-        margin-left: -27%;
-        text-align: center;
-    }
-
-    .pic3{
-        margin-top: 115vh;
-        margin-left: -29%;
-        float: left;
-        height: 50%;
-        width: 28.5%;
-        
-    }
-
-    .para9{
-        text-align: center;
-        margin-top: 860px;
-        width: 25%;
-        margin-left: -27%;
-    }
-   
-    .para10{
-        margin-top: 150vh;
-        text-align: center;
-        width: 25%;
-        float: left;
-        margin-left: 15vw;
-    }
-    
-
-
-}
-
-
-/*------------------------------------For Mobile L view------------------------------------------*/
-
-    
-    @media (min-width:376px) and (max-width:425px) {
-
-        
-    .blog{
-        position: relative;
-        top: 30vh;
-        width: 100%;
-        height: auto;
-    }
-       
-        
-        .pic1{
-        max-width: 80%;
-        height: 30%;}
-
-        .para1 ,.para2 ,.para3{ 
-            padding-left: 10px;
-            padding-right: 10px;
-            width: 80%;
-        }
-
-        .sec2{
-            display: flex;
-            flex-direction: column;
-        }
-        .sec3{
-            width: 100%;
-        }
-        .sec4{
-            width: 100%;
-        }
-        .sec5{
-            width: 100%;
-        }
-
-        .pic2{
-           margin-left: 12%;
-           
-        }
-
-        .para5 {
-            max-width: 50%;
-            text-align: center;
-            margin-left: -4%;
-
-        } 
-
-        .para4{
-            max-width: 280px;
-
-        }
-        .para6{
-            max-width: 80%;
-            text-align: center;
-            margin-left: 125%;
-            margin-top: -8vh;
-        }
-
-
-        .pic4{
-            display: none;
-        }
-        .para7{
-            max-width: 80%;
-            margin-top: 79vh;
-            text-align: center;
-            margin-left: 10%;
-            margin-right: 2%;
-        }
-        .para8{
-            margin-top: 10px;
-            display: flex;
-            flex-direction: row;
-            width: 80%;
-            margin-left: 10%;
-            text-align: center;
-        }
-
-        .pic3{
-            margin-top: 5vh;
-            margin-left: 13%;
-            float: left;
-            height: 60%;
-            width: auto;
-            
-        }
-
-        .para9{
-            text-align: center;
-            margin-top: 20px;
-            width: 80%;
-            margin-left: 10%;
-        }
-       
-        .para10{
-            margin-top: 50vh;
-            text-align: center;
-            width: 300px;
-            float: left;
-            margin-left: -75vw;
-        }
-        
-
-    }
-  
-
-/*----------------------------------Media Queries for Tablet View----------------------------------------------------*/
-
-@media(min-width: 760px ) and (max-width: 770px ) {
-
-
-    .blog{
-        position: relative;
-        top: 20vh;
-        width: 100%;
-        height: 390vh;
-    }
-        .para1 ,.para2 ,.para3{ 
-            position: relative;
-            top: 10vh;
-            padding-left: 15px;
-            padding-right: 15px;
-            width: 80%;
-            
-        }
-
-        .pic1{
-            max-width: 500px;
-            height: 200px;
-        }
-    
-
-            .para1{
-                max-width: 500px;
-            }    
-
-            .para3{
-                justify-content: center;
-            }
-            
-            .para4{
-                width: 80%;
-            }
-            
-            .pic4{
-                display: none;
-            }
-
-            .pic2{
-                margin-left: 6vw;
-                height: 250px;
-                width: 250px;
-            }
-
-            .para5 {
-                max-width: max-content;
-                margin-top: -25%;
-                font-size: 22px;
-                top: -10vh;
-                left: 23vh;
-    
-            } 
-    
-            .para6{
-                width: 51%;
-                margin-top: -37%;
-                margin-left: 103vw;
-            }
-
-            .para7{
-                width: 88%;
-                margin-left: 6vw;
-                top: -3vh;
-            }
-            .para8{
-                width: 88%;
-                margin-left: 6vw;
-                top: 0vh;
-            }
-            .para9{
-                width: 50%;
-                margin-left: 6vw;
-                margin-top: 0px;
-            }
-
-          
-
-            .pic3{
-                height: 230px;
-                width: 280px;
-                margin-right: 48px;
-                margin-top: 0px;
-                position: relative;
-            }
-
-            .para10{
-                width: 80%;
-                margin-left: -5vw;
-                margin-top: -40px;
-            }
-            .sec4{
-                width: 100%;
-            }
-            .sec5{
-                width: 100%;
-            }
-            .sec3{
-                width: 100%;
-            }
-            .sec2{
-                width: 100%;
-            }
-}
-
-  /* -------------------------------------------------------------For Laptop 1024----------------------------------------------------------------*/
-  @media(min-width: 1020px ) and (max-width: 1025px ){
-
-    .blog{
-        position: relative;
-        top: 20vh;
-        width: 100%;
-        height: 300vh;
-    }
-    .pic1{
-        max-width: 500px;
-        height: 200px;
-        margin-left: -5vw;
-        margin-top: -1vh;
-    }
- 
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media  (min-width: 600px) and (max-width: 768px) {
 
     .para1{
-        margin-left: -5vw;
-        width: 50%;
+        width: 80%;
     }
-    .para2{
-        margin-left: -5vw;
-    }
-    .para3{
-        width: 60%;
-        margin-left: -5vw;
-    }
-    .para4{
-        width: 60%;
-        margin-left: -5vw;
-    }
+   .sec2{
+    display: flex;
+    flex-direction: column;
+   }
+   .pic4{
+    visibility: collapse;
+   }
+   .pic2{
+    width: 280%;
+   }
+   .rect{
+    width: 280%;
+    height: 95%;
+   }
+   .para5{margin-top: 5vh;
+    width: 150%;
+   }
+   .para6{
+    width: 150%;
+   }
+   .sec2right{
+    margin-left: -2vw;
+   }
+   .para7{
+    width: 100%;
+   }
+   .para8{
+    margin-top: 5%;
+   }
+   .sec4{
+    display: flex;
+    flex-direction: column;
+   }
+   .pic3{
+    margin-top: 10%;
+    width: 250%;
+   }
+   .rect2{
+    visibility: collapse;
+   }
+   .para9{
+    width: 150%;
+   }
 
-    .para6 {
-        margin-top: -35%;
-        margin-left: 112%;
-        width: 38%;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media  (min-width: 768px) and (max-width: 991px) {
+
+    .para1{
+    width: 80%;
+    } 
+   .para5{
+    width: 100%;
+   }
+   .para6{
+    width: 100%;
+   }
+   .para7{
+    width: 100%;
+   }
+   .para8{
+    margin-top: 5%;
+   }
+   
+  
+ 
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media  (min-width: 992px) and (max-width: 1200px) {
+
+    .para1{
+        width: 80%;
     }
     .para5{
-        float: left;
-        margin-top: -31%;
-        margin-left: 34%;  
-        font-size: 22px;
-      }
-    .pic2{
-        margin-left: 16vw;
+        width: 100%;
     }
-    .para7{
-        margin-left: 16vw;
-        width: 65%;
-        top: 6vh;
+    .para6{
+        width: 100%;
     }
-    .pic4{
-        height: 100px;
-        width: 100px;
-        margin-top: 5vh;
-        margin-right: 5vw;
-        display: hidden;
-    }
-    .para8{
-        width: 60%;
-        margin-left: 16vw;
-        top: 8vh;
-    }
+   .para7{
+    width: 100%;
+   }
+   .para8{
+    margin-top: 5%;
+   }
+   .para9{
+    width: 95%;
+   }
 
-    .para9{
-        width: 30%;
-        margin-left: 16vw;
-    }
-    .pic3{
-        height: 200px;
-        width: auto;
-        margin-top: 12vh;
-        margin-right: 20vw;
-        
-    }
-    .para10{
-        width: 60%;
-        margin-left: -8vw;
-        margin-top: 5vh;
-    }
+  }
+
+  /*Extra large devices (large laptops and desktops, 1200px and up)*/
+  @media only screen and (min-width: 1200px) {
 
   }

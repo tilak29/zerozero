@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navigation from "../../navigation/index";
+import Shop from "../../Modules/shop/ShopComb";
 
 
 
@@ -7,7 +7,7 @@ class Shop1 extends Component {
     render() {
       return (
     <div >
-     <Navigation/>
+     <Shop/>
     </div>
   );
       }

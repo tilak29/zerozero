@@ -155,7 +155,7 @@
 }
 .css-r6ewbb-MuiToolbar-root {
   min-height: 64px;
-  width: 320px;
+  width: 100%;
 }
 
 }
@@ -182,7 +182,7 @@
 }
 .css-r6ewbb-MuiToolbar-root {
   min-height: 64px;
-  width: 375px;
+  width: 100%;
 }
 
 }
@@ -193,7 +193,7 @@
   
   @media (min-width:376px) and (max-width:425px) {
     .navbar {
-      max-width: 425px;
+      max-width: 100%;
       margin-left: 0%;
       
   }
@@ -205,7 +205,7 @@
   }
   .css-r6ewbb-MuiToolbar-root {
     min-height: 64px;
-    width: 425px;
+    width: 100%;
   }
 
   }
@@ -240,7 +240,7 @@
 }
 .css-r6ewbb-MuiToolbar-root {
   min-height: 64px;
-  width: 1024px;
+  width: 100%;
 }
 .headericons {
   padding-right: 0px;

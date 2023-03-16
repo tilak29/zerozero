@@ -13,19 +13,44 @@ import Footer1 from './Components/home/footer';
 import { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
 import ExtendComp from './Components/ExtendComp';
+import Cart from './Modules/PopCart';
+import Login from "../src/Components/Components/auth-pages/Login"
 
 
 
 const App = () => {
 
   
-    const [showNavbar, setShowNavbar] = useState(false)
+  const [showNavbar, setShowNavbar] = useState(false)
 
     const handleShowNavbar = () => {
       setShowNavbar(!showNavbar)
     }
+  
+    /********Popup****** */
+    const[popup,SetPop]=useState(false);
+    const handleClickOpen=()=>{
+      SetPop(!popup);
+    }
+    /**************login/signup*************/
+    const[popupL,SetPopL]=useState(false);
+    const handleClickOpen2=()=>{
+      SetPopL(!popupL);
+    }
+    /******
+    // const [ modal, setmodal ] = useState(false)
+
+    // const closemodal=()=>{
+    //     setmodal(false);
+    //  }
+    // const [ loginpop,Setpop]=useState(false)
+    // const closeloginpop=()=>{
+    //   setloginpop(false)
+    // }*/
+    
+
     return (
-      <div className='container'>
+      <div  className='container'>
         <AppBar>
           <box className='navbar'>
             <p className='line'>Get 10% off on your first order use code Zero Zero 22</p>
@@ -36,7 +61,7 @@ const App = () => {
               <MenuIcon />
             </div>
 
-            <img className='zeroimg' src={logo} alt="" />
+            <Link to='/'><img className='zeroimg' src={logo} alt="" /></Link>
             
             <Box className="navi"  >
 
@@ -54,15 +79,29 @@ const App = () => {
 
             <Box className="headericons">
               <IconButton > <Searchbar /></IconButton>
-              <IconButton > <PersonIcon /></IconButton>
-              <IconButton >
-                <Link style={{textDecoration:'none'}} to='/Cart'>
-                <LocalMallIcon style={{position:"relative",top:"2px"}} /></Link>
+
+              <IconButton onClick={handleClickOpen2}> <PersonIcon /></IconButton>
+
+
+              <IconButton  onClick={handleClickOpen}>
+                <LocalMallIcon />
                 </IconButton>
             </Box>
           </Toolbar>
         </AppBar>
+     
+          {popup?
+            <div className='main'>
+                  
+                  <Cart />
+            </div> : ""}
 
+        {popupL ?
+          <div className='main_login'>
+                <Login />     
+                
+          </div> : ""}
+       
         <ExtendComp/>
         <Footer1 />
       </div>

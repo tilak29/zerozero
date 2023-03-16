@@ -1,59 +1,199 @@
-import React from "react";
-import fourthcircle from '../../assets/images/fourthcircle.png';
+// import React from "react";
+// import fourthcircle from '../../assets/images/fourthcircle.png';
+// import sixth1 from '../../assets/images/sixth1.png';
+// import sixth2 from '../../assets/images/sixth2.png';
+// import sixth3 from '../../assets/images/sixth3.png';
+// import sixthredcir from '../../assets/images/sixthredcir.png';
+// import sixthredline from '../../assets/images/sixthredline.png';
+// import sixthline from '../../assets/images/sixthline.png';
+// import arrowleft from '../../assets/images/arrowleft.png';
+// import arrowright from '../../assets/images/arrowright.png';
+// import flowerleft from '../../assets/images/flowerleft.png';
+// import colon from '../../assets/images/colon.png';
+
+// import { useCarousel } from 'use-carousel-hook';
+
+
+// function Card(props){
+//     return ( 
+//     <div class="sixth-card-bdr">
+//     <div className="sixth-card-all">
+//     <img class="sixth-card-img" src={props.image} alt="abc"/>
+//     <img class="sixth-card-colon" src={colon}/>
+//     <p class="sixth-card-name">{props.name}</p>
+//     <p class="sixth-card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry
+//      {props.text}</p>
+//     </div>
+//     </div>);
+// }
+
+
+// function Sixth(){
+//   const { ref, previous, next, setCurrent, reset } = useCarousel();
+//     return(
+//         <>
+//       <img style={{float:"right", width:"10vw", height:"28vh", marginTop:"2%"}} src={flowerleft} />
+
+//         <div className="sixth-sec">
+//         <div style={{display:"flex",zIndex:"1"}}>
+//         <p className="fourth-text">Testimonial</p>
+//             <img style={{height:"5%", maxWidth:"4%" ,marginLeft:"-3%",zIndex:"0"}} src={fourthcircle} alt="fourthcircle"/>
+//         </div>
+      
+        
+
+//         <div className="sixth-main-cards-div">
+//             <Card
+//             image={sixth1}
+//             name="Jane Cooper"
+//             text="" />
+//             <Card
+//             image={sixth2}
+//             name="Jenny Wilson"
+//             text="" />
+//             <Card
+//             image={sixth3}
+//             name="Kathryn Murphy"
+//             text="" />
+           
+//         </div>
+
+
+//         <div className="sixth-button">
+//        <button type='submit' style={{background:'none', border:'none'}} onClick={() => previous()}>
+//          <img 
+//      style={{cursor:'pointer'}}
+//      src={sixthline}
+//      type="submit"
+//          />
+//      </button>
+//       <button type='submit' style={{background:'none', border:'none'}} onClick={() => next()}>
+//         <img style={{maxWidth:"50%",marginLeft:"8%",cursor:'pointer'}} src={sixthredline} alt="fourthredline"/>
+//         <img style={{maxWidth:"50%", marginTop:"-20%",marginLeft:"-19%",cursor:'pointer',marginBottom:"-15%"}} src={sixthredcir} alt="fourthredcir"/>
+//         </button>
+//         </div>
+    
+//         </div>
+//         </>
+//     )
+// }
+
+// export default Sixth;
+
+
+
+
+import React,{useState}from 'react';
+
+import icons from '../../constants/icons';
+
+import Carousel from 'react-multi-carousel';
+
+import images from '../../constants/images';
 import sixth1 from '../../assets/images/sixth1.png';
 import sixth2 from '../../assets/images/sixth2.png';
 import sixth3 from '../../assets/images/sixth3.png';
+import arrowleft from '../../assets/images/arrowleft.png';
+import arrowright from '../../assets/images/arrowright.png';
+import flowerleft from '../../assets/images/flowerleft.png';
+import colon from '../../assets/images/colon.png';
 import sixthredcir from '../../assets/images/sixthredcir.png';
 import sixthredline from '../../assets/images/sixthredline.png';
 import sixthline from '../../assets/images/sixthline.png';
+import s1 from '../../assets/images/s1.png';
+import s2 from '../../assets/images/s2.png';
+import s3 from '../../assets/images/s3.png';
+import s4 from '../../assets/images/s4.png';
+
+import 'react-multi-carousel/lib/styles.css';
+import fourthcircle from '../../assets/images/fourthcircle.png';
+
+import '../../css/Home.css'
+import '../../css/HomeRespo.css'
+import { useCarousel } from 'use-carousel-hook';
 
 function Card(props){
-    return ( 
-    <div class="sixth-card-bdr">
-    <div className="sixth-card-all">
-    <img class="sixth-card-img" src={props.image} alt="abc"/>
-    <p class="sixth-card-name">{props.name}</p>
-    <p class="sixth-card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry
-     {props.text}</p>
-    </div>
-    </div>);
+  return ( 
+  <div class="slide-card-bdr">
+  <div class="slide-card-all">
+  <img class="slide-card-img" src={props.image} alt="abc"/>
+  <img class="slide-card-colon" src={colon}/>
+  <p class="slide-card-name">{props.name}</p>
+  <p class="slide-card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry
+   {props.text}</p>
+  </div>
+  </div>);
 }
 
 
-function Sixth(){
-    return(
-        <>
-        <div className="sixth-sec">
-        <div style={{display:"flex"}}>
-            <p className="fourth-text">Testimonial</p>
-            <img style={{height:"35px", width:"35px",marginTop:"2px" ,marginLeft:"-7px", zIndex:"-1"}} src={fourthcircle} alt="fourthcircle"/>
-        </div>
-        </div>
+const Sixth = () => {
 
-        <div style={{display:"flex",position:"relative", top:"70vh",marginLeft:"11%", marginTop:"2%"}}>
-            <Card
+    const { ref, previous, next, setCurrent, reset } = useCarousel();
+
+
+
+    return (<div className='avaible2'>
+    <div style={{display:"flex", marginLeft:"40%"}}>
+           <p className="fourth-text">Testimonial</p>
+           <img style={{height:"4%", maxWidth:"5%" ,marginLeft:"-2%",zIndex:"0"}} src={fourthcircle} alt="fourthcircle"/>
+            </div>
+       <div >
+        <div style={{ display:"flex",marginTop:"2%"}}>
+       <ul ref={ref} className="slide-list1">
+                <li style={{marginRight:"3%"}}>
+                <Card
             image={sixth1}
             name="Jane Cooper"
             text="" />
-            <Card
+                </li>
+                <li style={{marginRight:"3%"}}>
+                <Card
             image={sixth2}
             name="Jenny Wilson"
             text="" />
-            <Card
+                </li >
+                <li style={{marginRight:"3%"}}>
+                <Card
             image={sixth3}
             name="Kathryn Murphy"
             text="" />
+                </li>
+                <li style={{marginRight:"2%"}}>
+                <Card
+            image={sixth1}
+            name="Jane Cooper"
+            text="" />
+                </li>
+                <li style={{marginRight:"2%"}}>
+                <Card
+            image={sixth2}
+            name="Jenny Wilson"
+            text="" />
+                </li>     
+                <li style={{marginRight:"2%"}}>
+                <Card
+            image={sixth3}
+            name="Kathryn Murphy"
+            text="" />
+                </li>        
+            </ul>
+            </div>
+            <div style={{marginTop:"2%", marginLeft:"44%",marginBottom:"2%"}}>
+       <button type='submit' style={{background:'none', border:'none'}} onClick={() => previous()}>
+         <img 
+     style={{cursor:'pointer'}}
+     src={sixthline}
+     type="submit"
+         />
+     </button>
+      <button type='submit' style={{background:'none', border:'none'}} onClick={() => next()}>
+        <img className='sixthline' style={{marginLeft:"8%",cursor:'pointer'}} src={sixthredline} alt="fourthredline"/>
+        <img className='sixthcircle' style={{marginTop:"-20%",marginLeft:"-19%",cursor:'pointer',marginBottom:"-15%"}} src={sixthredcir} alt="fourthredcir"/>
+        </button>
         </div>
-        <div style={{ display:"flex",position:"relative",top:"62vh", left:"36%"}}>
-        <a href="#" style={{ display:"flex",position:"relative", top:"7vh",marginLeft:"11%",marginTop:"2%"}}>
-        <img style={{width:"40px",height:"7px"}} src={sixthline} alt="fourthredcir"/>
-        <img style={{width:"40px",height:"7px",marginLeft:"20px"}} src={sixthredline} alt="fourthredline"/>
-        <img style={{width:"30px", marginTop:"-12px",marginLeft:"-15px"}} src={sixthredcir} alt="fourthredcir"/>
-      </a>
         </div>
-    
-        </>
-    )
+
+    </div>);
 }
 
 export default Sixth;

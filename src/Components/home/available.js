@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState}from 'react';
 
 import icons from '../../constants/icons';
 
@@ -13,9 +13,14 @@ import sixthredline from '../../assets/images/sixthredline.png';
 import sixthline from '../../assets/images/sixthline.png';
 import '../../css/Home.css'
 import '../../css/HomeRespo.css'
+import { useCarousel } from 'use-carousel-hook';
+
 
 
 const Avaible = () => {
+
+    const { ref, previous, next, setCurrent, reset } = useCarousel();
+
 
     const data = [
         {
@@ -88,13 +93,13 @@ const Avaible = () => {
 
     return (<div className='avaible'>
         <h2>We are available on</h2>
-        <section>
+        {/* <section>
         <Carousel
                 responsive={responsive}
-                arrows={false}
+                arrows={true}
                 autoPlay={false}
                 infinite
-                autoPlaySpeed={600}
+                autoPlaySpeed={2000}
             >
                 {
                     data.map(item => (
@@ -105,12 +110,64 @@ const Avaible = () => {
                 }
             </Carousel>
             
-        </section>
-        <a href='#' style={{ display:"flex",marginTop:"2%", paddingBottom:"25px"}}>
-        <img style={{width:"40px",height:"7px"}} src={sixthline} alt="fourthredcir"/>
-        <img style={{width:"40px",height:"7px",marginLeft:"20px"}} src={sixthredline} alt="fourthredline"/>
-        <img style={{width:"30px", marginTop:"-12px",marginLeft:"-15px"}} src={sixthredcir} alt="fourthredcir"/>
-      </a>
+        </section> */}
+
+       <div >
+        <div style={{ display:"flex",marginTop:"2%", paddingBottom:"25px"}}>
+       <ul ref={ref} className="carousel__list">
+                <li className="carousel__item">
+                  <img className="carousel__img" src={icons.grofers} alt=''/>
+                </li>
+                <li className="carousel__item">
+                  <img className="carousel__img"  src={icons.amazon} alt=''/>
+                </li>
+                <li className="carousel__item">
+                  <img className="carousel__img" src={icons.flipkart} alt=''/>
+                </li>
+                <li className="carousel__item">
+                  <img className="carousel__img" src={icons.paytmmall} alt=''/>
+                </li>
+                <li className="carousel__item">
+                  <img className="carousel__img" src={icons.bigbasket} alt=''/>
+                </li>
+                <li className="carousel__item">
+                  <img className="carousel__img" src={icons.whsmith} alt=''/>
+                </li>
+                <li className="carousel__item">
+                  <img className="carousel__img" src={ icons.swiggyinstamart} alt=''/>
+                </li>
+                <li className="carousel__item">
+                  <img className="carousel__img" src={ icons.foodhall} alt=''/>
+                </li>
+                <li className="carousel__item">
+                  <img className="carousel__img" src={ icons.metro} alt=''/>
+                </li>
+                <li className="carousel__item">
+                  <img className="carousel__img" src={ icons.bigbasket} alt=''/>
+                </li>
+                <li className="carousel__item">
+                  <img className="carousel__img" src={icons.grofers} alt=''/>
+                </li>
+                <li className="carousel__item">
+                  <img className="carousel__img"  src={icons.amazon} alt=''/>
+                </li>
+            </ul>
+            </div>
+            <div style={{marginTop:"2%", marginLeft:"44%",marginBottom:"2%"}}>
+       <button type='submit' style={{background:'none', border:'none'}} onClick={() => previous()}>
+         <img 
+     style={{cursor:'pointer'}}
+     src={sixthline}
+     type="submit"
+         />
+     </button>
+      <button type='submit' style={{background:'none', border:'none'}} onClick={() => next()}>
+        <img style={{maxWidth:"50%",marginLeft:"8%",cursor:'pointer'}} src={sixthredline} alt="fourthredline"/>
+        <img style={{maxWidth:"50%", marginTop:"-20%",marginLeft:"-19%",cursor:'pointer',marginBottom:"-15%"}} src={sixthredcir} alt="fourthredcir"/>
+        </button>
+        </div>
+        </div>
+
     </div>);
 }
 
