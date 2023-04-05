@@ -159,8 +159,8 @@ const Cart = () => {
                     }
     
                     <div className='actions'>
-                        <span ><div ><ShoppingCartIcon fontSize="large"/></div> Continue Shopping</span>
-                        <span><div ><UpdateIcon fontSize="large"/> </div> Update</span>
+                        <a href="/Shop" className='an'><span ><div ><ShoppingCartIcon fontSize="large"/></div> Continue Shopping</span></a>
+                        <a href="" className='an'><span><div ><UpdateIcon fontSize="large"/> </div> Update</span></a>
                     </div>
                     <main>
                         <section>
@@ -206,9 +206,7 @@ const Cart = () => {
                             <div className='row'>
                                 <span>Shipping & taxes calculated at checkout</span>
                             </div>
-                            <button onClick={() => {
-                            setIsNavigate(true);
-                            handleSubmit();}}>Processd To Checkout</button>
+                            <a href='/Checkout'><button>Proceed To Checkout</button></a>
                         </section>
                     </main>
                 </div>

@@ -10,6 +10,9 @@ import instalogo from "../../assets/images/instalogo.png";
 import divider from "../../assets/images/divider.png";
 import { Email } from "@mui/icons-material";
 import { Link } from "react-router-dom";
+import wimg from '../../../src/assets/images/whatsapp.png'
+import youtube from '../../assets/icons/youtube_black.png';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 function Footer1(){
     return( 
@@ -19,16 +22,23 @@ function Footer1(){
      <section className="section1">
      <Link to='/'><img className="piczero" src={zero} alt="abc"/></Link>
      <img className="mobilelogo" src={mobilelogo} alt="abc"/>
-     <p className="mobnum">(208) 555-0112</p>
+     <p className="mobnum">079-49136646</p>
         <div >
         <img className="maillogo" src={maillogo} alt="abc"/>
-        <p className="mailid">  tim.jennings@example.com </p>
+        <p className="mailid"> care@smartlaboratories.co.in
+ </p>
+        </div>
+        <div >
+        <img className="maillogos" src={wimg} alt="abc"/>
+        <p className="mailids">9904336000
+ 
+ </p>
         </div>
       <div className="sociallogo">
-      <a className="linkfooter" href="#"><img className="fblogo" src={fblogo} alt="abc"/></a>
-      <a className="linkfooter" href="#"><img className="tweeterlogo" src={twlogo} alt="abc"/></a>
-      <a className="linkfooter" href="#"><img className="pinlogo" src={pinlogo} alt="abc"/></a>
-      <a className="linkfooter" href="#"><img className="instalogo" src={instalogo} alt="abc"/></a>
+      <a className="linkfooter" href=" https://www.facebook.com/zerozeroindia"><img className="fblogo" src={fblogo} alt="abc"/></a>
+      <a className="linkfooter" href="https://www.youtube.com/@ZeroZero-india"><YouTubeIcon sx={{ml:"3vw",mt:"-0.5vh"}}/></a>
+    
+      <a className="linkfooter" href="https://www.instagram.com/zerozeroindia/"><img className="instalogo" src={instalogo} alt="abc"/></a>
       </div>
      </section>
 
@@ -66,7 +76,7 @@ function Footer1(){
      <img className="divider" src={divider} alt="abc"/>
 
 
-     <center><p className="footertext">© 2022 ZEROZERO. All Rights Reserved</p></center>
+     <center><p className="footertext">© 2023 ZEROZERO. All Rights Reserved</p></center>
 
      
 

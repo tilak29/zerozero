@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
 /*@font-face {
   font-family: Gill Sans;
   src: url(assets/fonts/Gill\ Sans.otf);
@@ -8,9 +8,7 @@
   src: url(assets/fonts/Gill\ Sans\ Medium.otf);
 }*/
 
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 
 .top-offer {
   max-width: 100%;
@@ -19,85 +17,77 @@
   font-size: 0.813rem;
   color: #fcb330;
   background: #0c0c0c;
-  
 }
 
-.Container{
+.Container {
   /* position: relative;  */
   display: flex;
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-.Container1{
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    background-color: aliceblue;
-    color: black;
-    align-items: center;
-    justify-content: center;
-  
+.Container1 {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  background-color: aliceblue;
+  color: black;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon{
-    opacity: 10;
-    color: white;
-    color: black;
+.icon {
+  opacity: 10;
+  color: white;
+  color: black;
 }
 
-.nav{
-    background-color: white;
-    color: rgb(1, 9, 15);
+.nav {
+  background-color: white;
+  color: rgb(1, 9, 15);
 }
 
 /* ----------------------------------First--------------------------------*/
 
-.fir-sect{
+.fir-sect {
   margin-top: 6.5%;
   /* height: 100%;
   max-width: 100%; */
   /* background-color: #ffdcc8; */
 }
 
-
-
-.fir-img{
+.fir-img {
   /* float: right; */
   height: 100vh;
-  width:100%;
-  
+  width: 100%;
 }
-.waveimg{
+.waveimg {
   margin-top: -0.5%;
   /* min-width: 100%; */
   /* height: 100vh; */
-  width:100%;
+  width: 100%;
 }
 
-
-@media screen and (min-width:420px) and (max-width:890px){
-  .fir-img{
+@media screen and (min-width: 420px) and (max-width: 890px) {
+  .fir-img {
     /* float: right; */
     height: auto;
-    max-width:100%;
-    
+    max-width: 100%;
   }
 
-  .waveimg{
+  .waveimg {
     margin-top: -0.8%;
     /* min-width: 100%; */
     height: auto;
-    max-width:100%;
+    max-width: 100%;
   }
 }
 
 /*--------------- Second ------------------------------------------------------*/
 
-
-.sec-1text{
-   /* position: absolute; / */
-  font-family: 'Prata';
+.sec-1text {
+  /* position: absolute; / */
+  font-family: "Prata";
   font-style: normal;
   font-weight: 400;
   font-size: calc(1rem + 1vw);
@@ -107,794 +97,1311 @@
   /* margin-left: 170px;
   margin-top: 205px; */
   color: #262626;
-
-
+  margin-bottom: 1rem;
 }
 
-.sec-2text{
+.sec-2text {
   /* / position: absolute; / */
-  font-family: 'Prata';
-font-style: normal;
-font-weight: 400;
-font-size: calc(0.55rem + 1vw);
-line-height: 150%;
-color: #262626;
-/* margin-top: 27.2vh;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(0.55rem + 0.8vw);
+  line-height: 150%;
+  color: #262626;
+  /* margin-top: 27.2vh;
 margin-left: 17.2vw; */
 
   /* margin-left: 170px;
   margin-top: 235px; */
 
-width: 36vw;
-overflow-wrap: break-word;
-word-wrap: break-word;
-word-break: break-word;
-
+  width: 36vw;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
-.sec-3text{
+.sec-3text {
   /* / position: absolute; / */
-  font-family: 'Gill Sans';
-font-style: medium;
-font-weight: 500;
-font-size: calc(0.22rem + 1vw);
-line-height: 130%;
-color: #262626;
-/* margin-top: 27.2vh;
+  font-family: "Gill Sans";
+  font-style: medium;
+  font-weight: 500;
+  font-size: calc(0.22rem + 1vw);
+  line-height: 130%;
+  color: #262626;
+  /* margin-top: 27.2vh;
 margin-left: 18.66vw; */
 
   /* margin-left: 170px;
   margin-top: 255px; */
 
   width: 36vw;
-overflow-wrap: break-word;
-word-wrap: break-word;
-word-break: break-word;
-
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 /* ----------- New -------------------------------------------------------------*/
-.second-sec{
+.second-sec {
   max-width: 100%;
   background-color: #e9c56d;
   margin-top: -1.1%;
 }
 
-.second-flex1{
+.second-flex1 {
   display: flex;
   padding-top: 7%;
 }
 
-.second-texts{
+.second-texts {
   margin-left: 10%;
   margin-top: 10%;
   max-width: 60%;
 }
 
-.second-icons-div{
+.usps{
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  height: auto;
+}
+
+.second-icons-div {
   display: flex;
   margin-top: 6%;
   flex-wrap: nowrap;
   flex-shrink: 1;
+ flex-basis: 100%;
 }
 
-.second-icon{
+.second-icon {
   height: auto;
-  max-width: 20%;
-  margin-right: 3%;
+  max-width: 25%;
+  
 }
 
-.second-img-div{
-  margin-top: 5%;
+.second-usp-div{
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+.second-usp{
+  font-size: 0.9rem;
+  width: 70%;
+  text-overflow: ellipsis;
+  word-break:normal;
+  flex-basis: 100%;
+}
+
+.second-img-div {
   margin-left: 2%;
   margin-right: 5%;
   max-width: 40%;
 }
 
-.second-img{
+.second-img {
   max-width: 100%;
   height: auto;
   justify-content: center;
   align-items: center;
 }
 
-
-.get-to-know-text{
-  font-family: 'Gill Sans';
-font-style: normal;
-font-weight: 400;
-font-size: calc(0.22rem + 1vw);
-line-height: 130%;
-color: #0c0c0c;
-margin-top:10%;
+.get-to-know-text {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(0.22rem + 1vw);
+  line-height: 130%;
+  color: #0c0c0c;
+  margin-top: 10%;
 }
 
-.second-link-line{
- max-width:40%;
- height: 5%;
-
+.second-link-line {
+  max-width: 40%;
+  height: 5%;
 }
 
-.second-link-div{
+.second-link-div {
   display: flex;
- 
 }
 
-.second-link-circ{
-  max-width:10%;
+.second-link-circ {
+  max-width: 10%;
   height: auto;
   margin-left: -5%;
   margin-top: -5%;
   margin-bottom: 1%;
 }
 
-
-
-
-.second-last-img-div{
+.second-last-img-div {
   position: relative;
   margin-left: 12%;
   z-index: 2;
 }
 
-.second-last-img-div2{
+.second-last-img-div2 {
   margin-left: 12.5%;
   margin-top: -17%;
 }
 
-
-.second-last-img{
+.second-last-img {
   margin-bottom: -7%;
   height: auto;
   max-width: 19.5%;
   margin-top: 5%;
   margin-right: 3.5%;
- 
-
 }
-.second-last-img2{
+.second-last-img2 {
   margin-bottom: -7%;
   height: auto;
   max-width: 19.5%;
   margin-top: 5%;
   margin-right: 3.7%;
- 
 }
 
-
-@media screen and (max-width:425px) {
-  .second-sec{
+@media screen and (max-width: 770px) {
+  .second-sec {
+    position: relative;
     max-width: 100%;
     background-color: #e9c56d;
     margin-top: -2.1%;
   }
+
+  .second-texts {
+    margin-left: 10%;
+    margin-top: 10%;
+    max-width: 50%;
+  }
+
+  .sec-2text {
+    /* / position: absolute; / */
+    font-family: "Prata";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 150%;
+    color: #262626;
+    /* margin-top: 27.2vh;
+  margin-left: 17.2vw; */
+  
+    /* margin-left: 170px;
+    margin-top: 235px; */
+  
+  }
+
+ 
+
+  .usps{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .second-icons-div {
+    display: flex;
+    margin-top: 6%;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    gap: 0.5rem;
+  }
+  
+  .second-icon {
+    height: auto;
+    max-width: 23%;
+    flex-basis: 100%;
+  }
+  
+  .second-usp-div{
+    display: flex;
+    flex-wrap: nowrap;
+   
+    margin-left: 2%;
+    
+  }
+  
+  .second-usp{
+    font-size: 0.75rem;
+    font-family: 'Gill Sans';
+  }
+}
+
+
+@media screen and (max-width: 426px) {
+  .second-sec {
+    position: relative;
+    max-width: 100%;
+    background-color: #e9c56d;
+    margin-top: -2.1%;
+  }
+
+  .second-texts {
+    margin-left: 10%;
+    margin-top: 10%;
+    max-width: 50%;
+  }
+
+  .sec-2text {
+    /* / position: absolute; / */
+    font-family: "Prata";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 150%;
+    color: #262626;
+    /* margin-top: 27.2vh;
+  margin-left: 17.2vw; */
+  
+    /* margin-left: 170px;
+    margin-top: 235px; */
+  
+  }
+
+  .second-img-div {
+   
+    max-width: 100%;
+    height: fit-content;
+  }
+
+  .second-img {
+    position: absolute;
+  max-width: 38vw;
+  right:  1%;
+   height: auto;
+  }
+
+  .usps{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .second-icons-div {
+    display: flex;
+    margin-top: 6%;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    gap:1.5vw;
+  
+  }
+  
+  .second-icon {
+    height: auto;
+    max-width: 25%;
+    
+  }
+  
+  .second-usp-div{
+    display: flex;
+    flex-wrap: nowrap;
+    gap:8vw;
+    margin-left: 2%;
+    
+  }
+  
+  .second-usp{
+    font-size: 0.7rem;
+ 
+ 
+
+  }
+  
   
 }
 
+
+@media screen and (max-width: 376px) {
+  .second-sec {
+    position: relative;
+    max-width: 100%;
+    background-color: #e9c56d;
+    margin-top: -2.1%;
+  }
+
+  .second-texts {
+    margin-left: 10%;
+    margin-top: 10%;
+    max-width: 50%;
+  }
+
+  .sec-2text {
+    /* / position: absolute; / */
+    font-family: "Prata";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 150%;
+    color: #262626;
+    /* margin-top: 27.2vh;
+  margin-left: 17.2vw; */
+  
+    /* margin-left: 170px;
+    margin-top: 235px; */
+  
+  }
+
+  .second-img-div {
+   
+    max-width: 100%;
+    height: fit-content;
+  }
+
+  .second-img {
+    position: absolute;
+  max-width: 38vw;
+  right:  1%;
+   height: auto;
+  }
+
+  .usps{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .second-icons-div {
+    display: flex;
+    margin-top: 6%;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    gap:1.5vw;
+  
+  }
+  
+  .second-icon {
+    height: auto;
+    max-width: 25%;
+    
+  }
+  
+  .second-usp-div{
+    display: flex;
+    flex-wrap: nowrap;
+    gap:6vw;
+    margin-left: 3%;
+    
+  }
+  
+  .second-usp{
+    font-size: 0.75rem;
+  }
+  
+  
+}
+
+
 /*--------------- Third ------------------------------------------------------*/
 
-.third-sect{
-   /* position: absolute;  */
-   /* top: 50vh;
+.third-sect {
+  /* position: absolute;  */
+  /* top: 50vh;
   left: 18%;  */
   margin-top: 18%;
   margin-left: 12%;
- max-width: 80%;
+  max-width: 80%;
 }
 
-.third-texts{
-  display:flex;
+.third-texts {
+  display: flex;
   max-width: 100%;
   z-index: 1;
 }
 
-.third-text1s{
+.third-text1s {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   z-index: 1;
 }
 
-  .third-text1{
-  font-family: 'Prata';
+.third-text1 {
+  font-family: "Prata";
   font-style: normal;
   font-weight: 400;
   font-size: 2vw;
   /* line-height: 150%; */
-  }
-  
-  .third-text2{
-    font-family: 'Prata';
+}
+
+.third-text2 {
+  font-family: "Prata";
   font-style: normal;
   font-weight: 400;
   font-size: 1.2vw;
   line-height: 150%;
   margin-top: 8px;
-  }
+}
 
-  .third-text3s{
-    margin-left: 15%;
-    max-width: 40%;
-  }
-  
-  .third-text3{
-    font-family: 'Gill Sans';
+.third-text3s {
+  margin-left: 15%;
+  max-width: 40%;
+}
+
+.third-text3 {
+  font-family: "Gill Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 1.12vw;
   line-height: 150%;
-  
-  
+
   width: 60%;
   overflow-wrap: break-word;
   word-wrap: break-word;
   word-break: break-word;
-  }
-   
+}
 
- 
-  .third-image{
-    height: 10vh;
-    width:auto;
+.third-image {
+  height: 10vh;
+  width: auto;
+  z-index: 3;
+  margin-right: 2%;
+}
+
+.third-text4 {
+  margin-top: 1%;
+  font-size: calc(0.1rem + 1vw);
+
+  max-width: 70%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.third-border3 {
+  display: flex;
+  z-index: 200;
+  border: 1px solid #d1d1d1;
+  background-color: #ffffff;
+  border-width: "thin";
+  margin-right: 4.4%;
+  padding: 2% 2% 2% 8px;
+}
+.third-border3:hover {
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
+}
+
+.third-number3 {
+  max-width: 10vw;
+  height: 3vh;
+  margin-top: -9.2%;
+  z-index: -3;
+}
+.third-number5 {
+  max-width: 10vw;
+  height: 3vh;
+  margin-top: -10.5%;
+  z-index: -3;
+}
+
+@media (max-width: 1200px) {
+  .third-number3 {
+    max-width: 10vw;
+    height: 3vh;
+    margin-top: -2.1rem;
+    z-index: -3;
+  }
+  .third-number5 {
+    max-width: 10vw;
+    height: 3vh;
+    margin-top: -2.4rem;
+    z-index: -3;
+  }
+}
+
+.third-cards {
+  margin-left: 7%;
+  margin-top: 5%;
+  z-index: 3;
+}
+.third-bdr-all {
+  display: flex;
+  margin-top: 3.5%;
+  position: relative;
+  z-index: 100;
+}
+
+@media (max-width: 460px) {
+  .third-cards {
+    margin-left: 5%;
+    margin-top: 5%;
+    z-index: 3;
+  }
+
+  .third-bdr-all {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .third-border3 {
+    display: flex;
+    z-index: 2;
+    border: 1px solid #d1d1d1;
+    background-color: #ffffff;
+    border-width: "thin";
+
+    margin-bottom: 5%;
+    padding: auto;
+  }
+  .third-border3:hover {
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .third-number3 {
+    margin-top: -7%;
+    z-index: -3;
+  }
+
+  .third-number5 {
+    margin-top: -8%;
+    z-index: -3;
+  }
+
+  .third-image {
+    max-width: auto;
     z-index: 3;
     margin-right: 2%;
   }
-  
-  .third-text4{
-    margin-top: 1%;
-    font-size: calc(0.1rem + 1vw);
-    
-    max-width: 70%;
+
+  .third-texts {
+    display: flex;
+  }
+
+  .third-text1s {
+    overflow: visible;
+  }
+
+  .third-text3s {
+    max-width: 15%;
+    margin-right: auto;
+  }
+
+  .third-text3 {
+    position: absolute;
+    font-family: "Gill Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.5vw;
+    top: -15%;
+    left: -15%;
+    max-width: 100%;
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word;
   }
 
-
-  .third-border3{
-    display: flex;
-    z-index: 200;
-    border: 1px solid #D1D1D1;
-    background-color: #FFFFFF;
-    border-width:"thin";
-    margin-right: 4.4%;
-    padding: 2% 2% 2% 8px;
+  .third-text4 {
+    margin-top: 1%;
+    font-size: calc(0.5rem + 1vw);
+    z-index: 3;
+    max-width: 250px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
   }
-  .third-border3:hover{
-    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .third-number3{
-   
-    max-width: 10vw;
-    height: 3vh;
-    margin-top: -9.2%;
-  }
-  .third-number5{
-   
-    max-width: 10vw;
-    height: 3vh;
-    margin-top: -10.2%;
-  }
+}
 
-  .third-cards{
-    margin-left: 7%;
-    margin-top: 5%;
-    
-  }
-  .third-bdr-all{
-    display: flex;
-    margin-top: 3.5%;
-    position: relative;
-    z-index: 100;
-    
-  }
 
-  @media (max-width:460px){
-  
-    .third-cards{
-      margin-left: 5%;
-      margin-top: 5%;
-      
-    }
-   
-    .third-bdr-all{
-      display: flex;
-      flex-direction: column;
-      
-    }
-
-    .third-border3{
-      display: flex;
-      z-index: 2;
-      border: 1px solid #D1D1D1;
-      background-color: #FFFFFF;
-      border-width:"thin";
-     
-      margin-bottom: 5%;
-      padding: auto;
-    }
-    .third-border3:hover{
-      box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
-    }
-
-    .third-number3{
-      margin-top: -7%;
-     
-    }
-
-    .third-number5{
-      margin-top: -8%;
-     
-    }
-  
-
-    .third-image{  
-      max-width:auto;
-      z-index: 3;
-      margin-right: 2%;
-    }
-    
-
-    .third-texts{
-      display:flex; 
-    }
-    
-    .third-text1s{
-      overflow: visible;
-    }
-
-    .third-text3s{
-      max-width: 15%;
-      margin-right: auto;
-    }
-    
-      .third-text3{
-        position: absolute;
-        font-family: 'Gill Sans';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 0.5vw;
-      top: -15%;
-      left: -15%;
-      max-width: 100%;
-      overflow-wrap: break-word;
-      word-wrap: break-word;
-      word-break: break-word;
-      }
-    
-      .third-text4{
-        margin-top: 1%;
-        font-size: calc(0.5rem + 1vw);
-        z-index: 3;
-        max-width: 250px;
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-        word-break: break-word;
-      }
-    
+/*-----------*/
+.three-sec{
+  margin-top: 10rem;
+  margin-left: 10%;
   
 }
+
+.three-text{
+  font-family: "Prata";
+  font-size: 2rem;
+}
+
+.three-main-divs{
+  position: relative;
+  display: flex;
+  max-width: 80%;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  z-index: 2;
+  
+}
+
+.three-sub-div{
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  border: 1px solid #d1d1d1;
+  background-color: #ffffff;
+  border-width: "thin";
+  padding: 1rem;
+}
+
+.three-sub-div > p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.three-sub-div > img{
+  width: 15%;
+  height: auto;
+  margin-right: 1rem;
+}
+
+
+.three-texts{
+  font-size: 1.8rem;
+  font-family: "prata";
+  color: #00000033;
+  position: absolute;
+  bottom: 88%;
+  z-index: -2;
+}
+
+.three-texts1{
+  font-size: 1.8rem;
+  font-family: "prata";
+  color: #00000033;
+  position: absolute;
+  bottom: 88%;
+  z-index: -2;
+}
+
+.three-texts2{
+  font-size: 1.8rem;
+  left:55%;
+  font-family: "prata";
+  color: #00000033;
+  position: absolute;
+  bottom: 83%;
+  z-index: -2;
+}
+
+.three-texts3{
+  font-size: 1.8rem;
+  font-family: "prata";
+  color: #00000033;
+  position: absolute;
+  bottom: 88%;
+  z-index: -2;
+}
+
+.three-texts4{
+  font-size: 1.8rem;
+  left:55%;
+  font-family: "prata";
+  color: #00000033;
+  position: absolute;
+  bottom: 86.5%;
+  z-index: -2;
+}
+
+.three-texts5{
+  font-size: 1.8rem;
+  font-family: "prata";
+  color: #00000033;
+  position: absolute;
+  bottom: 88%;
+  z-index: -2;
+}
+
+
+
+/*---tab**/
+@media (max-width: 770px){
+  .three-sec{
+    margin-top: 10rem;
+    margin-left: 18%;
+    
+  }
+
+  .three-main-divs{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    z-index: 2;
+  }
+
+  .three-texts1{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 94%;
+    z-index: -2;
+  }
+  
+  .three-texts2{
+    font-size: 1.8rem;
+    left:3%;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 35%;
+    z-index: -2;
+  }
+
+  .three-texts3{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 95%;
+    z-index: -2;
+  }
+
+  .three-texts4{
+    font-size: 1.8rem;
+    left:3%;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 38%;
+    z-index: -2;
+  }
+  
+  .three-texts5{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 92.5%;
+    z-index: -2;
+  }
+  
+}
+
+/*---ML*/
+@media (max-width:460px) {
+  .three-texts1{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 95%;
+    z-index: -2;
+  }
+  
+  .three-texts2{
+    font-size: 1.8rem;
+    left:5%;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 40%;
+    z-index: -2;
+  }
+  
+  .three-texts3{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 95%;
+    z-index: -2;
+  }
+
+  .three-texts4{
+    font-size: 1.8rem;
+    left:5%;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 49%;
+    z-index: -2;
+  }
+
+  .three-texts5{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 92.5%;
+    z-index: -2;
+  }
+  
+}
+
+/* SE  */
+@media (max-width:420px) {
+  .three-texts1{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 95%;
+    z-index: -2;
+  }
+  
+  .three-texts2{
+    font-size: 1.8rem;
+    left:5%;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 42%;
+    z-index: -2;
+  }
+  
+  .three-texts3{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 95%;
+    z-index: -2;
+  }
+
+  .three-texts4{
+    font-size: 1.8rem;
+    left:5%;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 49%;
+    z-index: -2;
+  }
+
+  .three-texts5{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 92.5%;
+    z-index: -2;
+  }
+  
+}
+
+/* 12pro*/
+@media (max-width:393px) {
+  .three-texts1{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 95%;
+    z-index: -2;
+  }
+  
+  .three-texts2{
+    font-size: 1.8rem;
+    left:5%;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 45%;
+    z-index: -2;
+  }
+  
+  .three-texts3{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 95%;
+    z-index: -2;
+  }
+
+  .three-texts4{
+    font-size: 1.8rem;
+    left:5%;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 53%;
+    z-index: -2;
+  }
+
+  .three-texts5{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 92.5%;
+    z-index: -2;
+  }
+  
+}
+
+/* SE  */
+@media (max-width:376px) {
+  .three-texts1{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 95%;
+    z-index: -2;
+  }
+  
+  .three-texts2{
+    font-size: 1.8rem;
+    left:5%;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 45%;
+    z-index: -2;
+  }
+  
+  .three-texts3{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 95%;
+    z-index: -2;
+  }
+
+  .three-texts4{
+    font-size: 1.8rem;
+    left:5%;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 49%;
+    z-index: -2;
+  }
+
+  .three-texts5{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 92.5%;
+    z-index: -2;
+  }
+  
+}
+
+/*samsung*/
+@media (max-width:362px) {
+  .three-texts1{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 95%;
+    z-index: -2;
+  }
+  
+  .three-texts2{
+    font-size: 1.8rem;
+    left:5%;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 45%;
+    z-index: -2;
+  }
+  
+  .three-texts3{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 95%;
+    z-index: -2;
+  }
+
+  .three-texts4{
+    font-size: 1.8rem;
+    left:5%;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 50%;
+    z-index: -2;
+  }
+
+  .three-texts5{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 92.5%;
+    z-index: -2;
+  }
+  
+}
+
+/* Msmall */
+@media (max-width:321px) {
+  .three-texts1{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 95%;
+    z-index: -2;
+  }
+  
+  .three-texts2{
+    font-size: 1.8rem;
+    left:5%;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 43%;
+    z-index: -2;
+  }
+  
+  .three-texts3{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 95%;
+    z-index: -2;
+  }
+
+  .three-texts4{
+    font-size: 1.8rem;
+    left:5%;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 55%;
+    z-index: -2;
+  }
+
+  .three-texts5{
+    font-size: 1.8rem;
+    font-family: "prata";
+    color: #00000033;
+    position: absolute;
+    bottom: 92.5%;
+    z-index: -2;
+  }
+  
+}
+
+
 
 
 
 /*--------------- Fourth ------------------------------------------------------*/
 
-.fourth-sec{
+.fourth-sec {
   /* position: relative;
   left: 44%;
   top: 40vh; */
-  margin-top: 10%; 
+  margin-top: 10%;
   margin-left: 18%;
 }
 
-.fourth-texts{
+.fourth-texts {
   display: flex;
   margin-left: 15%;
   z-index: 1;
 }
 
-.link{
-  text-decoration: none ;
+.link {
+  text-decoration: none;
 }
 
-.fourth-text{
-
-font-family: 'Prata';
-font-style: normal;
-font-weight: 400;
-font-size : clamp(1rem, 3vw, 2rem);
-z-index: 1;
+.fourth-text {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(1rem, 3vw, 2rem);
+  z-index: 1;
 }
 
 .video-responsive {
   overflow: hidden;
   margin-right: 5%;
-  
+
   height: auto;
 }
 
-
-.iframe{
- min-height: 60vh;
- width: 30vw;
+.iframe {
+  height: 60vh;
+  width: 50vw;
 }
 
-
-.fourth-rect{
+.fourth-rect {
   z-index: -2;
   margin-right: 6%;
   min-height: 58vh;
   width: 29vw;
-
 }
 
-.fourth-lasttext{
+.fourth-lasttext {
   text-decoration: none;
   color: #000000;
-  font-family: 'Prata';
+  font-family: "Prata";
   font-style: normal;
   font-weight: 400;
   font-size: 0.8rem;
   line-height: 150%;
 }
 
-@media screen and (max-width:425px){
+.fourth-videos{
+ display:flex;
+ max-width:90%;
+ height:auto ;
+ margin-left:25%;
+  margin-top:5%;
+  z-index:11
+}
 
+@media screen and (max-width: 560px) {
+  .fourth-videos{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    width:70%;
+    height:auto;
+    margin-left:20%;
+    margin-top:5%;
+    gap: 4rem;
+    z-index:11
+   }
+
+   .iframe {
+    height: 38vh;
+    width: 70vw;
+  }
 }
 
 /* ------fifth sec ---------*/
 
-.fifth-sec{
+.fifth-sec {
   /* position: relative;
   top: 60vh;
   left: 40%; */
   margin-left: 40%;
-  margin-top: 8%; 
- margin-right: auto;
+  margin-top: 8%;
+  margin-right: auto;
 }
 
-.fifth-text1{
+.fifth-text1 {
   /* position: absolute; */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   z-index: 1;
 
-font-family: 'Prata';
-font-style: normal;
-font-weight: 400;
-font-size : clamp(1rem, 3vw, 2rem);
-line-height: 150%;
-}
-
-.fifth-img-div{
-  display: flex;
-}
-
-.fifth-img{
-  height: auto;
-  max-width: 20%;
-  margin-left: 2%;
-}
-
-.round-img{
-  max-width: 5%;
-  height: auto;
-  margin-top: -3%;
-  margin-left: 25%;
-  z-index: 0;
-}
-
-.fifth-play1{
-  height: auto;
-  max-width: 3%;
-  margin-top: -1.5%;
-  margin-left: 13%;
-  margin-right: 6.8%;
-}
-
-.fifth-play2{
-  height: auto;
-  max-width: 1.5%;
- 
-  margin-top: -2.5%;
-  margin-left: 14%;
-  margin-right: 7.2%;
-}
-
-@media (max-width:600px){
-  
-.fifth-img-div{
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 80%;
-  margin-left: 8%;
-}
-
-  .fifth-img{
-    height: auto;
-    max-width: 28vw;
-    margin-left: 10%;
-    margin-bottom: 2%;
-  }
-}
-
-/*-------------- sixth -------------*/
-.sixth-sec{
-  /* position: relative;
-  top: 68vh;
-  left: 11%; */
-  margin-top: 7%;
-  margin-left: 11%
-}
-
-.sixth-main-cards-div{
-  display: flex;
-  margin-top: 2%;
-  flex-wrap: nowrap;
-  max-width: 90%;
-}
-
-.sixth-card-bdr{
-  border: 1px solid #D1D1D1;
- 
-
-  /* display: flex; */
-  margin: 1% 1.5% 0 0;
-}
-
-.sixth-card-all{
-  margin-bottom: 1%;
-  margin-left: 4%;
-}
-
-.sixth-card-img{
-  height: auto;
-  max-width: 25%;
-  margin-top: -10%;
-  margin-left: 2%;
-  margin-bottom: 3%;
-}
-
-.sixth-card-colon{
-  height: auto;
-  max-width: 25%;
-  margin-top: -15%;
-  margin-left: 50%;
-  margin-bottom: 14.5%;
-  
-}
-
-.sixth-card-name{
-  font-family: 'Prata';
+  font-family: "Prata";
   font-style: normal;
-  margin-bottom: 2.2%;
   font-weight: 400;
-  font-size: 2vw;
+  font-size: clamp(1rem, 3vw, 2rem);
   line-height: 150%;
 }
 
-.sixth-card-text{
-  font-family: 'Gill Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 1vw;
-line-height: 150%;
-
+.fifth-img-div {
+  display: flex;
 }
 
-.sixth-button{
-  margin-top: 2%;
-  margin-left: 40%;
-  margin-bottom: 2%;
+
+.fifth-ifrmae{
+  margin-right: 1rem;
+  height: 75vh;
+  width: 30vw;
 }
-/* 
-.sixthline{
-margin-left: 8%;
 
-} */
-
-/* 
-.sixthcircle{
-
-} */
-
-@media screen and (max-width:650px){
-  .sixth-main-cards-div{
+@media (max-width: 780px) {
+  .fifth-img-div {
     display: flex;
-    margin-top: 5%;
     flex-wrap: wrap;
-  }
-
-  .sixth-card-bdr{
-    margin: 1% 1.5% 10% 0;
+    max-width: 90%;
+    margin-left:10%;
     
   }
 
-  .sixth-button{
-   visibility: hidden;
+
+  .fifth-ifrmae{
+    height: 80vh;
+     width: 80%;
+    margin-bottom: 3rem;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .fifth-img-div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin-left:10%;
+    
   }
 
-  .sixth-card-img{
-    height: auto;
-    max-width: 10%;
-    margin-top: -10%;
-    margin-left: 2%;
-    margin-bottom: 3%;
+
+  .fifth-ifrmae{
+    height: 75vh;
+     width: 90%;
+    margin-bottom: 3rem;
   }
-
-  .sixth-card-colon{
-    height: auto;
-    max-width: 20%;
-    margin-top: -5%;
-    margin-left: 45%;
-    margin-bottom: 5%;
-  }
-
-  .sixth-card-name{
-    font-family: 'Prata';
-    font-style: normal;
-    margin-bottom: 2.2%;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 150%;
-  }
-
-  .sixth-card-text{
-    font-family: 'Gill Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.6rem;
-  line-height: 150%;
-  
-  }
-
-}
-
-
-
-/* ------- seventh ------*/
-.seventh-sec{
-  /* position: relative;
-  top: 82vh;
-  left: 11%; */
-   margin-left: 12%;
-  margin-top: 5%; 
-  
-  max-width: 90%;
-}
-
-.seventh-text1{
-  font-family: 'Prata';
-font-style: normal;
-font-weight: 400;
-font-size: 2vw;
-line-height: 150%;
-}
-
-
-
-.seventh-card-bdr{
-  
-  
-  max-width: 28%;
-  margin-right: 3%;
- 
-}
-
-.seventh-card-img1{
-  height: auto;
-  max-width: 92%;
-
-
-}
-
-
-.seventh-card-img2{
-  
-  z-index: 1;
-  min-height: 10vh;
-  max-width: 14%;
-  margin-top: -10%;
-  margin-left: 70%;
   
 }
 
-.seventh-card-img3{
-  min-height: 6vh;
-  max-width: 10%;
-  z-index: 2;
-  margin-bottom: 2%;
-  margin-left: -12%;
-}
 
 
-.seventh-card-text1{
-
-  font-family: 'Prata';
-font-style: normal;
-font-weight: 400;
-font-size: calc(0.25rem + 1vw);
-line-height: 150%;
- margin-top: -5.5%;
-}
-
-.seventh-card-text2{
-
-  font-family: 'Gill Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: calc(0.1rem + 0.8vw);
-  line-height: 150%;
-  margin-top: 1%;
-  max-width: 90%;
-overflow-wrap: break-word;
-word-wrap: break-word;
-word-break: break-word;
-}
-
- 
 /*----six new-----*/
 .avaible2 {
- margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 8%;
   display: flex;
   padding-top: 35px;
   flex-direction: column;
-
 }
 
-.slide-list1{
+.slide-list1 {
   display: flex;
   list-style: none;
   padding: 0;
-  
-  width: 80vw;
-
+  padding: 1rem 0 0;
   overflow: hidden;
-
-  margin: 0 12%;
+  position: relative;
+  width: 92vw;
+  margin: 0 auto;
   max-width: 75rem;
-  
 }
 
-.slide-card-bdr{
-  border: 1px solid #D1D1D1;
-  width: 22vw;
+.slide-list-item {
+  flex: 0 0 auto;
+  width: 33.33%;
+  padding: 0;
+  /* margin-right: 1rem; */
+}
 
+.slide-card-bdr {
+  border: 1px solid #d1d1d1;
+  width: 28vw;
+  min-height: 33vh;
   /* display: flex; */
-  margin: 1% 5% 0 0;
+  margin: 1% 1% 0 5%;
 }
 
-.slide-card-all{
+.slide-card-all {
   margin-bottom: 1%;
-  margin-right: 4%;
+  margin-top: 7%;
+  /* margin-right: 4%; */
   margin-left: 4%;
- 
 }
 
-.slide-card-img{
+.slide-card-img {
   position: relative;
   height: auto;
   max-width: 25%;
   margin-top: -5%;
- 
+
   margin-bottom: 3%;
   z-index: 100;
 }
 
-.slide-card-colon{
+.slide-card-colon {
   height: auto;
   max-width: 25%;
-  margin-top: -15%;
-  margin-left: 50%;
+  margin-top: -12%;
+  margin-left: 80%;
   margin-bottom: 14.5%;
-  
 }
 
-.slide-card-name{
-  font-family: 'Prata';
+.slide-card-name {
+  font-family: "Prata";
   font-style: normal;
   margin-bottom: 2.2%;
   font-weight: 400;
@@ -902,72 +1409,97 @@ word-break: break-word;
   line-height: 150%;
 }
 
-.slide-card-text{
-  font-family: 'Gill Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 1vw;
-line-height: 150%;
-
+.slide-card-text {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.87rem;
+  line-height: 150%;
 }
 
-@media(max-width:700px){
-  .slide-card-bdr{
-    border: 1px solid #D1D1D1;
-    width: 70vw;
-  
-    /* display: flex; */
-    margin: 1% 5% 0 0;
+@media (max-width: 780px) {
+  .slide-list1 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding: 1rem 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 90rem;
   }
 
-  .slide-card-name{
-    font-family: 'Prata';
+  .slide-list-item {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  .slide-card-bdr {
+    border: 1px solid #d1d1d1;
+    width: 75vw;
+    height: auto;
+    margin-left: 2rem;
+    height: auto;
+
+    /* display: flex; */
+  }
+
+  .slide-card-all {
+    margin-bottom: 1%;
+    margin-top: 3%;
+    /* margin-right: 4%; */
+    margin-left: 4%;
+  }
+  
+
+  .slide-card-colon {
+    height: auto;
+    max-width: 25%;
+    margin-top: -6%;
+    margin-left: 80%;
+    margin-bottom: 14.5%;
+  }
+
+  .slide-card-name {
+    font-family: "Prata";
     font-style: normal;
     margin-bottom: 2.2%;
     font-weight: 400;
     font-size: 1rem;
     line-height: 150%;
   }
-  
-  .slide-card-text{
-    font-family: 'Gill Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.75rem;
-  line-height: 150%;
-  
+
+  .slide-card-text {
+    font-family: "Gill Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 150%;
   }
-  
 }
-  
-
-
-
 
 /*---seven new----*/
 
 .avaible1 {
- 
   margin-bottom: 5%;
   display: flex;
   padding-top: 35px;
   flex-direction: column;
-
 }
 
-.slide-card-text1{
-
-  font-family: 'Prata';
-font-style: normal;
-font-weight: 400;
-font-size:calc(0.25rem + 1vw);
-line-height: 150%;
-margin-top: -4%;
+.slide-card-text1 {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(0.25rem + 1vw);
+  line-height: 150%;
+  margin-top: -4%;
 }
 
-.slide-card-text2{
-
-  font-family: 'Gill Sans';
+.slide-card-text2 {
+  font-family: "Gill Sans";
   font-style: normal;
   font-weight: 400;
   font-size: calc(0.1rem + 0.8vw);
@@ -979,65 +1511,101 @@ margin-top: -4%;
   word-break: break-word;
 }
 
-.slide-img{
+.slide-img {
   height: auto;
-  max-width: 27vw;
+  width: 23vw;
 }
 
-.slide-list{
+.slide-list {
   display: flex;
   list-style: none;
   padding: 0;
-  width: 75vw;
+  width: 98vw;
 
   overflow: hidden;
 
-  margin: 0 0 0 12%;
-  max-width: 77rem;
-  
-}
-
-@media (max-width:700px){
-  
-.slide-img{
-  height: auto;
-  max-width: 47vw;
+  margin: 0 0 0 2%;
+  max-width: 90rem;
 }
 
 
-.slide-card-text1{
+@media (max-width: 700px) {
+  .slide-img {
+    height: 35vh;
+    width: 50vw;
+  }
 
-  font-family: 'Prata';
-font-style: normal;
-font-weight: 400;
-font-size:0.8rem;
-line-height: 150%;
-margin-top: -4%;
+  .slide-card-text1 {
+    font-family: "Prata";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    margin-top: -1%;
+  }
+
+  .slide-card-text2 {
+    font-family: "Gill Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 150%;
+    margin-top: 1%;
+    max-width: 80%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
 }
 
-.slide-card-text2{
+/*----Eight -------*/
 
-  font-family: 'Gill Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.6rem;
-  line-height: 150%;
-  margin-top: 1%;
-  max-width: 90%;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word;
+.carousel__list8 {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  padding: 1rem 0 0;
+  overflow: hidden;
+  position: relative;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 75rem;
 }
 
+.carousel__item8 {
+  flex: 0 0 auto;
+  width: 33.33%;
+  padding: 0;
+  margin-right: 2rem;
 }
 
+@media (max-width: 700px) {
+  .carousel__list8 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding: 1rem 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 70vw;
+    margin: 0 auto;
+    max-width: 50rem;
+    margin-left: 20%;
+  }
+
+  .carousel__item8 {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 0;
+  }
+}
 
 /********************************instagram ****************/
 .carousel__list {
   display: flex;
   list-style: none;
   padding: 0;
-  
+
   padding: 1rem 0 0;
   overflow: hidden;
   position: relative;
@@ -1053,18 +1621,16 @@ margin-top: -4%;
   margin-right: 10%;
 }
 
-.carousel__img{
+.carousel__img {
   max-width: 100%;
   height: auto;
 }
 
-
 /*----*/
 .instagram {
- 
   margin-top: 5%;
   margin-bottom: 100px;
-  
+
   transition: filter 300ms linear;
 }
 
@@ -1100,7 +1666,6 @@ margin-top: -4%;
 
 /********************************available *********************************/
 .avaible {
- 
   margin-bottom: 11%;
   display: flex;
   padding-top: 35px;
@@ -1108,18 +1673,17 @@ margin-top: -4%;
   align-items: center;
   justify-content: center;
   background: url(/src/assets/images/available.png);
-  
 }
 
 .avaible h2 {
   /* / margin-bottom: 5px; / */
-  
-  font-family: 'Prata';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 150%;
-padding-bottom: 15px;
+
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 150%;
+  padding-bottom: 15px;
 }
 
 .avaible section {
@@ -1145,842 +1709,891 @@ padding-bottom: 15px;
 
 /* ---------------------------------------------------------------------footer ------------------------------------------------------------------------------------*/
 
-
 /* ======================================footer =====================================*/
-.footer{
+.footer {
   position: relative;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 99.9%;
   height: 350px;
   margin-top: 10%;
-  background: #2B230A;
-  font-family: 'Gill Sans';
+  background: #2b230a;
+  font-family: "Gill Sans";
   font-weight: 300;
-
-
+  overflow-x: hidden;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-  
-  
-  .section1{
-      position: absolute;
-      left: 9.45%;
-      right: 74.06%;
-      top: 13.00%;
-      bottom: 11.43%;
-  }
-  .piczero{
+
+.section1 {
+  position: absolute;
+  left: 9.45%;
+  right: 74.06%;
+  top: 13%;
+  bottom: 11.43%;
+}
+.piczero {
   position: absolute;
   height: 50px;
   width: 50px;
   left: 10%;
-  
-  }
-  .mobilelogo{
+}
+.mobilelogo {
   position: absolute;
   height: 15px;
   width: 10px;
-  left: 12.0%;
+  left: 12%;
   right: 20.83%;
   top: 28.33%;
   bottom: 8.33%;
-  }
-  .mobnum{
-      position: absolute;
-      width: 100px;
-      height: 24px;
-      left: 50px;
-      right: 1000px;
-      top: 25.50%;
-      bottom: 8.33%;
-      margin-top: 10px;
-      font-family: 'Gill Sans';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-      color: #FFFFFF;   
-  }
-  .maillogo{
-      height: 13px;
-      width: 15px;
-      position: absolute;
-      left: 11.0%;
-      right: 20.83%;
-      top: 41.33%;
-      bottom: 8.33%
-  }
-  .mailid{
-      margin-left: 23px;
-      color: white;
-      font-size: 12px;
-      position: absolute;
-      margin-top: 12px;      
-      left: 12.0%;
-      right: 19.83%;
-      top: 37.33%;
-      bottom: 8.33%;  
-  }
-  .sociallogo{
-      position: absolute;
-  
-      left: 12.0%;
-      right: 20.83%;
-      top: 55.33%;
-      bottom: 8.33%;  
-  }
-  .fblogo{
-      position: absolute;
-      height: 15px;
-      width: 11px;
-      left: 1.0%;
-  }
-  .tweeterlogo{
-      position: absolute;
-      height: 15px;
-      width: 15px;
-      left: 29.0%;
-  }
-  .pinlogo{
-      position: absolute;
-      height: 15px;
-      width: 15px;
-      left: 60.0%;
-  }
-  .instalogo{
-      position: absolute;
-      height: 15px;
-      width: 15px;
-      left: 90.0%;
-  }
-  
-  
-  .section2{
-      position: absolute;
-      
-      left: 32.45%;
-      right: 74.06%;
-      top: 13.00%;
-      bottom: 11.43%;
-  
-      color: white;
-  }
-  .sec2head{
-     font-family: 'Prata';
-font-style: normal;
-font-weight: 100;
-font-size: 21px;
-line-height: 170%;
-color: white;
+}
+.mobnum {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  left: 46px;
+  right: 1000px;
+  top: 25.5%;
+  bottom: 8.33%;
+  margin-top: 10px;
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+}
+.maillogo {
+  height: 13px;
+  width: 15px;
+  position: absolute;
+  left: 11%;
+  right: 20.83%;
+  top: 41.33%;
+  bottom: 8.33%;
+}
+.maillogos {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  left: 11%;
+  right: 20.83%;
+  top: 55.33%;
+  bottom: 8.33%;
+}
+.mailid {
+  margin-left: 23px;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  margin-top: 12px;
+  left: 12%;
+  right: 19.83%;
+  top: 37.33%;
+  bottom: 8.33%;
+}
+.mailids{
+  margin-left: 23px;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  margin-top: 12px;
+  left: 12%;
+  right: 19.83%;
+  top: 51.33%;
+  bottom: 8.33%;
+}
+.sociallogo {
+  position: absolute;
 
-width: 120px;
+  left: 12%;
+  right: 20.83%;
+  top: 70.33%;
+  bottom: 8.33%;
+}
+.fblogo {
+  position: absolute;
+  height: 15px;
+  width: 11px;
+  left: 1%;
+}
+.tweeterlogo {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  left: 29%;
+}
+.pinlogo {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  left: 60%;
+}
+.instalogo {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  left: 60%;
+}
 
-  }
-  .sec2compo{
-      width: 100px;
-      font-size: 12px;
-  }
-  .section3{
-      position: absolute;
-      
-      left: 50.45%;
-      right: 74.06%;
-      top: 13.00%;
-      bottom: 11.43%;
-  
-      color: white;
-  }
-  .sec3head{
-    font-family: 'Prata';
-font-style: normal;
-font-weight: 100;
-font-size: 21px;
-line-height: 170%;
-color: white;
-      width: 150px;
-  }
-  .sec3compo{
-      width: 120px;
-      font-size: 12px;
-  }
-  .section4{
-      position: absolute;
-      
-      left: 70.45%;
-      right: 74.06%;
-      top: 13.00%;
-      bottom: 11.43%;
-  
-      color: white;
-  }
-  .sec4head{
-    font-family: 'Prata';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 21px;
-    line-height: 170%;
+.section2 {
+  position: absolute;
+
+  left: 32.45%;
+  right: 74.06%;
+  top: 13%;
+  bottom: 11.43%;
+
+  color: white;
+}
+.sec2head {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 21px;
+  line-height: 170%;
+  color: white;
+
+  width: 126px;
+}
+.sec2compo {
+  width: 100px;
+  font-size: 12px;
+}
+.section3 {
+  position: absolute;
+
+  left: 50.45%;
+  right: 74.06%;
+  top: 13%;
+  bottom: 11.43%;
+
+  color: white;
+}
+.sec3head {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 21px;
+  line-height: 170%;
+  color: white;
+  width: 180px;
+}
+.sec3compo {
+  width: 120px;
+  font-size: 12px;
+}
+.section4 {
+  position: absolute;
+
+  left: 70.45%;
+  right: 74.06%;
+  top: 13%;
+  bottom: 11.43%;
+
+  color: white;
+}
+.sec4head {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 21px;
+  line-height: 170%;
+  color: white;
+  width: 150px;
+}
+.sec4form {
+  height: 44px;
+  width: 252px;
+}
+.sec4inputtext {
+  height: 28px;
+  width: 200px;
+  background-color: #2b230a;
+  border-color: #ffffff;
+  border-width: 0.1px;
+  text-align-last: left;
+  padding: 5%;
     color: white;
-      width: 150px;
-  }
-  .sec4form{
-      height: 44px;
-      width: 252px;
-  }
-  .sec4inputtext{
-      height: 28px;
-      width: 200px;
-      background-color: #2B230A;
-      border-color: #FFFFFF;
-      border-width:0.1px ;
-      text-align-last: left;
-     padding: 3%;
-     
-  }
-  .formbutton{
-      height: 28px;
-      width: 200px;
-      background-color: rgba(252, 179, 48, 1);
-      border-style: none;
-  
-      color: #FFFFFF;
-      right: 6px;
-      position: relative;
-  }
-  .divider{
+}
+.formbutton {
+  height: 28px;
+  width: 200px;
+  background-color: rgba(252, 179, 48, 1);
+  border-style: none;
+  cursor: pointer;
+
+  color: #ffffff;
+  position: relative;
+}
+.divider {
   position: absolute;
   width: 100%;
   height: 1px;
   left: 1px;
   top: 320px;
   z-index: 99;
-  background-color: #2B230A;
-  
-  border: 0.0001px solid ;
+  background-color: #2b230a;
+
+  border: 0.0001px solid;
   border-style: none;
-  }
-  .footertext{
-      position: absolute;
-      width: 100%;
-      top: 330px;
-  
-      color: white;
-      font-size: 12px;
-  }
-  input[type="Email"]::placeholder{
-    text-align: center;
+}
+.footertext {
+  position: absolute;
+  width: 100%;
+  top: 330px;
+
+  color: white;
+  font-size: 12px;
+}
+input[type="Email"]::placeholder {
+  text-align: center;
+}
+
+/* -------------------------------------------------------------For Mobile----------------------------------------------------------------*/
+@media (max-width: 690px) {
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 99.9%;
+    height: 830px;
+    margin-top: 10%;
+    background: #2b230a;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-    /* -------------------------------------------------------------For Mobile----------------------------------------------------------------*/
-    @media(max-width:690px){
-      .footer{
-          position: relative;
-          left: 0;
-          bottom: 0;
-          width: 99.9%;
-          height: 830px;
-          margin-top: 10%;
-          background: #2B230A;
-  
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-        }
-          
-          
-          .section1{
-              position: absolute;
-              left: 9.45%;
-              right: 74.06%;
-              top: 4.00%;
-              bottom: 11.43%;
-          }
-          .piczero{
-          position: absolute;
-          height: 50px;
-          width: 50px;
-          left: 10%;
-          
-          }
-          .mobilelogo{
-          position: absolute;
-          height: 15px;
-          width: 10px;
-          left: 20.0%;
-          right: 20.83%;
-          top: 10.33%;
-          bottom: 8.33%;
-          }
-          .mobnum{
-              position: absolute;
-              width: 100px;
-              height: 24px;
-              left: 45px;
-              right: 1000px;
-              top: 9.33%;
-              bottom: 8.33%;
-              margin-top: 10px;
-              font-family: 'Gill Sans';
-              font-style: normal;
-              font-weight: 400;
-              font-size: 12px;
-              color: #FFFFFF;   
-          }
-          .maillogo{
-              height: 13px;
-              width: 15px;
-              position: absolute;
-              left: 14.5%;
-              right: 20.83%;
-              top: 15.33%;
-              bottom: 8.33%
-          }
-          .mailid{
-              margin-left: 23px;
-              color: white;
-              font-size: 12px;
-              position: absolute;
-              margin-top: 12px;      
-              left: 40.0%;
-              right: 19.83%;
-              top: 13.33%;
-              bottom: 8.33%;  
-          }
-          .sociallogo{
-              position: absolute;
-          
-              left: 12.0%;
-              right: 20.83%;
-              top: 20.33%;
-              bottom: 8.33%;  
-          }
-          .fblogo{
-              position: absolute;
-              height: 15px;
-              width: 11px;
-              left: 1.0%;
-          }
-          .tweeterlogo{
-              position: absolute;
-              height: 15px;
-              width: 15px;
-              left: 50.0%;
-          }
-          .pinlogo{
-              position: absolute;
-              height: 15px;
-              width: 15px;
-              left: 100.0%;
-          }
-          .instalogo{
-              position: absolute;
-              height: 15px;
-              width: 15px;
-              left: 150.0%;
-          }
-          
-          
-          .section2{
-              position: absolute;
-              
-              left: 12.45%;
-              right: 74.06%;
-              top: 28.00%;
-              bottom: 11.43%;
-          
-              color: white;
-          }
-          .sec2head{
-              font-size: 18px;
-              width: 120px;
-          }
-          .sec2compo{
-              width: 100px;
-              font-size: 12px;
-          }
-          .section3{
-              position: absolute;
-              
-              left: 12.45%;
-              right: 74.06%;
-              top: 53.00%;
-              bottom: 11.43%;
-          
-              color: white;
-          }
-          .sec3head{
-              font-size: 18px;
-              width: 150px;
-          }
-          .sec3compo{
-              width: 120px;
-              font-size: 12px;
-          }
-          .section4{
-              position: absolute;
-              
-              left: 12.45%;
-              right: 74.06%;
-              top: 78.00%;
-              bottom: 11.43%;
-          
-              color: white;
-          }
-          .sec4head{
-              font-size: 18px;
-              width: 150px;
-          }
-          .sec4form{
-              height: 44px;
-              width: 252px;
-          }
-          .sec4inputtext{
-              height: 28px;
-              width: 200px;
-              background-color: #2B230A;
-              border-color: #FFFFFF;
-             
-          }
-          .formbutton{
-              height: 28px;
-              width: 200px;
-              background-color: rgba(252, 179, 48, 1);
-              border-style: none;
-          
-              color: #FFFFFF;
-          }
-          .divider{
-          position: absolute;
-          width: 100%;
-          height: 1px;
-          left: 1px;
-          top: 800px;
-          z-index: 99;
-          background-color: #2B230A;
-          
-          border: 0.0001px solid ;
-          border-style: none;
-          }
-          .footertext{
-              position: absolute;
-              width: 100%;
-              top: 810px;
-          
-              color: white;
-              font-size: 12px;
-          }
-          input[type="Email"]::placeholder{
-            text-align: center;
-          }
-    }
-  
-      /* -------------------------------------------------------------For Tab----------------------------------------------------------------*/
-      @media(min-width: 690px ) and (max-width: 770px ){
-          .footer{
-              position: relative;
-              left: 0;
-              bottom: 0;
-              width: 99.9%;
-              height: 530px;
-              margin-top: 10%;
-              background: #2B230A;
-      
-              display: block;
-              margin-left: auto;
-              margin-right: auto;
-            }
-              
-              
-              .section1{
-                  position: absolute;
-                  left: 20.45%;
-                  right: 74.06%;
-                  top: 4.00%;
-                  bottom: 11.43%;
-              }
-              .piczero{
-              position: absolute;
-              height: 50px;
-              width: 50px;
-              left: 10%;
-              
-              }
-              .mobilelogo{
-              position: absolute;
-              height: 15px;
-              width: 10px;
-              left: 20.0%;
-              right: 20.83%;
-              top: 13.33%;
-              bottom: 8.33%;
-              }
-              .mobnum{
-                  position: absolute;
-                  width: 100px;
-                  height: 24px;
-                  left: 45px;
-                  right: 1000px;
-                  top: 11.33%;
-                  bottom: 8.33%;
-                  margin-top: 10px;
-                  font-family: 'Gill Sans';
-                  font-style: normal;
-                  font-weight: 400;
-                  font-size: 12px;
-                  color: #FFFFFF;   
-              }
-              .maillogo{
-                  height: 13px;
-                  width: 15px;
-                  position: absolute;
-                  left: 14.5%;
-                  right: 20.83%;
-                  top: 20.33%;
-                  bottom: 8.33%
-              }
-              .mailid{
-                  margin-left: 23px;
-                  color: white;
-                  font-size: 12px;
-                  position: absolute;
-                  margin-top: 12px;      
-                  left: 40.0%;
-                  right: 19.83%;
-                  top: 17.33%;
-                  bottom: 8.33%;  
-              }
-              .sociallogo{
-                  position: absolute;
-              
-                  left: 12.0%;
-                  right: 20.83%;
-                  top: 28.33%;
-                  bottom: 8.33%;  
-              }
-              .fblogo{
-                  position: absolute;
-                  height: 15px;
-                  width: 11px;
-                  left: 1.0%;
-              }
-              .tweeterlogo{
-                  position: absolute;
-                  height: 15px;
-                  width: 15px;
-                  left: 5vh;
-              }
-              .pinlogo{
-                  position: absolute;
-                  height: 15px;
-                  width: 15px;
-                  left: 10vh;
-              }
-              .instalogo{
-                  position: absolute;
-                  height: 15px;
-                  width: 15px;
-                  left: 15vh;
-              }
-              
-              
-              .section2{
-                  position: absolute;
-                  
-                  left: 62.45%;
-                  right: 74.06%;
-                  top: 4.00%;
-                  bottom: 11.43%;
-              
-                  color: white;
-              }
-              .sec2head{
-                  font-size: 18px;
-                  width: 120px;
-              }
-              .sec2compo{
-                  width: 100px;
-                  font-size: 12px;
-              }
-              .section3{
-                  position: absolute;
-                  
-                  left: 20.45%;
-                  right: 74.06%;
-                  top: 43.00%;
-                  bottom: 11.43%;
-              
-                  color: white;
-              }
-              .sec3head{
-                  font-size: 18px;
-                  width: 150px;
-              }
-              .sec3compo{
-                  width: 120px;
-                  font-size: 12px;
-              }
-              .section4{
-                  position: absolute;
-                  
-                  left: 62.45%;
-                  right: 74.06%;
-                  top: 43.00%;
-                  bottom: 11.43%;
-              
-                  color: white;
-              }
-              .sec4head{
-                  font-size: 18px;
-                  width: 150px;
-              }
-              .sec4form{
-                  height: 44px;
-                  width: 252px;
-              }
-              .sec4inputtext{
-                  height: 28px;
-                  width: 200px;
-                  background-color: #2B230A;
-                  border-color: #FFFFFF;
-                  border-width: 0.1px;
-                 
-              }
-              .formbutton{
-                  height: 28px;
-                  width: 200px;
-                  background-color: rgba(252, 179, 48, 1);
-                  border-style: none;
-              
-                  color: #FFFFFF;
-              }
-              .divider{
-              position: absolute;
-              width: 100%;
-              height: 1px;
-              left: 1px;
-              top: 500px;
-              z-index: 99;
-              background-color: #2B230A;
-              
-              border: 0.0001px solid ;
-              border-style: none;
-              }
-              .footertext{
-                  position: absolute;
-                  width: 100%;
-                  top: 510px;
-              
-                  color: white;
-                  font-size: 12px;
-              }
-              input[type="Email"]::placeholder{
-                text-align: center;
-              }
-              
-      }
-  
-        /* -------------------------------------------------------------For 4K Display 2560px----------------------------------------------------------------*/
-    @media(min-width: 2550px ) and (max-width: 2590px ){
-      .footer{
-        position: relative;
-        left: 0;
-        bottom: 0;
-        width: 99.9%;
-        height: 500px;
-        margin-top: 10%;
-        background: #2B230A;
-        font-family: 'Gill Sans';
-        font-weight: 300;
-      
-      
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-        
-        
-        .section1{
-            position: absolute;
-            left: 9.45%;
-            right: 74.06%;
-            top: 13.00%;
-            bottom: 11.43%;
-        }
-        .piczero{
-        position: absolute;
-        height: 70px;
-        width: 70px;
-        left: 10%;
-        
-        }
-        .mobilelogo{
-        position: absolute;
-        height: 25px;
-        width: 20px;
-        left: 12.0%;
-        right: 20.83%;
-        top: 35.33%;
-        bottom: 8.33%;
-        }
-        .mobnum{
-            position: absolute;
-            width: 150px;
-            height: 24px;
-            left: 100px;
-            right: 1000px;
-            top: 31.50%;
-            bottom: 8.33%;
-            margin-top: 10px;
-            font-family: 'Gill Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 24px;
-            color: #FFFFFF;   
-        }
-        .maillogo{
-            height: 23px;
-            width: 28px;
-            position: absolute;
-            left: 11.5%;
-            right: 20.83%;
-            top: 50.33%;
-            bottom: 8.33%
-        }
-        .mailid{
-            margin-left: 23px;
-            color: white;
-            font-size: 24px;
-            position: absolute;
-            margin-top: 12px;      
-            left: 18.0%;
-            right: 19.83%;
-            top: 45.33%;
-            bottom: 8.33%;  
-        }
-        .sociallogo{
-            position: absolute;
-        
-            left: 12.0%;
-            right: 20.83%;
-            top: 70.33%;
-            bottom: 8.33%;  
-        }
-        .fblogo{
-            position: absolute;
-            height: 22px;
-            width: 21px;
-            left: 1.0%;
-        }
-        .tweeterlogo{
-            position: absolute;
-            height: 25px;
-            width: 25px;
-            left: 29.0%;
-        }
-        .pinlogo{
-            position: absolute;
-            height: 25px;
-            width: 25px;
-            left: 60.0%;
-        }
-        .instalogo{
-            position: absolute;
-            height: 25px;
-            width: 25px;
-            left: 90.0%;
-        }
-        
-        
-        .section2{
-            position: absolute;
-            
-            left: 32.45%;
-            right: 74.06%;
-            top: 13.00%;
-            bottom: 11.43%;
-        
-            color: white;
-        }
-        .sec2head{
-            font-size: 30px;
-            width: 180px;
-        }
-        .sec2compo{
-            width: 110px;
-            font-size: 24px;
-        }
-        .section3{
-            position: absolute;
-            
-            left: 50.45%;
-            right: 74.06%;
-            top: 13.00%;
-            bottom: 11.43%;
-        
-            color: white;
-        }
-        .sec3head{
-            font-size: 30px;
-            width: 220px;
-        }
-        .sec3compo{
-            width: 200px;
-            font-size: 24px;
-        }
-        .section4{
-            position: absolute;
-            
-            left: 70.45%;
-            right: 74.06%;
-            top: 13.00%;
-            bottom: 11.43%;
-        
-            color: white;
-        }
-        .sec4head{
-            font-size: 30px;
-            width: 200px;
-        }
-        .sec4form{
-            height: 44px;
-            width: 252px;
-        }
-        .sec4inputtext{
-            height: 40px;
-            width: 300px;
-            background-color: #2B230A;
-            border-color: #FFFFFF;
-            font-size: 20px;
-        }
-     
-        .formbutton{
-            height: 40px;
-            width: 300px;
-            background-color: rgba(252, 179, 48, 1);
-            border-style: none;
-           font-size: 20px;
-            color: #FFFFFF;
-        }
-        .divider{
-        position: absolute;
-        width: 100%;
-        height: 1px;
-        left: 1px;
-        top: 440px;
-        z-index: 99;
-        background-color: #2B230A;
-        
-        border: 0.0001px solid ;
-        border-style: none;
-        }
-        .footertext{
-            position: absolute;
-            width: 100%;
-            top: 460px;
-        
-            color: white;
-            font-size: 24px;
-        }
-    }
-  
+  .section1 {
+    position: absolute;
+    left: 9.45%;
+    right: 74.06%;
+    top: 4%;
+    bottom: 11.43%;
+  }
+  .piczero {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 10%;
+  }
+  .mobilelogo {
+    position: absolute;
+    height: 15px;
+    width: 10px;
+    left: 20%;
+    right: 20.83%;
+    top: 10.33%;
+    bottom: 8.33%;
+  }
+  .mobnum {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 45px;
+    right: 1000px;
+    top: 9.33%;
+    bottom: 8.33%;
+    margin-top: 10px;
+    font-family: "Gill Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+  }
+  .maillogo {
+    height: 13px;
+    width: 15px;
+    position: absolute;
+    left: 14.5%;
+    right: 20.83%;
+    top: 15.33%;
+    bottom: 8.33%;
+  }
+  .maillogos {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 14.5%;
+    right: 20.83%;
+    top: 20.33%;
+    bottom: 8.33%;
+  }
+  .mailid {
+    margin-left: 23px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 12px;
+    left: 40%;
+    right: 19.83%;
+    top: 13.33%;
+    bottom: 8.33%;
+  }
+  .mailids {
+    margin-left: 23px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 12px;
+    left: 40%;
+    right: 19.83%;
+    top: 19%;
+    bottom: 8.33%;
+  }
+  .sociallogo {
+    position: absolute;
+
+    left: 12%;
+    right: 20.83%;
+    top: 25.33%;
+    bottom: 8.33%;
+  }
+  .fblogo {
+    position: absolute;
+    height: 15px;
+    width: 11px;
+    left: 1%;
+  }
+  .tweeterlogo {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 10vw;
+  }
+  .pinlogo {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 20vw;
+  }
+  .instalogo {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 9vw;
+  }
+
+  .section2 {
+    position: absolute;
+
+    left: 12.45%;
+    right: 74.06%;
+    top: 30%;
+    bottom: 11.43%;
+
+    color: white;
+  }
+  .sec2head {
+    font-size: 18px;
+    width: 150px;
+  }
+  .sec2compo {
+    width: 100px;
+    font-size: 12px;
+  }
+  .section3 {
+    position: absolute;
+
+    left: 12.45%;
+    right: 74.06%;
+    top: 53%;
+    bottom: 11.43%;
+
+    color: white;
+  }
+  .sec3head {
+    font-size: 18px;
+    width: 350px;
+  }
+  .sec3compo {
+    width: 120px;
+    font-size: 12px;
+  }
+  .section4 {
+    position: absolute;
+
+    left: 12.45%;
+    right: 74.06%;
+    top: 75%;
+    bottom: 11.43%;
+    margin-top: 30px;
+    color: white;
+  }
+  .sec4head {
+    font-size: 18px;
+    width: 150px;
+  }
+  .sec4form {
+    height: 44px;
+    width: 252px;
+  }
+  .sec4inputtext {
+    height: 28px;
+    width: 200px;
+    background-color: #2b230a;
+    border-color: #ffffff;
+  }
+  .formbutton {
+    height: 28px;
+    width: 200px;
+    background-color: rgba(252, 179, 48, 1);
+    border-style: none;
+    bottom: 2vh;
+    color: #ffffff;
+  }
+  .divider {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 1px;
+    top: 800px;
+    z-index: 99;
+    background-color: #2b230a;
+
+    border: 0.0001px solid;
+    border-style: none;
+  }
+  .footertext {
+    position: absolute;
+    width: 100%;
+    top: 810px;
+
+    color: white;
+    font-size: 12px;
+  }
+  input[type="Email"]::placeholder {
+    text-align: center;
+  }
+}
+
+/* -------------------------------------------------------------For Tab----------------------------------------------------------------*/
+@media (min-width: 690px) and (max-width: 770px) {
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 99.9%;
+    height: 530px;
+    margin-top: 10%;
+    background: #2b230a;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section1 {
+    position: absolute;
+    left: 20.45%;
+    right: 74.06%;
+    top: 4%;
+    bottom: 11.43%;
+  }
+  .piczero {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 10%;
+  }
+  .mobilelogo {
+    position: absolute;
+    height: 15px;
+    width: 10px;
+    left: 20%;
+    right: 20.83%;
+    top: 13.33%;
+    bottom: 8.33%;
+  }
+
+  .mobnum {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 45px;
+    right: 1000px;
+    top: 11.33%;
+    bottom: 8.33%;
+    margin-top: 10px;
+    font-family: "Gill Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+  }
+  .maillogo {
+    height: 13px;
+    width: 15px;
+    position: absolute;
+    left: 14.5%;
+    right: 20.83%;
+    top: 20.33%;
+    bottom: 8.33%;
+  }
+  .maillogos {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 14.5%;
+    right: 20.83%;
+    top: 27.33%;
+    bottom: 8.33%;
+  }
+  .mailid {
+    margin-left: 23px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 12px;
+    left: 40%;
+    right: 19.83%;
+    top: 17.33%;
+    bottom: 8.33%;
+  }
+  .mailids {
+    margin-left: 23px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 12px;
+    left: 40%;
+    right: 19.83%;
+    top: 25%;
+    bottom: 8.33%;
+  }
+  .sociallogo {
+    position: absolute;
+
+    left: 12%;
+    right: 20.83%;
+    top: 35.33%;
+    bottom: 8.33%;
+  }
+  .fblogo {
+    position: absolute;
+    height: 15px;
+    width: 11px;
+    left: 1%;
+  }
+  .tweeterlogo {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 5vh;
+  }
+  .pinlogo {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 10vh;
+  }
+  .instalogo {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 15vh;
+  }
+
+  .section2 {
+    position: absolute;
+
+    left: 62.45%;
+    right: 74.06%;
+    top: 4%;
+    bottom: 11.43%;
+
+    color: white;
+  }
+  .sec2head {
+    font-size: 18px;
+    width: 120px;
+  }
+  .sec2compo {
+    width: 100px;
+    font-size: 12px;
+  }
+  .section3 {
+    position: absolute;
+
+    left: 20.45%;
+    right: 74.06%;
+    top: 43%;
+    bottom: 11.43%;
+
+    color: white;
+  }
+  .sec3head {
+    font-size: 18px;
+    width: 150px;
+  }
+  .sec3compo {
+    width: 120px;
+    font-size: 12px;
+  }
+  .section4 {
+    position: absolute;
+
+    left: 62.45%;
+    right: 74.06%;
+    top: 43%;
+    bottom: 11.43%;
+
+    color: white;
+  }
+  .sec4head {
+    font-size: 18px;
+    width: 150px;
+  }
+  .sec4form {
+    height: 44px;
+    width: 252px;
+  }
+  .sec4inputtext {
+    height: 28px;
+    width: 200px;
+    background-color: #2b230a;
+    border-color: #ffffff;
+    border-width: 0.1px;
+  }
+  .formbutton {
+    height: 28px;
+    width: 200px;
+    background-color: rgba(252, 179, 48, 1);
+    border-style: none;
+
+    color: #ffffff;
+  }
+  .divider {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 1px;
+    top: 500px;
+    z-index: 99;
+    background-color: #2b230a;
+
+    border: 0.0001px solid;
+    border-style: none;
+  }
+  .footertext {
+    position: absolute;
+    width: 100%;
+    top: 510px;
+
+    color: white;
+    font-size: 12px;
+  }
+  input[type="Email"]::placeholder {
+    text-align: center;
+  }
+}
+
+/* -------------------------------------------------------------For 4K Display 2560px----------------------------------------------------------------*/
+@media (min-width: 2550px) and (max-width: 2590px) {
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 99.9%;
+    height: 500px;
+    margin-top: 10%;
+    background: #2b230a;
+    font-family: "Gill Sans";
+    font-weight: 300;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section1 {
+    position: absolute;
+    left: 9.45%;
+    right: 74.06%;
+    top: 13%;
+    bottom: 11.43%;
+  }
+  .piczero {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    left: 10%;
+  }
+  .mobilelogo {
+    position: absolute;
+    height: 25px;
+    width: 20px;
+    left: 12%;
+    right: 20.83%;
+    top: 35.33%;
+    bottom: 8.33%;
+  }
+  .mobnum {
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 100px;
+    right: 1000px;
+    top: 31.5%;
+    bottom: 8.33%;
+    margin-top: 10px;
+    font-family: "Gill Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  .maillogos {
+    height: 23px;
+    width: 28px;
+    position: absolute;
+    left: 11.5%;
+    right: 20.83%;
+    top: 60.33%;
+    bottom: 8.33%;
+  }
+  .maillogo {
+    height: 23px;
+    width: 28px;
+    position: absolute;
+    left: 11.5%;
+    right: 20.83%;
+    top: 50.33%;
+    bottom: 8.33%;
+  }
+  .mailid {
+    margin-left: 23px;
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    margin-top: 12px;
+    left: 18%;
+    right: 19.83%;
+    top: 45.33%;
+    bottom: 8.33%;
+  }
+  .sociallogo {
+    position: absolute;
+
+    left: 12%;
+    right: 20.83%;
+    top: 70.33%;
+    bottom: 8.33%;
+  }
+  .fblogo {
+    position: absolute;
+    height: 22px;
+    width: 21px;
+    left: 1%;
+  }
+  .tweeterlogo {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 29%;
+  }
+  .pinlogo {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 60%;
+  }
+  .instalogo {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 90%;
+  }
+
+  .section2 {
+    position: absolute;
+
+    left: 32.45%;
+    right: 74.06%;
+    top: 13%;
+    bottom: 11.43%;
+
+    color: white;
+  }
+  .sec2head {
+    font-size: 30px;
+    width: 180px;
+  }
+  .sec2compo {
+    width: 110px;
+    font-size: 24px;
+  }
+  .section3 {
+    position: absolute;
+
+    left: 50.45%;
+    right: 74.06%;
+    top: 13%;
+    bottom: 11.43%;
+
+    color: white;
+  }
+  .sec3head {
+    font-size: 30px;
+    width: 220px;
+  }
+  .sec3compo {
+    width: 200px;
+    font-size: 24px;
+  }
+  .section4 {
+    position: absolute;
+
+    left: 70.45%;
+    right: 74.06%;
+    top: 13%;
+    bottom: 11.43%;
+
+    color: white;
+  }
+  .sec4head {
+    font-size: 30px;
+    width: 200px;
+  }
+  .sec4form {
+    height: 44px;
+    width: 252px;
+  }
+  .sec4inputtext {
+    height: 40px;
+    width: 300px;
+    background-color: #2b230a;
+    border-color: #ffffff;
+    font-size: 20px;
+  }
+
+  .formbutton {
+    height: 40px;
+    width: 300px;
+    background-color: rgba(252, 179, 48, 1);
+    border-style: none;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .divider {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 1px;
+    top: 440px;
+    z-index: 99;
+    background-color: #2b230a;
+
+    border: 0.0001px solid;
+    border-style: none;
+  }
+  .footertext {
+    position: absolute;
+    width: 100%;
+    top: 460px;
+
+    color: white;
+    font-size: 24px;
+  }
+}

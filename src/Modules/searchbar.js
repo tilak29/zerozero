@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import SearchIcon from '@mui/icons-material/Search';
+import searchicon from "../../src/assets/icons/searchicon.png";
 import '../css/searchbar.css';
 
 
@@ -19,7 +19,7 @@ function Searchbar(){
         <div className="bar">
          {show && (<div className="bar"><input placeholder='Search' /></div>)}
          
-         <SearchIcon  onClick={ShowName}></SearchIcon>
+         <img src={searchicon} style={{height:'17px'}} onClick={ShowName}/>
         
         </div>
     )

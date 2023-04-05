@@ -53,7 +53,34 @@
   font-weight: 400;
   line-height: 130%;
   color: #262626;
+  align-items: baseline;
 
+}
+
+.writereview-btn {
+  font-size: x-large;
+  font: optional;
+  font-family: 'gill sans', sans-serif;
+
+}
+
+.submit {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 20px;
+
+}
+
+.Searchbar {
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.upper-line-review {
+  display: flex;
+  justify-content: space-between;
 }
 
 .jenny-part1 {
@@ -68,14 +95,17 @@
   margin-top: 20px;
 }
 
+
 .jane-part3 {
   display: inline-flex;
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
+.css-19kzrtu {
+  padding: 24px 0px !important;
+}
 .review {
-  margin-left: 30px;
+
   display: table;
 }
 
@@ -147,6 +177,15 @@
   text-decoration-color: red;
   cursor: pointer;
   color: #C12222;
+  border: none;
+  background-color: white;
+}
+
+.see-all-review:hover {
+  text-decoration-color: white;
+  cursor: pointer;
+  color: rgb(124, 4, 4);
+  border: none;
 }
 
 .productimg {
@@ -159,7 +198,7 @@
   width: 99%;
   height: 30vh;
   height: auto;
-  
+
 }
 
 .keshroot-middle {
@@ -200,7 +239,7 @@
   margin: 10px;
   margin-left: 40px;
   padding-left: 0px;
-  font-family: 'Gill Sans',sans-serif;
+  font-family: 'Gill Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -234,4 +273,34 @@
     height: 80vh;
     height: auto;
   }
+
+
+  .upper-line-review {
+    row-gap: 1rem;
+    flex-direction: column;
+  }
 }
+
+
+@media only screen and (max-width: 550px){
+
+  .upper-line-review {
+    row-gap: 1rem;
+    flex-direction: column;
+  }
+
+}
+
+
+
+
+
+.seeallreviewnewpage{
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+
+

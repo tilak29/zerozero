@@ -13,6 +13,8 @@ import f3 from '../../assets/images/f3.png';
 import f4 from '../../assets/images/f4.png';
 import flowerleft from '../../assets/images/flowerleft.png';
 import flowerright from '../../assets/images/flowerright.png';
+import { InstagramEmbed } from 'react-social-media-embed';
+
 
 
 
@@ -27,12 +29,11 @@ function Fifth(){
             </div>
             </div>
         
-        <div style={{marginTop:"2%" ,marginLeft:"8%"}}>
+        <div style={{marginTop:"2%" ,marginLeft:"7%"}}>
         <div className="fifth-img-div">
-        <img className="fifth-img" src={f1} alt="fifth1" />
-        <img className="fifth-img" src={f2} alt="fifth2" />
-        <img className="fifth-img" src={f3} alt="fifth3" />
-        <img className="fifth-img" src={f4} alt="fifth4" />
+        <InstagramEmbed className="fifth-ifrmae" url="https://www.instagram.com/reel/Cqfq9aopBlE/?utm_source=ig_web_copy_link/"/>
+        <InstagramEmbed className="fifth-ifrmae" url="https://www.instagram.com/reel/CqfDbtYpQvL/?utm_source=ig_web_copy_link/"  />
+        <InstagramEmbed className="fifth-ifrmae" url="https://www.instagram.com/reel/CqheCWvoKH_/?utm_source=ig_web_copy_link/" /> 
         </div>
 
         {/* <div style={{display:"flex",marginLeft:"3%"}}>

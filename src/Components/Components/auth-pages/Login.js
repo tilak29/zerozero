@@ -6,17 +6,9 @@ import SignupForm from "./signup";
 
 
 function Login(){
-    /**Forgot pass. */
-    const[popupF,SetPopF]=useState(false);
-    const handleClickOpen3=()=>{
-      SetPopF(!popupF);
-    }
 
-    /**Signup */
-    const[popupS,SetPopS]=useState(false);
-    const handleClickOpen4=()=>{
-      SetPopS(!popupS);
-    }
+
+
 
     return(<div>
 
@@ -27,24 +19,14 @@ function Login(){
     <input   type="text" placeholder="Username"      className="user"     /><br></br>
     <input   type="password" placeholder="Password"  className="pass"        /><br/><br/>
 
-    <p className="forgot" onClick={handleClickOpen3}>Forgot password?</p><br/>
+    <p className="forgot" >Forgot password?</p><br/>
 
     <button className="btn">Log in</button>
-    <p  className="para2" onClick={handleClickOpen4}>Don't have an account?</p>
+    <p  className="para2" >Don't have an account?</p>
 </center>
 
         </div>
-        {popupF ?
-          <div className='main_login'>
-                <ForgotForm />     
-                
-          </div> : ""}
-
-          {popupS ?
-          <div className='main_login'>
-                <SignupForm />     
-                
-          </div> : ""}
+       
     
     </div>)
 };

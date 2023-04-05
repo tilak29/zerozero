@@ -15,14 +15,14 @@ function Fourth(){
   
     <div style={{marginLeft:"34%", marginTop:"10%"}} >
     <div className="fourth-texts">
-            <p className="fourth-text">Digital Adds</p>
+            <p className="fourth-text">Digital Ads</p>
             <img style={{height:"5%", maxWidth:"5%" ,marginLeft:"-4%",zIndex:"0"}} src={fourthcircle} alt="fourthcircle"/>
             </div>
             </div>
 
-        <div style={{display:"flex",maxWidth:"100%",height:"auto" ,marginLeft:"16%", marginTop:"5%",zIndex:"11"}} >
+        <div className="fourth-videos" >
             <div className="video-responsive">
-            <iframe className="iframe" src='https://www.youtube.com/embed/E7wJTI-1dvQ'
+            <iframe className="iframe" src='https://www.youtube.com/embed/UzVwlAe3Sts'
         frameborder='0'
         allow='autoplay; encrypted-media'
         allowfullscreen
@@ -30,14 +30,14 @@ function Fourth(){
 />
   </div>
     
-  <div className="video-responsive">
-  <iframe className="iframe" src='https://www.youtube.com/embed/E7wJTI-1dvQ'
+  {/* <div className="video-responsive">
+  <iframe className="iframe" src='https://www.youtube.com/embed/UzVwlAe3Sts'
         frameborder='0'
         allow='autoplay; encrypted-media'
         allowfullscreen
         title='video'
 />
-  </div>
+  </div> */}
   {/* <div style={{ marginLeft:"18%", zIndex:"-66",backgroundColor:"red" }}>
         <img className="fourth-rect" src={fourthrect} alt="fourthrect" />
         <img className="fourth-rect" src={fourthrect} alt="fourthrect" />
@@ -47,13 +47,13 @@ function Fourth(){
         
       
       
-      <div style={{marginTop:"2%",marginLeft:"44%",marginBottom:"10%"}}>
+      {/* <div style={{marginTop:"2%",marginLeft:"44%",marginBottom:"10%"}}>
         <a href="#" style={{ display:"flex", textDecoration:"none"}}>
         <p style={{fontSize:"clamp(1rem, 2vw, 1.5rem)", color:"black"}}>Viwe All</p>
         <img style={{maxWidth:"10%",height:"auto",marginTop:"-0.67%",marginLeft:"2%"}} src={arrowright} alt="arrowright"/>
         
       </a>
-      </div>
+      </div> */}
      
       {/* <div style={{ display:"flex",marginTop:"4%", marginLeft:"44%",flexWrap:"1"}}>
       <a href="#" className="link"  >

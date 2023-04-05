@@ -13,9 +13,13 @@ import img6 from '../../src/assets/images/6.png'
 import img7 from '../../src/assets/images/7.png'
 import img8 from '../../src/assets/images/8.png'
 import img9 from '../../src/assets/images/9.png'
+import { useCarousel } from 'use-carousel-hook';
 
 export default function ActionAreaCard() {
+  const {ref, previous, next } = useCarousel();
+
   return (
+    <div ref={ref}>
 
     <div className="cards">
 <Card sx={{ Width: 350, height:350 ,boxShadow:'none' }}>      <CardActionArea>
@@ -183,6 +187,9 @@ export default function ActionAreaCard() {
       </CardActionArea>
     </Card>
 
+    </div>
+
+    
     </div>
 
    );

@@ -4,19 +4,16 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
-import jenny from "../../assets/images/jenny.png";
-import kathreen from "../../assets/images/kathreen.png";
-import jane from "../../assets/images/jane.png";
+
 import "../../css/sectionB.css";
 import Rating from "@mui/material/Rating";
-import Stack from "@mui/material/Stack";
-import keshroot1 from "../../assets/images/keshroot1.png";
-import keshroot2 from "../../assets/images/keshroot2.png";
-import keshroot3 from "../../assets/images/keshroot3.png";
-import keshroot4 from "../../assets/images/keshroot4.png";
-import keshroot5 from "../../assets/images/keshroot5.png";
+import productdetail1 from "../../assets/images/Product-detail-1.jpg";
+import productdetail2 from "../../assets/images/Product-detail-2.jpg";
+import productdetail3 from "../../assets/images/Product-detail-3.jpg";
+import productdetail4 from "../../assets/images/Product-detail-4.jpg";
+import productdetail5 from "../../assets/images/Product-detail-5.jpg";
 
+import Writereview from "./writereview";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -96,225 +93,195 @@ export default function SectionB() {
         <TabPanel value={value} index={0}>
           <div className="product-detail">
             <p>
-              {" "}
-              <b>Is Discontinued By Manufacturer</b> : Lorem
-            </p>
-            <p>
-              <b>Product Dimensions</b> : Lorem Ipsum is simply
-            </p>
-            <p>
-              <b>Date First Available </b> : Lorem Ipsum
-            </p>
-            <p>
-              <b> Manufacturer</b> : Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry
-            </p>
-            <p>
-              <b>ASIN </b> : Lorem Ipsum is
-            </p>
-            <p>
-              <b>Item model number</b> : Lorem Ipsum is simply dummy text
-            </p>
-            <p>
-              <b>Country of Origin</b> : Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry.
-            </p>
-            <p>
-              <b>Manufacturer</b> : Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry
-            </p>
-            <p>
-              <b>Packer</b> : Lorem Ipsum
-            </p>
-            <p>
-              <b>Item Weight</b> : Lorem Ipsum is simply dummy
-            </p>
-            <p>
-              <b>Item Dimensions LxWxH</b> : Lorem Ipsum is simply dummy text of
-              the printing and typesetting industry
-            </p>
-            <p>
-              <b>Net Quantity</b> : Lorem Ipsum
-            </p>
-            <p>
-              <b>Included Components</b> : Lorem Ipsum is simply
-            </p>
-            <p>
-              <b>Generic Name</b> : Lorem Ipsum is simply dummy text
+              <b>How to Use: </b> Using the spatula provided, apply the cream in
+              a thick layer over the skin, fully covering all unwanted hairs.
+              Leave the cream on the skin for 6-8 minutes. Wipe off the cream
+              from a small area to check if the hair is removed, if not, leave
+              it on for another minute and check again. Scrape off the cream
+              with the spatula or gently wipe with a wet cotton towel, rinse
+              thoroughly and pat dry.
             </p>
             <br/>
+            <p>
+              <b>Precautions:</b>Do not exceed 10 minutes total application
+              time. NOT SUITABLE for use on head, face, eyes, nose, ears, around
+              the anus
+            </p>
             <br/>
+            <p>
+              <b>Manufactured By:</b> Indo Herbal Products (Unit 2). Plot No.
+              29, Sector 1-B, IIE Ranipur, Sidcul, Haridwar 249403 (U.K.) Regd.
+              Office: C-84, Panchseel Enclave, New Delhi 110017
+            </p>
             <br/>
+            <p>
+              <b>Mfg Lic. No.:</b> 20/C/U.A/2010
+            </p>
             <br/>
+            <p>
+              <b>Marketed By: </b> Smart Laboratories Pvt. Ltd. 1004, Brooklyn
+              Tower, Nr. YMCA Club, S. G. Highway, Ahmedabad 380051 (Guj.)
+            </p>
             <br/>
-           
-          <div className="productimg">
-            <img className="keshroot" src={keshroot1} alt="img"/>
-            <img className="keshroot" src={keshroot2} alt="img"/>
-            <img className="keshroot-middle" src={keshroot3} alt="img"/>
-            <img className="keshroot" src={keshroot4} alt="img"/>
-            <img className="keshroot" src={keshroot5} alt="img"/>
+            <p>care@smartlaboratories.co.in | +91-79–49136601</p>      <br/>
+            <p>
+              <b>Country of Origin:</b>India
+            </p>
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <div className="productimg">
+              <img className="keshroot" src={productdetail1} alt="img" />
+              <img className="keshroot" src={productdetail2} alt="img" />
+              <img className="keshroot-middle" src={productdetail3} alt="img" />
+              <img className="keshroot" src={productdetail4} alt="img" />
+              <img className="keshroot" src={productdetail5} alt="img" />
             </div>
           </div>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <h1 className="overall-rating">4.3/5 </h1> <p className="overall-rating">Overall rating</p>
-          <Button
-            sx={{
-              fontFamily: "Gill Sans",
-              fontSize: "18px",
-            }}
-            style={{
-              color: "black",
-              backgroundColor: "white",
-              border: "1px solid red",
-              // padding: "10px 45px 10px 30px",
-              marginLeft: "75%",
-              textTransform: "none",
-            }}
-          >
-            WRITE REVIEW
-          </Button>
+          <div className="upper-line-review">
+            <p className="overall-rating">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <h1 className="overall-rating12">4.3/5  &nbsp; &nbsp; </h1> Overall Rating{" "}
+            </p>
+          
+            <Writereview />
+          </div>
           <br />
-          <br />
+         
           <section className="jenny-part1">
-            <div className="jenny-logo"  ><img style={{ height: "45px", width: "45px" }} src={jenny} alt="" />
-</div>
+           
             <div className="review">
-              <p className="jenny-name"> Jenny Wilson</p>   <br/>
-    
-              <Stack >
-                <Rating  value={4} />
-              </Stack>
-              <br/>
-
+              <p className="jenny-name"> Nishi Lalwani</p> <br />
+              <Rating name="read-only" value={4} readOnly />
+              <br />
               <p className="review-loremabout">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                My friend recommended this hair removal cream as I keep
+                traveling a lot. This cream is really travel-friendly and comes
+                with a spatula which does the job really well.
               </p>
             </div>
           </section>
           <hr />
           <section className="kathryn-part2">
-            <div className="kathryn-logo">
-              <img
-                style={{ height: "45px", width: "45px" }}
-                src={kathreen}
-                alt=""
-              />
-            </div>
+         
             <div className="review">
-              <p className="kathryn-name">Kathryn Murphy</p>   <br/>
-              <Stack>
-              <Rating  value={3} />
-              </Stack>   <br/>
+              <p className="kathryn-name">Shivika Shah</p> <br />
+              <Rating name="read-only" value={3} readOnly /> <br />
               <p className="review-loremabout">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. Lorem
-                Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Waxing has always caused problems to my skin. After trying out
+                different products, I have finally found the perfect product.
+                Zero zero has really helped me with this a lot without causing
+                any skin irritation. Highly recommending it to all my friends.
               </p>
             </div>
           </section>
           <hr />
           <section className="jane-part3">
-            <div className="jane-logo">
-              <img
-                style={{ height: "45px", width: "45px" }}
-                src={jane}
-                alt=""
-              />
-            </div>
+           
             <div className="review">
-              <p className="jane-name">Jane Cooper</p>   <br/>
-              <Stack>
-              <Rating  value={4} />
-              </Stack>   <br/>
+              <p className="jane-name">Riti Manek</p> <br />
+              <Rating name="read-only" value={4} readOnly /> <br />
               <p className="review-loremabout">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book. Lorem Ipsum
-                is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
+                Zero zero’s smooth texture is gentle on the skin. I have got the
+                best results using this product. It is really easy and
+                effortless to use. It saves all the time and hassle that waxing
+                causes.
               </p>
             </div>
+           
           </section>
-          <p className="see-all-review">See all reviews</p>
+          <hr/>
+          
+          <section  className="jane-part3">
+         
+          
+          <div className="review">
+          <p className="jane-name">Nupur Panya</p> <br />
+          <Rating name="read-only" value={4} readOnly /> <br />
+          <p className="review-loremabout">
+            I have been loving this hair removal cream a lot. It makes the
+            skin really smooth and I completely trust this product for my
+            daughter’s skin.
+          </p>
+        </div>
+          
+          </section>
+
+          <sup>
+            <button className="see-all-review" >
+              <a style={{textDecoration:"none",color:"red"}}  href="/SeeAllReviews ">See all reviews</a>
+            </button>
+          </sup>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <ul className="shipping-return-part1"  >
-            <h4 className="shipping-font">Shipping Policy</h4>
+          <ul className="shipping-return-part1">
+            <p>
+              To initiate a cancellation, please contact us through the "Contact
+              Us" link. We will respond within 24 hours.
+            </p>
+            <br />
 
-            <li className="paragraphs-fonts">
-              {" "}
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard.{" "}
-            </li>
+            <p>
+              To be eligible for a return, the item must be in its original
+              condition and packaging. A refund will be issued to your original
+              payment method upon receipt of the returned item. If the payment
+              was made through COD, you will be prompted to provide your bank
+              account details for a secure refund transaction. Returns cannot be
+              requested until the item has been delivered
+            </p>
+            <br />
 
-            <li className="paragraphs-fonts">
-              {" "}
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.{" "}
-            </li>
-
-            <li className="paragraphs-fonts">
-              {" "}
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text.
-            </li>
-
-            <li className="paragraphs-fonts">
-              {" "}
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.{" "}
-            </li>
-            <li className="paragraphs-fonts">
-              {" "}
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's.{" "}
-            </li>
+            <p>
+              Only items that are damaged will be eligible for a return. Once
+              the packaging has been opened, returns will not be accepted.
+              Returns must be requested within 7 days of delivery.
+            </p>
           </ul>
           <ul className="shipping-return-part2">
-            <h4 className="return-font">Return Policy </h4>
+            <h4 className="return-font">Precautions: </h4>
+            <p>
+              It is recommended that you read all the precautions and directions
+              before use.
+            </p>
             <li className="paragraphs-fonts">
-              {" "}
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard.{" "}
+              Do not exceed 10 minutes of total application time.
             </li>
 
             <li className="paragraphs-fonts">
-              {" "}
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.{" "}
+              Not suitable for head, face, eyes, nose, ears, around anus,
+              genitals, nipples and any other sensitive body parts.
             </li>
 
             <li className="paragraphs-fonts">
-              {" "}
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text.
+              Do not use on varicose veins, scars, moles, spotty, broken,
+              irritated, sunburnt skin, or on skin that has had an adverse
+              reaction to hair removal creams in past.
             </li>
 
             <li className="paragraphs-fonts">
-              {" "}
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.{" "}
+              Always leave a gap of 72 hours between hair removal sessions.
             </li>
             <li className="paragraphs-fonts">
-              {" "}
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's.{" "}
+              Check with your doctor before using if you are on any medications
+              which can affect your skin.
             </li>
+
+            <li className="paragraphs-fonts">Patch test is necessary.</li>
+
+            <li className="paragraphs-fonts">
+              If you experience any tingling sensation during the use, remove
+              the product immediately and rinse thoroughly with cold water.
+            </li>
+
+            <li className="paragraphs-fonts">
+              If a burning sensation persists after use, seek medical advice.
+            </li>
+            <li className="paragraphs-fonts">Keep out of reach of children.</li>
           </ul>
         </TabPanel>
       </>

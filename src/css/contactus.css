@@ -24,10 +24,10 @@ z-index: 1;
   z-index: 99;
   font-family: "Prata";
   }
-  .icon1{
+  .icon1C{
   position: absolute;
-  top: 0rem;
-  left: 6rem;
+  top: -0.5rem;
+  left: 7.5rem;
   height: 2rem;
   width: 2rem;
   opacity: 1;
@@ -69,6 +69,7 @@ z-index: 1;
       position: relative;
       display: flex;
       flex-wrap: nowrap;
+      text-decoration: none;
   }
   .fbicon{
       height: 1rem;
@@ -95,20 +96,37 @@ z-index: 1;
  }
   .input1{
   height: 2rem;
-  width: 25rem;
+  width: 15rem;
+  padding-left: 2%;
+  outline: none;
   }
   .input2{
-  height: 6rem;
-  width: 25rem;
+    height: 2rem;
+    width: 30.5rem;
+    padding-left: 2%;
+    outline: none;
+  }
+  .input3{
+    height: 6rem;
+    width: 30.5rem;
+    padding-left: 2%;
+    outline: none;
   }
  
   input.input1::placeholder{
       text-align: left;
       margin-left: 5px;
+      font-size: 0.8rem;
   }
-  .input2::placeholder{
+  input.input2::placeholder{
+    text-align: left;
+    margin-left: 5px;
+    font-size: 0.8rem;
+  }
+  .input3::placeholder{
       text-align: left;
       margin-top: 30px;
+      font-size: 0.8rem;
   }
   .btncontactus{
     height: 2rem;
@@ -117,7 +135,7 @@ z-index: 1;
     background-color: rgba(193, 34, 34, 1); 
     border-style: none;
     position: relative;
-    right: 0.45rem;
+    right: 0;
   }
 
 .map{
@@ -152,9 +170,13 @@ z-index: 1;
       }
       .input1{
           height: 2rem;
-          width: 15rem;
+          width: 7rem;
           }
-      .input2{
+          .input2{
+            height: 2rem;
+            width: 15rem;
+          }
+      .input3{
           height: 6rem;
           width: 15rem;
           }
@@ -185,9 +207,13 @@ z-index: 1;
       }
       .input1{
           height: 2rem;
-          width: 15rem;
+          width: 7rem;
           }
-      .input2{
+          .input2{
+            height: 2rem;
+            width: 15rem;
+            }
+      .input3{
           height: 6rem;
           width: 15rem;
           }
@@ -200,4 +226,15 @@ z-index: 1;
               position: relative;
               right: 0.45rem;
             }
+}
+/**********************************for media 791px to 1200px*************************************/
+@media (min-width:791px) {
+  .rightsection{
+width: 80%;
+  }
+}
+@media (max-width:1200px) {
+  .rightsection{
+    width: 100%;
+  }
 }

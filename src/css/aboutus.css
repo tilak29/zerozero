@@ -3,6 +3,10 @@
   src: url(/src/assets/fonts/GillSans.otf);
 }
 
+.tp{
+  padding-left: 5%;
+  padding-right: 5%;
+}
 .aboutus{
   height: auto;
   padding-top: 6.6rem;
@@ -12,6 +16,10 @@
   width: 100%;
   height: 70%;
   position: relative;
+}
+.abouthead{
+  font-family: 'Gill Sans';
+  font-size: 1.5rem;
 }
 .text0{
   width: 100%;
@@ -25,13 +33,13 @@
 .text1{
   text-align-last: center;
   font-family: 'Gill Sans';
-  font-size: 0.8rem;
+  font-size: 1rem;
   
 }
 .text2{
   text-align-last: center;
   font-family: 'Gill Sans';
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding-bottom: 3rem;
 }
 
@@ -56,9 +64,9 @@
   font-family: 'Gill Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 1rem;
 
-  color: white;
+  color: 	#8B0000;
   }
 
   .logodiv_aboutus{
@@ -72,8 +80,8 @@
   }
 
   .logodiv_aboutus img{
-    height: 3rem;
-    width: 3rem;
+    height: 4rem;
+    width: 4rem;
     border-radius: 60%;
   }
  
@@ -85,8 +93,10 @@
     font-family: 'Gill Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.8rem;
-    color: white; 
+    font-size: 1rem;
+    color: 	#8B0000; 
+
+    padding-top: 10%;
   }
   .logo2text{
     width: 151px;
@@ -96,8 +106,10 @@
     font-family: 'Gill Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.8rem;
-    color: white; 
+    font-size: 1rem;
+    color: 	#8B0000; 
+
+    padding-top: 10%;
   }
   .logo3text{
     width: 151px;
@@ -107,8 +119,10 @@
     font-family: 'Gill Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.8rem;
-    color: white; 
+    font-size: 1rem;
+    color: 	#8B0000; 
+
+    padding-top: 10%;
   }
   .logo4text{
     width: 151px;
@@ -118,8 +132,10 @@
     font-family: 'Gill Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.8rem;
-    color: white; 
+    font-size: 1rem;
+    color: 	#8B0000; 
+
+    padding-top: 10%;
   }
 
   .photo3{
@@ -154,7 +170,7 @@
       font-style: normal;
       font-weight: 400;
       font-size: 0.8rem;
-      color: white; 
+      color: #8B0000; 
     }
     .logo2text{
       width: 80px;
@@ -165,7 +181,7 @@
       font-style: normal;
       font-weight: 400;
       font-size: 0.8rem;
-      color: white; 
+      color: #8B0000; 
     }
     .logo3text{
       width: 80px;
@@ -176,7 +192,7 @@
       font-style: normal;
       font-weight: 400;
       font-size: 0.8rem;
-      color: white; 
+      color: #8B0000; 
     }
     .logo4text{
       width: 80px;
@@ -187,7 +203,7 @@
       font-style: normal;
       font-weight: 400;
       font-size: 0.8rem;
-      color: white; 
+      color: #8B0000; 
     }
     .photo3{
       position: relative;

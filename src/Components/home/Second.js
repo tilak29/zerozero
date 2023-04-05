@@ -1,6 +1,6 @@
 import React from "react";
 
-import second from '../../assets/images/second.png';
+import second from '../../assets/images/Application.png';
 import newi1 from '../../assets/images/newi1.png';
 import newi2 from '../../assets/images/newi2.png';
 import newi3 from '../../assets/images/newi3.png';
@@ -11,6 +11,10 @@ import r1 from '../../assets/images/r1.png';
 import r2 from '../../assets/images/r2.png';
 import r3 from '../../assets/images/r3.png';
 import r4 from '../../assets/images/r4.png';
+import i1 from '../../assets/images/i1.png';
+import i2 from '../../assets/images/i2.png';
+import i3 from '../../assets/images/i3.png';
+import i4 from '../../assets/images/i4.png';
 import r5 from '../../assets/images/r5.png';
 import { flexbox } from "@mui/system";
 import { Button } from "@mui/material";
@@ -25,15 +29,23 @@ function Second(){
                 <div className="second-texts">
                     <div>   
                     <p className="sec-1text">About us</p>
-                    <p className="sec-2text">omnis iste natus error sil Voluptatem accusantium</p>
-                    <p className="sec-3text"> omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab</p>
+                    <p className="sec-2text">Experience a world of Zero Hair Zero Fikar with our quick, easy, and painless hair removal cream that does the magic in just 6-8 minutes.</p>
+                    {/* <p className="sec-3text"> omnis iste natus error sit voluptatem accusantium doloremquelaudantium, totam rem aperiam, eaque ipsa quae ab</p> */}
                  </div>
+                 <div className="usps">
                     <div className="second-icons-div">
                     <img className="second-icon" src={newi1} alt='a'/>
                     <img className="second-icon" src={newi2} alt='b'/>
                     <img className="second-icon" src={newi3} alt='c'/>
                     <img className="second-icon" src={newi4} alt='d'/>
                      </div>    
+                     <div className="second-usp-div">
+                <p className="second-usp">Removes Hair In 6-8 Minutes </p>
+                <p className="second-usp">Completely Pain-Free </p>
+                <p className="second-usp">Pleasing Lemon Aroma </p>
+                <p className="second-usp">Dermatologically Tested </p>
+             </div>
+             </div>
                      <a style={{textDecoration:"none"}} href="/aboutus">
                      <p className="get-to-know-text">Get to know us more</p>
                      </a>
@@ -48,11 +60,12 @@ function Second(){
             </div>
            
             <div className="second-last-img-div">
-            <img className="second-last-img" src={r1} alt="r1"/>
-            <img className="second-last-img" src={r2} alt="r2"/>
-            <img className="second-last-img" src={r3} alt="r3"/>
-            <img className="second-last-img" src={r4} alt="r4"/>
+            <img className="second-last-img" src={i1} alt="r1"/>
+            <img className="second-last-img" src={i2} alt="r2"/>
+            <img className="second-last-img" src={i3} alt="r3"/>
+            <img className="second-last-img" src={i4} alt="r4"/>
              </div>  
+             
              <div className="second-last-img-div2">
             <img className="second-last-img2" src={r5} alt="r5"/>
             <img className="second-last-img2" src={r5} alt="r5"/>

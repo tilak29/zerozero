@@ -34,7 +34,7 @@ const Instagram = () => {
     };
 
     return (<div className='instagram'>
-        <a href='https://www.instagram.com/' target='_blank'>
+        <a href='https://www.instagram.com/zerozeroindia/' target='_blank'>
             <img src={images.instagramId} id='instagram-id' alt="" />
             <Carousel
                 responsive={responsive}

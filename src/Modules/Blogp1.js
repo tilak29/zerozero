@@ -1,20 +1,45 @@
 import React from "react";
 import ActionAreaCard from "./card";
+import ActionAreaCard2 from "./card2";
 import { Link } from 'react-router-dom';
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import "../css/blog1.css";
 import images from "../constants/images";
+import { useState } from "react";
+import image from '../assets/images/Ellipse.jpg'
+
+
 
 
 
 function Blogp1(){
 
+     const[activePage,setActivePage]=useState(1);
+     const OpenPage=(props)=>{
+          const{children,page,index}=props
+          return(
+               <div hidden={page!==index}>
+                    {page===index&&<div>{children}</div>}
+               </div>
+          )
+     } 
+     
+
     return(
         <div>
+            <div className="maindiv">
+             <center>
+             <h1 className="ret-h1">Coming Soon<img src={image} className="ellipse"></img></h1><br/>
 
+             </center>
+
+
+        </div>
+
+{/* 
         <section className="sec1">
-             <h1 className="sec1h1">The Blog</h1>          
+             <h1 className="sec1h1">Blog</h1>          
              <img src={images.ellipse} className="ssec1img" alt="abc"></img>
         </section>
 
@@ -40,18 +65,31 @@ function Blogp1(){
                   </div>
         </section>
 
-        <section className="sec4">
+<OpenPage page={activePage} index={1}>
+
+<section className="sec4">
         <Link to="/blog/Zero-zero-product-key-ingredients-and-its-use" className="cardlink">
              <ActionAreaCard/></Link>
-
-           
-
         </section>
+
+</OpenPage>
+      
+
+<OpenPage page={activePage} index={2}>
+
+<section className="sec4">
+        <Link to="/blog/Zero-zero-product-key-ingredients-and-its-use" className="cardlink">
+             <ActionAreaCard2/></Link>
+        </section>
+
+</OpenPage>
 
 
         <Stack  spacing={2}>
-             <Pagination className="paginationcolor" count={12} hidePrevButton hideNextButton color="standard" />
+             <Pagination className="paginationcolor" page={activePage} onChange={(event,newPage)=>setActivePage(newPage)} count={2} hidePrevButton hideNextButton color="standard" />
              </Stack>
+
+              */}
 
 
 
