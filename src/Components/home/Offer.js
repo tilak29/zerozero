@@ -3,7 +3,7 @@ import '../../css/HomeRespo.css'
 
 const Offer = () => {
     return (<div className='topoffer'>
-       <p className='top-offer-text'>Get 10% off on your first order use Code zero Zero 22 </p> 
+       <p className='top-offer-text'>Use Code Zero Zero 22 to avail 10% off on your 1st order</p> 
     </div>);
 }
 

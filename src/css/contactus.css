@@ -11,11 +11,13 @@
 .leftsection{
 width: 50%;
 position: relative;
+padding-top: 3%;
 padding-left: 6rem;
 z-index: 1;
 }
   .head1div{
       position: relative;
+      margin-bottom: 4%;
   }
   .heading1{
   position: relative;

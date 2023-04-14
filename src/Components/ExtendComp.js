@@ -9,6 +9,7 @@ import Cart from '../Components/Cart/Cart';
 import Blogpage2 from './Components/blog/Product-info';
 import Checkout from './Cart/checkoutpage';
 import SeeAllReviews from '../Modules/shop/seeallreviews';
+import Blog2 from '../Components/Components/blog/blog2'
 
 
 class ExtendComp extends Component {
@@ -25,7 +26,8 @@ class ExtendComp extends Component {
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/Cart" element={<Cart />} />
           <Route path="/Checkout" element={<Checkout />} />
-          <Route path="/SeeAllReviews" element={<SeeAllReviews />} />         
+          <Route path="/SeeAllReviews" element={<SeeAllReviews />} />     
+          <Route path="/Blog2" element={<Blog2/>} />     
         </Routes>
     )
     }

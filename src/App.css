@@ -11,6 +11,7 @@
   background-color: white;
   color: #000000;
   width: 100%;
+ 
 }
 .navbar{
   width: 100%;
@@ -22,13 +23,26 @@
   gap: 10px;
   margin:0%;
   background-color: #000000;
+ 
   }
 .line{
   font-family: 'Jost';
   font-style: normal;       
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   color: #FCB330;
+  margin: 0 auto;
+}
+
+@media (max-width:420px){
+  .line{
+    font-family: 'Jost';
+    font-style: normal;       
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #FCB330;
+    margin: 0 auto;
+  }
 }
 .navi{
   flex-grow: 1;

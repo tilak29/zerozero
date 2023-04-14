@@ -69,9 +69,9 @@ function Third(){
                     <img src={clean1} />
                     <p>It is advised to do a patch test before you use it on the skin to avoid any further complications.</p>
                 </div>
-                  <p className="three-texts2">2</p>
+                  
                 <div className="three-sub-div">
-              
+                <p className="three-texts2">2</p>
                     <img src={clean2} />
                     <p>Using the provided spatula, apply a thick layer of cream over the skin, making sure you fully cover all the desired hair growth areas.</p>
                 </div>

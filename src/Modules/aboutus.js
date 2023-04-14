@@ -2,6 +2,7 @@ import React from "react";
 import pic1 from "../assets/images/Aboutusmain.jpg";
 import '../css/aboutus.css';
 import photo2 from "../assets/images/Aboutussecond.jpg";
+import aboutusbg from "../assets/images/aboutusbg.png";
 import logo1 from "../assets/icons/AboutusStep1.png";
 import logo2 from "../assets/icons/AboutusStep2.png";
 import logo3 from "../assets/icons/AboutusStep3.png";
@@ -45,30 +46,48 @@ function Page() {
             </div>
 
             <div className="photo2div">
-                <img className="photo2" src={photo2} alt="pic2.png"></img>
+                <img className="photo2" src={aboutusbg} alt="pic2.png"></img>
                 <p className="textpic2">For Us It’s The Headstrong Women Who Go Out Of Their Way And<br/> Conquer The World, Be It With Hair Or Without Hair!
                 </p>
             </div>
 
 
-            <div className="logodiv_aboutus">
-                <section className="logo1">
+            {/* <div className="logodiv_aboutus">
+                <section className="logo1-sec">
                     <img className="logo1" src={logo1} alt="pic1.png"></img>
                     <p className="logo1text" >Removes Hair In 6-8 Minutes  </p>
                 </section>
-                <section className="logo2">
+                <section className="logo2-sec">
                     <img className="logo2" src={logo2} alt="pic1.png"></img>
                     <p className="logo2text" >Completely Pain-Free</p>
                 </section>
-                <section className="logo3">
+                <section className="logo3-sec">
                     <img className="logo3" src={logo3} alt="pic1.png"></img>
                     <p className="logo3text">Pleasing Lemon Aroma</p>
                 </section>
-                <section className="logo4">
+                <section className="logo4-sec">
                     <img className="logo4" src={logo4} alt="pic1.png"></img>
                     <p className="logo4text">Dermatologically Tested</p>
-
                 </section>
+            </div> */}
+
+            <div className="about-usp-main-div">
+                <div className="about-usp-sub-div">
+                    <img className="about-logos" src={logo1} alt="pic1.png"></img>
+                    <p className="about-logo-text" >Removes Hair In 6-8 Minutes  </p>
+                </div>
+                <div className="about-usp-sub-div">
+                    <img className="about-logos" src={logo2} alt="pic1.png"></img>
+                    <p className="about-logo-text" >Completely Pain-Free</p>
+                </div>
+                <div className="about-usp-sub-div">
+                    <img className="about-logos" src={logo3} alt="pic1.png"></img>
+                    <p className="about-logo-text">Pleasing Lemon Aroma</p>
+                </div>
+                <div className="about-usp-sub-div">
+                    <img className="about-logos" src={logo4} alt="pic1.png"></img>
+                    <p className="about-logo-text">Dermatologically Tested</p>
+                </div>
             </div>
 
 

@@ -25,7 +25,7 @@ class Home extends Component {
         {/* <Seventh /> */}
         {/* <Eight /> */}
         <Instagram />
-        <Avaible />
+        {/* <Avaible /> */}
       </div>
     );
   }

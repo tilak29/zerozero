@@ -4,6 +4,7 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 
+import Header from './Components/home/header';
 import IconButton from '@mui/material/IconButton';
 import searchicon from "../src/assets/icons/searchicon.png";
 import './css/searchbar.css';
@@ -11,6 +12,7 @@ import personicon from "../src/assets/icons/personicon.png";
 import mallicon from "../src/assets/icons/mallicon.png";
 
 import logo from './assets/images/logos.png'
+import './css/Home.css';
 import './App.css'
 import Footer1 from './Components/home/footer';
 import { useEffect, useState } from 'react'
@@ -37,7 +39,16 @@ const App = () => {
 /*** */
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar)
-  }
+  };
+
+
+  useEffect(() => {
+    if (showNavbar) {
+      document.querySelector('.cover_').style.display = 'flex';
+    } else {
+      document.querySelector('.cover_').style.display = 'none';
+    }
+  }, [showNavbar]);
 
   /********PopupCart****** */
   const [quantity, setQuantity] = useState(1);
@@ -75,10 +86,11 @@ const App = () => {
   return (
     <div className='container'>
 
+    {/* <Header/> */}
 
       <AppBar>
         <box className='navbar'>
-          <p className='line'>Get 10% off on your first order use code Zero Zero 22</p>
+          <p className='line'></p>
         </box>
 
         <Toolbar disableGutters className='nav' >
@@ -87,6 +99,8 @@ const App = () => {
           </div>
 
           <Link to='/'><img className='zeroimg' src={logo} alt="" /></Link>
+
+          <div className='cover_' onClick={() => setShowNavbar(false)}></div>
 
           <Box className="navi"  >
 
@@ -103,7 +117,6 @@ const App = () => {
           </Box>
 
           <Box className="headericons"><div className="bar">
-          {/* {show && (<div className="bar"><input className="searchbarinput" placeholder='Search' /></div>)} */}
             <IconButton > <img src={searchicon} style={{ height: '17px' }}/></IconButton>
 
             <IconButton onClick={() => setIsShown(true)} > <img src={personicon} style={{ height: '17px' }} /></IconButton>

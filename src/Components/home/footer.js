@@ -45,11 +45,11 @@ function Footer1(){
      <section className="section2">
      <h1 className="sec2head">Useful Links</h1><br></br>
      <p className="sec2compo">
-        <a className="linkfooter"  href="/">Home </a><br></br><br></br>
-        <a className="linkfooter"  href="/shop">Shop</a><br></br><br></br>
-       <a className="linkfooter"   href="/aboutus"> About us</a> <br></br><br></br>
-        <a className="linkfooter"  href="/blog">Blog </a><br></br><br></br>
-      <a className="linkfooter"    href="/contactus">  Contact us </a>
+       <Link to="/"> <p className="linkfooter">Home </p></Link><br></br>
+       <Link to="/shop"><p className="linkfooter"  >Shop</p></Link><br></br>
+       <Link to="/aboutus"><p className="linkfooter"   > About us</p></Link> <br></br>
+       <Link to="/blog"><p className="linkfooter" >Blog </p></Link><br></br>
+       <Link to="/contactus"><p className="linkfooter">  Contact us </p></Link>
      </p>
      </section>
 

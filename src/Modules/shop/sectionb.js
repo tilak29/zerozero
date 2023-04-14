@@ -103,9 +103,9 @@ export default function SectionB() {
             </p>
             <br/>
             <p>
-              <b>Precautions:</b>Do not exceed 10 minutes total application
+              <b>Precautions:</b> Do not exceed 10 minutes total application
               time. NOT SUITABLE for use on head, face, eyes, nose, ears, around
-              the anus
+              the anus.
             </p>
             <br/>
             <p>
@@ -123,9 +123,9 @@ export default function SectionB() {
               Tower, Nr. YMCA Club, S. G. Highway, Ahmedabad 380051 (Guj.)
             </p>
             <br/>
-            <p>care@smartlaboratories.co.in | +91-79–49136601</p>      <br/>
+            <p> <a href="care@smartlaboratories.co.in">care@smartlaboratories.co.in</a> | +91-79–49136601</p>      <br/>
             <p>
-              <b>Country of Origin:</b>India
+              <b>Country of Origin: </b>India
             </p>
 
             <br />
@@ -220,23 +220,23 @@ export default function SectionB() {
         </TabPanel>
         <TabPanel value={value} index={2}>
           <ul className="shipping-return-part1">
-            <p>
+            <p className="SR-Fonts">
               To initiate a cancellation, please contact us through the "Contact
               Us" link. We will respond within 24 hours.
             </p>
             <br />
 
-            <p>
+            <p  className="SR-Fonts">
               To be eligible for a return, the item must be in its original
               condition and packaging. A refund will be issued to your original
               payment method upon receipt of the returned item. If the payment
               was made through COD, you will be prompted to provide your bank
               account details for a secure refund transaction. Returns cannot be
-              requested until the item has been delivered
+              requested until the item has been delivered.
             </p>
             <br />
 
-            <p>
+            <p  className="SR-Fonts">
               Only items that are damaged will be eligible for a return. Once
               the packaging has been opened, returns will not be accepted.
               Returns must be requested within 7 days of delivery.
@@ -244,7 +244,7 @@ export default function SectionB() {
           </ul>
           <ul className="shipping-return-part2">
             <h4 className="return-font">Precautions: </h4>
-            <p>
+            <p  className="SR-Fonts">
               It is recommended that you read all the precautions and directions
               before use.
             </p>

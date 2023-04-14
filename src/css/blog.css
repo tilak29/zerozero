@@ -8,11 +8,19 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
 }
 .para1{
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     color: #262626;
-    width: 75%;
+    width: 74%;
+    padding-left: 5%;
+}
+.heading{
+    font-size: 1.5rem;
+    color: #030303;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .para2{
@@ -43,7 +51,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-top: 1vh;
 font-weight: lighter;
 color: rgb(141, 133, 133);
-width: 90%;
 }
 
 /*-----------------------------------------------------section-2------------------------------------------------------*/
